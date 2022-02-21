@@ -1,0 +1,40 @@
+PROGRAMMING AND
+DATA|STRUCTURES
+Data Types Vs Abstract Data Types
+
+[20-40]
+WHAT IS A DATA TYPE?
+Two important things about data types:
+1. Defines a certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+�int type :
+>. Taklls only integer values
+Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+[40-60]
+USER DEFINED DATA TYPES
+In contrast to primitive data types, there is a concept of user defined data
+types.
+The operations and values of user defined data types are not specified in the
+language itself but is spltcified by the user.
+
+ABSTRACT DATA TYPES (ADT)
+AOTs are like user defined data types which defines operations on values
+using functions without specifying what is there inside the function and how
+the opewltions are performed.
+
+ABSTRACT DATA TYPES (ADT)
+Think of ADT as a black box which hides the inner structure and design of the
+data type from the user. w
+
+Wuy ADT?
+The program which uses data structure is called a client program
+It has access to the AOT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+PND NN BY Nc) at
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+
