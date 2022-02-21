@@ -9,17 +9,17 @@ import os
 
 def extract_audio_from_video(userVideoPath):
     clip = mp.VideoFileClip(userVideoPath)
-    clip.audio.write_audiofile(r"converted-moviepy.wav")
+    clip.audio.write_audiofile(r"utkarsh/converted-moviepy.wav")
 
 
-def split_audio_to_chunks(audioPath):
+def split_audio_to_chunks(inputAudioPath, outputFolder):
     t = [0,20,60,119] #Seconds 
-    fullAudio = AudioSegment.from_wav(audioPath)
+    fullAudio = AudioSegment.from_wav(inputAudioPath)
     for i in range (0,len(t)-1):
         t1 = t[i] * 1000
         t2 = t[i+1] * 1000
         newAudio = fullAudio[t1:t2]
-        newAudio.export('Audiochunks/chunk'+str(i)+'.wav', format="wav") #Exports to a wav file in the current path.
+        newAudio.export('utkarsh/AudioChunks/chunk'+str(i)+'.wav', format="wav") #Exports to a wav file in the current path.
 
 def convert_chunks_to_text(folder):
     for file in os.listdir(folder):
@@ -28,7 +28,7 @@ def convert_chunks_to_text(folder):
             speech_to_text_audio(folder + "/" + filename)
 
 def speech_to_text_audio(audioPath):
-    fh = open("recognized.txt", "a")
+    fh = open("utkarsh/audio-recognized.txt", "a")
     r = sr.Recognizer()
     audio = sr.AudioFile(audioPath)
     with audio as source:
@@ -40,7 +40,8 @@ def speech_to_text_audio(audioPath):
 
 
 video_path = "E:\Mda files\FMI Youtube Videos\Equities overview - Course Preview.mp4"
-audio_name = "converted-moviepy.wav"
-# extract_audio_from_video(video_path)
-# split_audio_to_chunks(audio_name)
-convert_chunks_to_text("Audiochunks")
+audio_name = "utkarsh/converted-moviepy.wav"
+chunksFolder = "utkarsh/AudioChunks"
+extract_audio_from_video(video_path)
+split_audio_to_chunks(audio_name,chunksFolder)
+convert_chunks_to_text(chunksFolder)
