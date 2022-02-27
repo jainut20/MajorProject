@@ -13,7 +13,6 @@ import pytesseract
 import re 
 from difflib import SequenceMatcher as SM
 import nltk
-
 def extract_main():
     with open("test2.txt", "rb") as fp:   # Unpickling
         b = pickle.load(fp)
@@ -28,7 +27,7 @@ def extract_main():
         except OSError:
             os.remove(filepath)
     b=new_b
-    video_path = "../videos/v1.mp4" # Video path
+    video_path = "C:/Users/Harsh/Desktop/TE/SEM7/Major Project/videos/v1.mp4"
     cap = cv2.VideoCapture(video_path)
     print(len(b))
     count=0
@@ -108,7 +107,6 @@ def ocr(b,count):
             #     if s1 in s2:
             #         text.replace(s1,"")
             # Appending the text into file
-            text="["+str(b[i-1])+","+str(b[i])+"]\n"+text
             out_text.append(text)
         # Apply OCR on the cropped image
     file = open("recognized.txt", "a")
@@ -117,11 +115,16 @@ def ocr(b,count):
 
         file.write("\n\n")
     return out_text
-
 def main():
     start_time = time.time()
     b,count=extract_main()
     out_text=ocr(b,count)
     print("Total time take by OCR extraction is : %s seconds" % (time.time() - start_time))
-
+    ocr_extract={}
+    for i in range(len(out_text)):
+        key=str(b[i])+","+str(b[i+1])
+        value=out_text[i]
+        ocr_extract[key]=value
+    with open("ocr_extract.txt", "wb") as fp:   #Pickling
+        pickle.dump(ocr_extract, fp)
 main()
