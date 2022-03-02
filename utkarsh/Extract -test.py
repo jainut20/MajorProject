@@ -9,6 +9,7 @@ import os
 import pickle
 import glob
 import time
+import shutil 
 
 def extract_audio_from_video(userVideoPath):
     clip = mp.VideoFileClip(userVideoPath)
@@ -16,6 +17,12 @@ def extract_audio_from_video(userVideoPath):
 
 
 def split_audio_to_chunks(inputAudioPath, outputFolder, t):
+    for filename in os.listdir(outputFolder):
+        filepath = os.path.join(outputFolder, filename)
+        try:
+            shutil.rmtree(filepath)
+        except OSError:
+            os.remove(filepath)
     fullAudio = AudioSegment.from_wav(inputAudioPath)
     for i in range(0, len(t)-1):
         t1 = t[i] * 1000
@@ -58,12 +65,11 @@ def speech_to_text_audio(audioPath, startTime, endTime):
 
 
 start_time = time.time()
-video_path = "C:/Users/utkarsh/Downloads/v1.mp4"
+video_path = "C:/Users/Harsh/Desktop/TE/SEM7/Major Project/videos/v1.mp4"
 audio_name = "converted-moviepy.wav"
 chunksFolder = "AudioChunks/"
 with open("../harsh/test2.txt", "rb") as fp:   # Unpickling
     t = pickle.load(fp)
-    print(t, len(t))
 new_b = [0]
 for i in range(1, len(t)):
     if t[i]-t[i-1] > 5:
