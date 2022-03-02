@@ -2,6 +2,7 @@ import numpy as np
 import os
 import shutil
 import cv2
+import time
 import pickle
 for filename in os.listdir('temp/'):
     filepath = os.path.join('temp/', filename)
@@ -9,8 +10,9 @@ for filename in os.listdir('temp/'):
         shutil.rmtree(filepath)
     except OSError:
         os.remove(filepath)
-video_path = "../videos/v1.mp4" # Video path
-p_frame_thresh = 600000 # You may need to adjust this threshold
+video_path = "C:/Users/Harsh/Desktop/TE/SEM7/Major Project/videos/v21.mp4" # Video path
+p_frame_thresh = 400000 # You may need to adjust this threshold
+start_time = time.time()
 cap = cv2.VideoCapture(video_path)
 fps = int(cap.get(5))
 if(fps==0):
@@ -40,3 +42,4 @@ print("Total Number of frames saved: {}".format(count))
 print(temp)
 with open("test.txt", "wb") as fp:   #Pickling
     pickle.dump(temp, fp)
+print("Total time take by thresholding is : %s seconds" % (time.time() - start_time))

@@ -77,6 +77,7 @@ def ocr(b,count):
         # Then rectangular part is cropped and passed on
         # to pytesseract for extracting text from it
         # Extracted text is then written into the text file
+        temp_text=""
         for cnt in contours:
             x, y, w, h = cv2.boundingRect(cnt)
             
@@ -106,8 +107,8 @@ def ocr(b,count):
             #     s2=text
             #     if s1 in s2:
             #         text.replace(s1,"")
-            # Appending the text into file
-            out_text.append(text)
+            temp_text+=" "+text
+        out_text.append(temp_text)
         # Apply OCR on the cropped image
     file = open("recognized.txt", "a")
     for i in range(len(out_text)):
@@ -122,7 +123,7 @@ def main():
     print("Total time take by OCR extraction is : %s seconds" % (time.time() - start_time))
     ocr_extract={}
     for i in range(len(out_text)):
-        key=str(b[i])+","+str(b[i+1])
+        key=str(b[i])+", "+str(b[i+1])
         value=out_text[i]
         ocr_extract[key]=value
     with open("ocr_extract.txt", "wb") as fp:   #Pickling
