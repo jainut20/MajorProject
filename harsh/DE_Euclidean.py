@@ -43,7 +43,7 @@ def help_init():
         a2=ssim(im2,im3)
         b1=b2
         b2=cv2.norm(im2, im3, cv2.NORM_L2)
-        if (a1<a2 and a2>0.9 and b1>b2) or (a1<0.5 and a2<0.5):
+        if (a1<a2 and a2>0.5 and b1>b2) or (a1<0.5 and a2<0.5):
             out.append(mid)
     #print("Total time take by helper is : %s seconds" % (time.time() - start_time))    
     print(out)

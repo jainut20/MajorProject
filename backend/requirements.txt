@@ -1,0 +1,3 @@
+# logging
+opencv-python
+scikit-image

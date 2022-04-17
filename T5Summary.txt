@@ -1,0 +1,24 @@
+0 to 8.1
+PROGRAMMING ANDDATA|STRUCTURESData Types vs abstract data types. we first have to understand the difference between data type and abstracts and data structures so let's get started with a little bit more about how to learn data structure.
+
+8.1 to 97.73333333333333
+what data type is in R C programming lectures but let's discuss it one more time. there are certain points which are having discuss their important things that I haven't told you about data types post is it defines a certain domain of values we already know that 'data type' defines operations allowed on those values, not only it is defining certain do mean of value but also defines what operations are permitted on that values - for example you can think of integer type
+
+
+97.73333333333333 to 161.9
+user defined data types are not specified in thelanguage itself but is spltcified by the user. the operations and values of user define datatypes are 'not specified' in a language itself and is not predefined in it's language ok now lets try to understand what is userdefined data type in contrast to primitive data kinds.
+
+
+161.9 to 216.0 
+ABSTRACT DATA TYPES (ADT)AOTs are like user defined data types which defines operations on values using functions without specifying what is there inside the function and howthe opewltions are performed.editors or abstract data type are similar to user defining operations that is true - but we are not specified anything inside what's inside ok the functions are arranged so what type of elements are allowed in a stack
+
+
+216.0 to 311.06666666666666 (Took 55.1 s)
+this is very important that we will understand later there are multiple ways to implement and edit. a stack entity can be implemented using arrays or linked lists ok and stat editor which we know is right now skeletons are used - why do we even need editors? if we can't just implement things your displayed to the user, we should be able to use the same data structure as the data type we are using it to create an image that shows the
+
+
+311.06666666666666 to 429.8666666666667  (Took 55 seconds to generate summary)
+this is very important that we will understand later there are multiple ways to implement and edit. a stack entity can be implemented using arrays or linked lists ok and stat editor which we know is right now skeletons are used - why do we even need editors? if we can't just implement things your displayed to the user, we should be able to use the same data structure as the data type we are using it to create an image that shows the
+
+429.8666666666667 to 464.0 (Took 32.3 s to generate summary)
+this lecture abstract data type provides obstruction wish you understand this that abstract information type gives obstruction. it's very important because user doesn't bother about that how that particular thing is implemented just have to use that thing that said this separation is required abstract info type is that is why very useful concept Ok friends this is it for now thank you for watching this presentation this week!
