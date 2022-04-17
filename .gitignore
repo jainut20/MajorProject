@@ -25,7 +25,7 @@ yarn-error.log*
 utkarsh/AudioChunks
 utkarsh/converted-moviepy.wav
 
-subtitle/*
+# subtitle/*
 
 backend/videos/*
 backend/temp/*
