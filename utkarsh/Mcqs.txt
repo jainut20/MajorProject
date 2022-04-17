@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ############## https://www.sanfoundry.com/computer-fundamentals-questions-answers-data-types/
 1. Which of the following is not a data type?
 a) Symbolic Data
@@ -139,6 +140,14 @@ Buy Computer Fundamental Books
 Practice Information Technology MCQs
 Apply for BCA Internship
  
+=======
+############## https://www.allindiaexams.in/engineering/cse/c-multiple-choice-questions-answers/data-types
+In this Data Types C Questions and Answers section you can learn and practice Data Types C Questions and Answers to improve your skills in order to face technical inerview conducted by Banks. By 
+
+
+
+Practicing these interview questions, you can easily crack any Bank Exams interview.
+>>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
 ############## https://www.sanfoundry.com/computer-fundamentals-questions-answers-data-types/
 1. Which of the following is not a data type?
 a) Symbolic Data
@@ -241,9 +250,15 @@ c) Links
 d) Data Objects
 View AnswerAnswer: b
 Explanation: Attributes can determine how any location can be used. Attributes can be type, name, component, etc. Data objects are the variables and constants in a program.
+<<<<<<< HEAD
 Sanfoundry Global Education & Learning Series – Computer Fundamentals.
 To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
 « Prev - Computer Fundamentals Questions and Answers – The Hexadecimal Number System» Next - Computer Fundamentals Questions and Answers – BCD 
+=======
+Sanfoundry Global Education & Learning Series ï¿½ Computer Fundamentals.
+To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
+ï¿½ Prev - Computer Fundamentals Questions and Answers ï¿½ The Hexadecimal Number Systemï¿½ Next - Computer Fundamentals Questions and Answers ï¿½ BCD 
+>>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
 Next Steps:
 
 
@@ -279,6 +294,7 @@ Buy BCA Books
 Buy Computer Fundamental Books
 Practice Information Technology MCQs
 Apply for BCA Internship
+<<<<<<< HEAD
  
 ############## https://www.sanfoundry.com/1000-data-structure-questions-answers/
 
@@ -2643,3 +2659,17 @@ Buy Programming Books
 Practice Design & Analysis of Algorithms MCQ
 Buy Data Structure Books
  
+=======
+ ############## https://www.algbly.com/More/MCQs/C-mcq/C-variable-datatypes-3.html
+C++ Programming Examples.############## https://study2online.com/c-language/data-type/english/1/
+1) Which data type is most suitable for storing a number 65000 in a 32-bit system?
+############## https://www.examveda.com/java-program/practice-mcq-question-on-data-types-and-variables/
+
+B. 
+############## https://www.geeksforgeeks.org/c-language-2-gq/data-types-gq/
+Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here.############## https://sindhitutorials.com/mcqs/java/data-types
+Data type identify the size and type of the value that can be stored in variable. The Java Language is rich by perspective of data types which allow you to go with different types and different sizes of the variable. Here is a list of all possible Data type MCQs with interview questions and answers.############## https://engineeringinterviewquestions.com/mcqs-on-data-types-and-variables-and-answers/
+Ruby Programming Multiple Choice Questions on ï¿½Data Types and Variablesï¿½.############## https://mcqslearn.com/intro/computers/data-types-and-structures-multiple-choice-questions.php
+"In the command "110 DIM num(10)" in BASIC language, the '110' declares" Multiple Choice Questions (MCQ) on data types and structures with choices one-dimensional array, two-dimensional array, three-dimension array, and mulch-dimension array for online computer science schools. Solve data types and structures quiz questions for merit scholarship test and certificate programs for online college courses.############## https://www.examtray.com/c-questions/c-programming-mcq-questions-and-answers-data-types-and-storage-classes-1
+Learn C Data Types and Storage Classes with MCQ Questions and Answers. Find questions on types of Storage Classes like Life, Scope and the default value of variables. Easily attend exams after reading these Multiple Choice Questions.
+>>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
