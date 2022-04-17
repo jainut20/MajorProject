@@ -1,0 +1,21 @@
+0 to 8.1 (15 s)
+In our series of letters from African journalists, film-maker and columnist Farai Sevenzo looks at some of the most frequently asked questions from the continent.
+
+8.1 to 97.73333333333333 (25 s)
+In our series of lectures we are going to discuss data types.
+
+97.73333333333333 to 161.9 (29s)
+In this lesson we are going to discuss what is a user defined data type before moving on to abstract data types.
+
+161.9 to 216.0 
+In this article we are going to define two types of data types editors and abstract data types.
+
+216.0 to 311.06666666666666 (Took 40.1 s)
+Today we are going to talk about abstract data type we know what it is we can define functions which we can perform on it we also know what operations we can perform but we don't know what is there inside we can think of it like it hides all the implementation details from us.
+
+
+311.06666666666666 to 429.8666666666667  (42.1 s)
+'Wuy ADT?'
+
+429.8666666666667 to 464.0 (22.1 s)
+In this lecture we are going to talk about abstract data type.
