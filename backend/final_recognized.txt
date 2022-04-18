@@ -1,0 +1,60 @@
+2.0, 5.766666666666667
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Poinferf.
+
+
+
+
+5.766666666666667, 6.133333333333334
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+in
+
+
+
+
+6.133333333333334, 17.466666666666665
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program To crash or misbehave.
+EXAMPLE:
+int main()
+{ iv
+int *p;,
+*p = 18;
+retur-n0;
+
+wild pointers are also known as an initialise pointers let me tell you they are the pointers which are an initialised ok so this point is usually point to some arbitrary
+
+
+17.466666666666665, 75.86666666666666
+ How TO AVOID WILD POINTERS?
+E) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+{
+int var = 16;
+int *p;
+P = &var‘; 4 ------ ~ No MORE A WILD POINTER
+reviurn 0;
+
+memory location and may cause a program to crash 26 behave with a point to some memory location which we will don't know right they definitely do not contain the address of some valid memory location right so it may cause a program to cache miss behave for example here in this case this point has not been initialised and help you trying to be referenced this pointer this means that we are trying to access the location pointed by this pointer and there are also storing this value within that location how is this may cause the program to crush it may even cause segmentation fault we are trying to write into the memory which is an illegal memory basically this pointer may contain the address of some illegal memory location so that is why this pointer is a wild pointer it while it behaves and may cause a program to crash or miss behave so this is a void pointer without any doubt know how to avoid wild pointer what are the best practices to avoid wild
+
+
+75.86666666666666, 102.8
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 194‘
+free(p);
+return 0;
+
+the best practice is to initialise them with the address of unknown variable in this case you can clearly see that point there has been initialised with the address of this variable where it is clear that this will no more be a wild point it contains the address of a variable is no problem with this second is that we should explicitly allocate the memory and put the values in the allocated memory in this example
+
+

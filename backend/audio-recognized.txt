@@ -1,0 +1,11 @@
+
+0 to 6.133333333333334
+this presentation will try to understand what are wild pointers so let's get fat. 
+6.133333333333334 to 17.466666666666665
+wild pointers are also known as an initialise pointers let me tell you they are the pointers which are an initialised ok so this point is usually point to some arbitrary. 
+17.466666666666665 to 75.86666666666666
+memory location and may cause a program to crash 26 behave with a point to some memory location which we will don't know right they definitely do not contain the address of some valid memory location right so it may cause a program to cache miss behave for example here in this case this point has not been initialised and help you trying to be referenced this pointer this means that we are trying to access the location pointed by this pointer and there are also storing this value within that location how is this may cause the program to crush it may even cause segmentation fault we are trying to write into the memory which is an illegal memory basically this pointer may contain the address of some illegal memory location so that is why this pointer is a wild pointer it while it behaves and may cause a program to crash or miss behave so this is a void pointer without any doubt know how to avoid wild pointer what are the best practices to avoid wild. 
+75.86666666666666 to 102.8
+the best practice is to initialise them with the address of unknown variable in this case you can clearly see that point there has been initialised with the address of this variable where it is clear that this will no more be a wild point it contains the address of a variable is no problem with this second is that we should explicitly allocate the memory and put the values in the allocated memory in this example. 
+102.8 to 134.73333333333332
+greasy that we are allocating the memory using MI ok this is also a legal step hair we are initialising this pointer with the address of the first bite of the memory allocated by this function and obviously we can access that location and put some values within that this fine you should assign the address of some variable or some object or explicitly allocate the memory and put the values in the allocated memory these two steps of mine to avoid wild pointer as this is it for now thank you for watching this presentation. 

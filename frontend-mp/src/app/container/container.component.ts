@@ -13,11 +13,15 @@ import { DialogConfirmComponent } from '../dialog-confirm/dialog-confirm.compone
 export class ContainerComponent implements OnInit {
   public files: any[] = [];
   video_file: any = null;
-  summary:any[]=[];
-  transcript:any={};
+  summary: any[] = [];
+  transcript: any = {};
+  question: any[] = []
+  progress_value: number = 0
   constructor(private upload: UploadService, private _snackBar: MatSnackBar, public dialog: MatDialog) { }
 
   ngOnInit(): void {
+
+   
   }
 
   onFileSelected(pFileList: File[]) {
@@ -32,7 +36,19 @@ export class ContainerComponent implements OnInit {
       this.video_file = pFileList[0]
       console.log(this.video_file);
       this.uploadFileToServer()
+      this.incrementProgressValue()
     }
+  }
+
+  incrementProgressValue() {
+    let interval_ref = setInterval(() => {
+      this.progress_value = this.progress_value + 1
+
+      if (this.progress_value == 100) {
+        this.progress_value = 95
+        clearInterval(interval_ref)
+      }
+    }, 1500)
   }
 
   openConfirmDialog(pIndex: number): void {
@@ -57,13 +73,15 @@ export class ContainerComponent implements OnInit {
 
 
   uploadFileToServer() {
-    this.upload.postFile(this.video_file).subscribe((data:any) => {
+    this.upload.postFile(this.video_file).subscribe((data: any) => {
       this._snackBar.open("Successfully upload!", 'Close', {
         duration: 2000,
       });
+      this.progress_value = 100
       console.log(data)
-      this.summary=data.summary
-      this.transcript=data.transcript
+      this.summary = data.summary
+      this.transcript = data.transcript
+      this.question = data.question
     }, error => {
       console.log(error);
     });
