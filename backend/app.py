@@ -10,6 +10,7 @@ from  genetic  import  *
 from  ocr  import  *
 from audio import *
 from merge import *
+from summ import *
 
 app = Flask(__name__)
 CORS(app)
@@ -41,8 +42,11 @@ def fileUpload():
     audio_ext=audio_extract(destination,update_time)
     print("Audio Extracted")
 
-    trancript=final_merge(ocr_extract,audio_ext)
+    transcript=final_merge(ocr_extract,audio_ext)
     print("Transcript Extracted")
+
+    summary=t5(transcript)
+    print("Summary Generated",summary)
 
     response="File Upload Success" 
     return response
