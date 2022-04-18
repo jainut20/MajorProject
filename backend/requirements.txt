@@ -3,3 +3,8 @@ opencv-python
 scikit-image
 youtube-dl
 flask-cors
+transformers==2.8.0
+torch==1.4.0
+SpeechRecognition
+pytesseract
+moviepy
