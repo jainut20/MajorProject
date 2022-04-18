@@ -30,6 +30,7 @@ utkarsh/converted-moviepy.wav
 backend/videos/*
 backend/final/*
 backend/temp/*
-backend/output/*
+backend/output1/*
 backend/AudioChunks/*
 backend/converted-moviepy.wav
+backend/ocr.py

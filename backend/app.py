@@ -11,6 +11,8 @@ from  ocr  import  *
 from audio import *
 from merge import *
 from summ import *
+from mcq import  *
+
 
 app = Flask(__name__)
 CORS(app)
@@ -48,7 +50,12 @@ def fileUpload():
     summary=t5(transcript)
     print("Summary Generated",summary)
     
-    return jsonify({"data":"File Upload Success","transcript":transcript,"summary":summary})
+    # transcript={"hi":"hello"}
+    # summary=['A database view is a subset of a database and is based on a query that runs on one or more database tables. Database views are saved in the database as named queries and can be used to save frequently used, complex queries. There are two types of database views: dynamic views and static views.']
+    
+    question=gen_mcq(summary)
+    print("Question Generated")
+    return jsonify({"data":"File Upload Success","transcript":transcript,"summary":summary,"question":question})
     
 
 

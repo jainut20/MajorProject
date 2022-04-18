@@ -2643,3 +2643,5244 @@ Buy Programming Books
 Practice Design & Analysis of Algorithms MCQ
 Buy Data Structure Books
  
+
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/c-interview-questions-answers/
+1. Who is the father of C language?
+a) Steve Jobs
+b) James Gosling
+c) Dennis Ritchie
+d) Rasmus Lerdorf
+View AnswerAnswer: c
+Explanation: Dennis Ritchie is the father of C Programming Language. C programming language was developed in 1972 at American Telephone & Telegraph Bell Laboratories of USA.
+
+
+
+
+2. Which of the following is not a valid C variable name?
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+View AnswerAnswer: d
+Explanation: Since only underscore and no other special character is allowed in a variable name, it results in an error.
+
+3. All keywords in C are in ____________
+a) LowerCase letters
+b) UpperCase letters
+c) CamelCase letters
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+4. Which of the following is true for variable names in C?
+a) They can contain alphanumeric characters as well as special characters
+b) It is not an error to declare a variable to be one of the keywords(like goto, static)
+c) Variable names cannot start with a digit
+d) Variable can be of any length
+View AnswerAnswer: c
+Explanation: According to the syntax for C variable name, it cannot start with a digit.
+
+5. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+View AnswerAnswer: b
+Explanation: Space, comma and $ cannot be used in a variable name.
+
+6. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+View AnswerAnswer: a
+Explanation: volatile is C keyword.
+
+
+
+
+7. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+8. Which of the following declaration is not supported by C language?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+View AnswerAnswer: a
+Explanation: It is legal in Java, but not in C language.
+
+9. Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+View AnswerAnswer: c
+Explanation: const is a keyword constant in C program.
+
+
+
+
+10. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: None. 
+11. Which of the following typecasting is accepted by C language?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+View Answer Answer: c
+Explanation: None.
+
+12. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+View Answer Answer: d
+Explanation: None. 
+13. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+View Answer Answer: c
+Explanation: None. 
+14. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None. 
+
+
+
+
+15. Functions can return enumeration constants in C?
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+View Answer Answer: a
+Explanation: None. 
+16. Functions in C Language are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+View Answer Answer: b
+Explanation: None. 
+17. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+View Answer Answer: c
+Explanation: None.  
+18. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+View AnswerAnswer: c
+Explanation: Conditional compilation is the preprocessor facility to produce a different executable.
+
+19. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+
+
+
+20. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+View AnswerAnswer: a
+Explanation: #pragma is compiler specific feature. 
+21. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None.
+
+22. The C-preprocessors are specified with _________ symbol.
+a) #
+b) $
+c) ” ”
+d) &
+View Answer Answer: a
+Explanation: The C-preprocessors are specified with # symbol.
+
+23. How is search done in #include and #include “somelibrary.h” according to C standard?
+a) When former is used, current directory is searched and when latter is used, standard directory is searched
+b) When former is used, standard directory is searched and when latter is used, current directory is searched
+c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched
+d) For both, search for ‘somelibrary’ is done in implementation-defined places
+View AnswerAnswer: d
+Explanation: None.
+
+24. How many number of pointer (*) does C have against a pointer variable declaration?
+a) 7
+b) 127
+c) 255
+d) No limits
+View Answer  Answer: d
+Explanation: None.  
+25. Which of the following is not possible statically in C language?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+View Answer  Answer: a
+Explanation: None.  
+26. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+View Answer  Answer: d
+Explanation: None. 
+27. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+View Answer  Answer: d
+Explanation: None. 
+28. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+View Answer  Answer: d
+Explanation: None.  
+29. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+View Answer  Answer: c
+Explanation: None.  
+30. What is the sizeof(char) in a 32-bit C compiler?
+a) 1 bit
+b) 2 bits
+c) 1 Byte
+d) 2 Bytes
+View Answer  Answer: c
+Explanation: None. 
+31. Which of the following is not an operator in C?
+a) ,
+b) sizeof()
+c) ~
+d) None of the mentioned
+View Answer  Answer: d
+Explanation: None.
+
+32. scanf() is a predefined function in______header file.
+a) stdlib. h
+b) ctype. h
+c) stdio. h
+d) stdarg. h
+View AnswerAnswer: c
+Explanation: scanf() is a predefined function in "stdio.h" header file.printf and scanf() carry out input and output functions in C. These functions statements are present in the header file stdio.h.
+
+33. What is meant by ‘a’ in the following C operation?
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+View Answer  Answer: b
+Explanation: None. 
+34. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int y = 10000;        int y = 34;        printf("Hello World! %d\n", y);        return 0;    }
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+View AnswerAnswer: a
+Explanation: Since y is already defined, redefining it results in an error.
+Output:
+$ cc pgm2.c
+pgm2.c: In function ‘main’:
+pgm2.c:5: error: redefinition of ‘y’
+pgm2.c:4: note: previous definition of ‘y’ was here
+
+35. What will happen if the following C code is executed?
+    #include <stdio.h>    int main()    {        int main = 3;        printf("%d", main);        return 0;    }
+a) It will cause a compile-time error
+b) It will cause a run-time error
+c) It will run without any error and prints 3
+d) It will experience infinite looping
+View AnswerAnswer: c
+Explanation: A C program can have same function name and same variable name.
+$ cc pgm3.c
+$ a.out
+3
+
+36. What will be the output of the following C code?
+    #include  <stdio.h>    int main()    {       signed char chr;       chr = 128;       printf("%d\n", chr);       return 0;    }
+a) 128
+b) -128
+c) Depends on the compiler
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: signed char will be a negative number.
+Output:
+$ cc pgm2.c
+$ a.out
+-128
+
+37. What will be the output of the following C code on a 64 bit machine?
+    #include <stdio.h>    union Sti    {        int nu;        char m;    };    int main()    {        union Sti s;        printf("%d", sizeof(s));        return 0;    }
+a) 8
+b) 5
+c) 9
+d) 4
+View AnswerAnswer: d
+Explanation: Since the size of a union is the size of its maximum data type, here int is the largest data type. Hence the size of the union is 4.
+Output:
+$ cc pgm7.c
+$ a.out
+4
+
+38. What will be the output of the following C function?
+    #include <stdio.h>    enum birds {SPARROW, PEACOCK, PARROT};    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};    int main()    {        enum birds m = TIGER;        int k;        k = m;        printf("%d\n", k);        return 0;    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+View AnswerAnswer: d
+Explanation: m is an integer constant, hence it is compatible.
+Output:
+$ cc pgm5.c
+$ a.out
+8
+
+39. What will be the output of the following C code?
+    #include <stdio.h>    int const print()    {        printf("Sanfoundry.com");        return 0;    }    void main()    {        print();    }
+a) Error because function name cannot be preceded by const
+b) Sanfoundry.com
+c) Sanfoundry.com is printed infinite times
+d) Blank screen, no output
+View AnswerAnswer: b
+Explanation: None.
+Output:
+$ cc pgm13.c
+$ a.out
+Sanfoundry.com
+
+40. Will the following C code compile without any error?
+    #include <stdio.h>    int main()    {        for (int k = 0; k < 10; k++);            return 0;    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+View AnswerAnswer: c
+Explanation: Compilers implementing C90 do not allow this, but compilers implementing C99 allow it.
+Output:
+$ cc pgm4.c
+pgm4.c: In function ‘main’:
+pgm4.c:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+pgm4.c:4: note: use option -std=c99 or -std=gnu99 to compile your code
+
+41. What will be the final value of x in the following C code?
+    #include <stdio.h>    void main()    {        int x = 5 * 9 / 3 + 9;    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+View AnswerAnswer: c
+Explanation: None.
+
+42. What will be the output of the following C code? (Initial values: x= 7, y = 8)
+    #include <stdio.h>    void main()    {        float x;        int y;        printf("enter two numbers \n", x);        scanf("%f %f", &x, &y);        printf("%f, %d", x, y);    }
+a) 7.000000, 7
+b) Run time error
+c) 7.000000, junk
+d) Varies
+View Answer Answer: c
+Explanation: None.
+
+43. What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?
+    #include <stdio.h>    int main()    {        short int i = 20;        char c = 97;        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));        return 0;    }
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+View Answer Answer: c
+Explanation: None.
+
+44. What is the difference between the following 2 C codes?
+    #include <stdio.h> //Program 1    int main()    {        int d, a = 1, b = 2;        d =  a++ + ++b;        printf("%d %d %d", d, a, b);    }
+    #include <stdio.h> //Program 2    int main()    {        int d, a = 1, b = 2;        d =  a++ +++b;        printf("%d %d %d", d, a, b);    }
+a) No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+b) Space does make a difference, values of a, b, d are different
+c) Program 1 has syntax error, program 2 is not
+d) Program 2 has syntax error, program 1 is not
+View Answer Answer: d
+Explanation: None.
+
+45. What will be the output of the following C code snippet?
+    #include <stdio.h>    void main()    {        1 < 2 ? return 1: return 2;    }
+a) returns 1
+b) returns 2
+c) Varies
+d) Compile time error
+View Answer Answer: d
+Explanation: None.
+
+46. What will be the value of the following assignment expression?
+ (x = foo())!= 1 considering foo() returns 2
+a) 2
+b) True
+c) 1
+d) 0
+View AnswerAnswer: a
+Explanation: None.
+
+47. What will be the output of the following C function?
+    #include <stdio.h>    void reverse(int i);    int main()    {        reverse(1);    }    void reverse(int i)    {        if (i > 5)            return ;        printf("%d ", i);        return reverse((i++, i));    }
+a) 1 2 3 4 5
+b) Segmentation fault
+c) Compilation error
+d) Undefined behaviour
+View Answer Answer: a
+Explanation: None.
+
+48. What will be the final values of i and j in the following C code?
+    #include <stdio.h>    int x = 0;    int main()    {        int i = (f() + g()) | g(); //bitwise or        int j = g() | (f() + g()); //bitwise or    }    int f()    {        if (x == 0)            return x + 1;        else            return x - 1;    }    int g()    {        return x++;    }
+a) i value is 1 and j value is 1
+b) i value is 0 and j value is 0
+c) i value is 1 and j value is undefined
+d) i and j value are undefined
+View Answer Answer: c
+Explanation: None.
+
+49. Comment on the following C statement.
+a) Output will be 3, 2
+b) Output will be 3, 1
+c) Output will be 6, 1
+d) Output is compiler dependent
+View AnswerAnswer: d
+Explanation: None. 
+50. How many times i value is checked in the following C program?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i < 3)            i++;        printf("In while loop\n");    }
+a) 2
+b) 3
+c) 4
+d) 1
+View Answer Answer: c
+Explanation: None. 
+51. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        int i = 0;        do        {            i++;            if (i == 2)                continue;                printf("In while loop ");        } while (i < 2);        printf("%d\n", i);    }
+a) In while loop 2
+b) In while loop in while loop 3
+c) In while loop 3
+d) Infinite loop
+View Answer Answer: a
+Explanation: None. 
+52. What will be the data type returned for the following C function?
+    #include <stdio.h>    int func()    {        return (double)(char)5.0;    }
+a) char
+b) int
+c) double
+d) multiple type-casting in return is illegal
+View Answer Answer: b
+Explanation: None. 
+53. What is the problem in the following C declarations?
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+View Answer Answer: d
+Explanation: None.  
+54. Which option should be selected to work the following C expression?
+string p = "HELLO";
+a) typedef char [] string;
+b) typedef char *string;
+c) typedef char [] string; and typedef char *string;
+d) Such expression cannot be generated in C
+View Answer  Answer: b
+Explanation: None.  
+55. What is the meaning of the following C statement?
+a) 10 spaces before the string state is printed
+b) Print empty spaces if the string state is less than 10 characters
+c) Print the last 10 characters of the string
+d) None of the mentioned
+View Answer  Answer: b
+Explanation: None. 
+56. What are the elements present in the array of the following C code?
+int array[5] = {5};
+a) 5, 5, 5, 5, 5
+b) 5, 0, 0, 0, 0
+c) 5, (garbage), (garbage), (garbage), (garbage)
+d) (garbage), (garbage), (garbage), (garbage), 5
+View Answer  Answer: b
+Explanation: None. 
+57. What will be the output of the following C function when EOF returns?
+a) ‘’ character of array line is encountered
+b) ‘n’ character in array line is encountered
+c) ‘t’ character in array line is encountered
+d) When an error occurs
+View Answer  Answer: d
+Explanation: None.  
+58. Which part of the program address space is p stored in the following C code?
+    #include <stdio.h>    int *p;    int main()    {        int i = 0;        p = &i;        return 0;    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+View Answer Answer: c
+Explanation: None. 
+59. Which of the following sequences are unaccepted in C language?
+a)
+   #if
+   #else
+   #endif
+b)
+   #if
+   #elif
+   #endif
+c)
+   #if
+   #if
+   #endif
+d)
+   #if
+   #undef
+   #endif
+View Answer Answer: c
+Explanation: None.
+  
+59. Comment on the output of following C code.
+    #include <stdio.h>    main()    {        char *p = 0;        *p = 'a';        printf("value in pointer p is %c\n", *p);    }
+a) It will print a
+b) It will print 0
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+60. What is the output of this C code?
+   #include <stdio.h>   main()   {       if (sizeof(int) > -1)           printf("True");       else           printf("False");   }
+a) True
+b) False
+View Answer Answer:b
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+61. What is the output of this C code?
+    #include <stdio.h>    main()    {        char *p = "Sanfoundry C-Test";        p[0] = 'a';        p[1] = 'b';        printf("%s", p);    }
+a) abnfoundry C-Test
+b) Sanfoundry C-Test
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+62. What is the output of this C code?
+    #include <stdio.h>    int main()    {        float f = 0.1;        if (f == 0.1)            printf("True");        else            printf("False");    }
+a) True
+b) False
+View Answer Answer:a
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+63. What is the output of this C code?
+    #include <stdio.h>    main()    {        int n = 0, m = 0;        if (n > 0)            if (m > 0)                printf("True");        else             printf("False");    }
+a) True
+b) False
+c) No Output will be printed
+d) Run Time Error
+View Answer Answer:c
+Output:
+$ cc pgm.c
+$ a.out
+$
+
+
+
+
+Chapterwise Multiple Choice Questions on C Programming
+
+
+
+Our 1000+ MCQs focus on all topics of the C Programming subject, covering 100+ topics. This will help you to prepare for exams, contests, online tests, quizzes, viva-voce, interviews, and certifications. You can practice these MCQs chapter by chapter starting from the 1st chapter or you can jump to any chapter of your choice. You can also download the PDF of C Programming MCQs by applying below.
+
+
+
+C Data Types, Operators and Expressions
+Control Flow Statements in C
+C Functions and Structure of a Program
+C Pointers and Arrays
+Structures, Unions and Bit-Fields in C
+C Input and Output
+Floating Point & Sizeof Operator in C
+Enumerations and Typedefs in C
+C String Operations
+C Library
+Dynamic Memory Allocation in C
+C Preprocessor
+Miscellaneous Topics in C
+
+
+
+1. C MCQs on Data Types, Operators and Expressions
+The section contains C MCQs on variable names, datatypes, constants, declarations, arithmetic operators, relational and logical operators, type conversions, bitwise operators, assignment operators, increment and decrement operators, conditional expressions, evaluation order and precedence. 
+
+
+
+Variable Names – 1
+Variable Names – 2
+Data Types and Sizes – 1
+Data Types and Sizes – 2
+C Constants – 1
+C Constants – 2
+C Declarations – 1
+C Declarations – 2
+ Arithmetic Operators – 1
+Arithmetic Operators – 2
+ Relational & Logical Operators – 1
+ Relational & Logical Operators – 2
+Type Conversions – 1
+Type Conversions – 2
+
+
+Increment and Decrement Operators – 1
+Increment and Decrement Operators – 2
+Bitwise Operators – 1
+Bitwise Operators – 2
+Assigment Operators & Expressions – 1
+Assigment Operators & Expressions – 2
+ Conditional Expressions – 1
+Conditional Expressions – 2
+Precedence and Order of Evaluation – 1
+Precedence and Order of Evaluation – 2
+Precedence and Order of Evaluation – 3
+Precedence and Order of Evaluation – 4
+Precedence and Order of Evaluation – 5
+Precedence and Order of Evaluation – 6
+
+
+
+
+
+
+2. Multiple Choice Questions on Control Flow Statements in C
+The section contains C Language multiple choice questions on switch statements, if-then-else statements, for and while loops, break and continue, goto and labels.
+
+
+
+If-then-else Statements – 1
+If-then-else Statements – 2
+Switch Statements – 1
+Switch Statements – 2
+For Loops – 1
+For Loops – 2
+
+
+While Loops – 1
+While Loops – 2
+Break and Continue – 1
+Break and Continue – 2
+Goto & Labels – 1
+Goto & Labels – 2
+
+
+
+
+
+
+3. MCQs on C Functions and Structure of a Program
+The section contains C MCQs on functions basics, external variables, variable scope, static and register variables, automatic variables, c-preprocessor, file inclusion, macro substitution and conditional inclusion.
+
+
+
+Basics of Functions – 1
+Basics of Functions – 2
+Functions Returning Non-integers – 1
+Functions Returning Non-integers – 2
+External Variables – 1
+External Variables – 2
+Scope of a Variable – 1
+Scope of a Variable – 2
+Static Variables – 1
+Static Variables – 2
+Register Variables – 1
+
+
+Register Variables – 2
+Automatic Variables – 1
+Automatic Variables – 2
+C-Preprocessor – 1
+C-Preprocessor – 2
+File Inclusion – 1
+File Inclusion – 2
+Macro Substitution – 1
+Macro Substitution – 2
+Conditional Inclusion – 1
+Conditional Inclusion – 2
+
+
+
+
+
+
+4. Multiple Choice Questions on Pointers and Arrays in C
+The section contains C Programming multiple choice questions and answers on pointers and addresses, function arguments, arrays, address arithmetic, character pointers and functions, multidimensional arrays, pointer arrays initialization, command line arguments and complicated declarations.
+
+
+
+Pointers and Addresses – 1
+Pointers and Addresses – 2
+Pointers and Function Arguments – 1
+Pointers and Function Arguments – 2
+Pointers and Arrays – 1
+Pointers and Arrays – 2
+Address Arithmetic – 1
+Address Arithmetic – 2
+Character Pointers and Functions – 1
+Character Pointers and Functions – 2
+Pointers to Pointers – 1
+Pointers to Pointers – 2
+
+
+Multidimensional Arrays – 1
+Multidimensional Arrays – 2
+Initialization of Pointer Arrays – 1
+Initialization of Pointer Arrays – 2
+Pointers Vs. Multi-dimensional Arrays – 1
+Pointers Vs. Multi-dimensional Arrays – 2
+Command Line Arguments – 1
+Command Line Arguments – 2
+Pointers to Functions – 1
+Pointers to Functions – 2
+Complicated Declarations – 1
+Complicated Declarations – 2
+
+
+
+
+
+
+5. C MCQs on Structures, Unions and Bit-Fields
+The section contains C language MCQs on structures basics, functions, arrays of structures, pointer to structires, self referential structures, table lookup, typedefs, unions and bit fields.
+
+
+
+Basics of Structures – 1
+Basics of Structures – 2
+Structures and Functions – 1
+Structures and Functions – 2
+Arrays of Structures – 1
+Arrays of Structures – 2
+Pointer to Structures – 1
+Pointer to Structures – 2
+Self-Referential Structures – 1
+
+
+Self-Referential Structures – 2
+Table Lookup – 1
+Table Lookup – 2
+C Typedefs – 1
+C Typedefs – 2
+C Unions – 1
+C Unions – 2
+C Bit-fields – 1
+C Bit-fields – 2
+
+
+
+
+
+
+6. Multiple Choice Questions on C Input and Output
+The section contains C multiple choice questions and answers on standard input and output, formatted input and output, variable length argument, file access, error handling, line input and output, string operations, character class testing, ungetc, storage management, mathematical functions, random number generation, file operations, printf and scanf.
+
+
+
+Standard Input & Output – 1
+Standard Input & Output – 2
+Formatted Output – 1
+Formatted Output – 2
+Variable Length Argument – 1
+Variable Length Argument – 2
+Formatted Input – 1
+Formatted Input – 2
+File Access – 1
+File Access – 2
+Error Handling – 1
+Error Handling – 2
+Line Input & Output – 1
+Line Input & Output – 2
+String Operations – 1
+String Operations – 2
+
+
+Character Class Testing & Conversions – 1
+Character Class Testing & Conversions – 2
+Ungetc – 1
+Ungetc – 2
+Storage Management – 1
+Storage Management – 2
+Mathematical Functions – 1
+Mathematical Functions – 2
+Random Number Generation – 1
+Random Number Generation – 2
+C printf – 1
+C printf – 2
+C scanf – 1
+C scanf – 2
+File Operations – 1
+File Operations – 2
+
+
+
+
+
+
+7. MCQs on Floating Point & Sizeof Operator in C
+The section contains C Language MCQs on float datatype and sizeof keyword.
+
+
+
+Float Datatype – 1
+Float Datatype – 2
+
+
+Sizeof Keyword – 1
+Sizeof Keyword – 2
+
+
+
+
+
+
+8. Multiple Choice Questions on Enumerations and Typedefs in C
+The section contains C multiple choice questions and answers on enums and typedef.
+
+
+
+C Enums – 1
+C Enums – 2
+
+
+C Typedef
+
+
+
+
+
+
+9. C MCQs on String Operations
+The section contains C MCQs on string operations, character and error handling. 
+
+
+
+String Operations – 1
+String Operations – 2
+String Operations – 3
+String Operations – 4
+
+
+Character Handling – 1
+Character Handling  – 2
+Error Handling
+
+
+
+
+
+
+10. Multiple Choice Questions on C Library
+The section contains C multiple choice questions and answers on mathematical functions, general utilities, diagnostics, variable argument lists, non local jumps, localization, signal handling, standard definition, implementation defined limits, date and time functions.
+
+
+
+Mathematical Functions – 1
+Mathematical Functions – 2
+Mathematical Functions – 3
+General Utilities – 1
+General Utilities – 2
+General Utilities – 3
+General Utilities – 4
+General Utilities – 5
+General Utilities – 6
+Diagnostics – 1
+Diagnostics – 2
+
+
+Variable Argument Lists
+Localization
+Non-Local Jumps – 1
+Non-Local Jumps – 2
+Signal Handling
+Standard Definition
+Date and Time Functions – 1
+Date and Time Functions – 2
+Date and Time Functions – 3
+Implementation-Defined Limits – 1
+Implementation-Defined Limits – 2
+
+
+
+
+
+
+11. C MCQs on Dynamic Memory Allocation
+The section contains C MCQs on static and dynamic memory allocation, dma functions, memory leak and dangling pointers.
+
+
+
+Static vs Dynamic Memory Allocation
+DMA Functions, Memory Leak, Dangling Pointers – 1
+
+
+DMA Functions, Memory Leak, Dangling Pointers – 2
+
+
+
+
+
+
+12. Multiple Choice Questions on C Preprocessor
+The section contains C multiple choice questions and answers on pragma, stringizers, conditional preprocessor directives and token concatenation.
+
+
+
+Pragma
+Stringizers
+Conditional Preprocessor Directives – 1
+
+
+Conditional Preprocessor Directives – 2
+Token Concatenation
+
+
+
+
+
+
+13. Miscellaneous Topics in C
+The section contains C MCQ questions on inline, endianness, recursion and signed qualifier.
+
+
+
+Inline
+Endianness
+
+
+Recursion
+Signed Qualifier
+
+
+
+
+
+If you would like to learn "C Programming" thoroughly, you should attempt to work on the complete set of 1000+ MCQs - multiple choice questions and answers mentioned above. It will immensely help anyone trying to crack an exam or an interview.
+
+Note: We are working on pdf download for C Programming MCQs and will publish the download link here. Fill this C Programming mcq pdf download request form for download notification.
+Wish you the best in your endeavor to learn and master C Programming!
+
+ 
+############## https://www.sanfoundry.com/cplusplus-interview-questions-answers/
+1. Who invented C++?
+a) Dennis Ritchie
+b) Ken Thompson
+c) Brian Kernighan
+d) Bjarne Stroustrup
+View AnswerAnswer: d
+Explanation: Bjarne Stroustrup is the original creator of C++ in 1979 at AT&T Bell Labs.
+
+
+
+
+2. What is C++?
+a) C++ is an object oriented programming language
+b) C++ is a procedural programming language
+c) C++ supports both procedural and object oriented programming language
+d) C++ is a functional programming language
+View AnswerAnswer: c
+Explanation: C++ supports both procedural(step by step instruction) and object oriented programming (using the concept of classes and objects).
+
+3. Which of the following is the correct syntax of including a user defined header files in C++?
+a) #include [userdefined] 
+b) #include “userdefined”
+c) #include <userdefined.h>
+d) #include <userdefined>
+View AnswerAnswer: b
+Explanation: C++ uses double quotes to include a user-defined header file. The correct syntax of including user-defined is #include “userdefinedname”.
+
+4. Which of the following is used for comments in C++?
+a) /* comment */
+b) // comment */
+c) // comment
+d) both // comment or /* comment */
+View AnswerAnswer: d
+Explanation: Both the ways are used for commenting in C++ programming. // is used for single line comments and /* … */ is used for multiple line comments.
+
+5. Which of the following user-defined header file extension used in c++?
+a) hg
+b) cpp
+c) h
+d) hf
+View AnswerAnswer: c
+Explanation: .h extensions are used for user defined header files. To include a user defined header file one should use #include”name.h” i.e. enclosed within double quotes.
+
+
+
+
+6. Which of the following is a correct identifier in C++?
+a) VAR_1234
+b) $var_name
+c) 7VARNAME
+d) 7var_name
+View AnswerAnswer: a
+Explanation: The rules for writing an identifier is as follows:
+i) may contain lowercase/uppercase letters, digits or underscore(_) only
+ii) should start with a non-digit character
+iii) should not contain any special characters like @, $, etc.
+
+7. Which of the following is not a type of Constructor in C++?
+a) Default constructor
+b) Parameterized constructor
+c) Copy constructor
+d) Friend constructor
+View AnswerAnswer: d
+Explanation: Friend function is not a constructor whereas others are a type of constructor used for object initialization.
+
+8. Which of the following approach is used by C++?
+a) Left-right
+b) Right-left
+c) Bottom-up
+d) Top-down
+View AnswerAnswer: c
+Explanation: C++ is an object-oriented language and OOL uses a bottom-up approach to solve/view a problem.
+
+9. What is virtual inheritance in C++?
+a) C++ technique to enhance multiple inheritance
+b) C++ technique to ensure that a private member of the base class can be accessed somehow
+c) C++ technique to avoid multiple inheritances of classes
+d) C++ technique to avoid multiple copies of the base class into children/derived class
+View AnswerAnswer: d
+Explanation: Virtual inheritance is a C++ technique with which it ensures that a derived class contains only one copy of the base class’s variables. Refer Wikipedia for more info.
+
+
+
+
+10. What happens if the following C++ statement is compiled and executed?
+int *ptr = NULL;
+delete ptr;
+a) The program is not semantically correct
+b) The program is compiled and executed successfully
+c) The program gives a compile-time error
+d) The program compiled successfully but throws an error during run-time
+View AnswerAnswer: b
+Explanation: The above statement is syntactically and semantically correct as C++ allows the programmer to delete a NULL pointer, therefore, the program is compiled and executed successfully.
+
+11. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+}
+a) Hello
+b) World
+c) Error
+d) Hello World
+View AnswerAnswer: c
+Explanation: There is no operation defined for the addition of character array in C++ hence the compiler throws an error as it does not understood what to do about this expression.
+
+
+
+
+12. What is the difference between delete and delete[] in C++?
+a) delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case
+b) delete is used to delete normal objects whereas delete[] is used to pointer objects
+c) delete is a keyword whereas delete[] is an identifier
+d) delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects
+View AnswerAnswer: d
+Explanation: delete is used to delete a single object initiated using new keyword whereas delete[] is used to delete a group of objects initiated with the new operator.
+
+13. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+int main(void) 
+{ 
+}
+a) Error in C and successful execution in C++
+b) Error in both C and C++
+c) Error in C++ and successful execution in C
+d) A successful run in both C and C++
+View AnswerAnswer: c
+Explanation: new is a keyword in C++, therefore, we cannot declare a variable with name new but as there is no such keyword new in C, therefore, the program is compiled and executed successfully in C.
+
+
+
+
+14. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+void func(void)
+{
+}
+void main() 
+{ 
+}
+a) Outputs Hello twice in both C and C++
+b) Error in C and successful execution in C++
+c) Error in C++ and successful execution in C
+d) Error in both C and C++
+View AnswerAnswer: d
+Explanation: As the func(void) needs no argument during its call, hence when we are calling func(2) with 2 as passed as a parameter then this statement gives the error in both C++ and C compiler.
+
+15. Which of the following is correct about this pointer in C++?
+a) this pointer is passed as a hidden argument in all static variables of a class
+b) this pointer is passed as a hidden argument in all the functions of a class
+c) this pointer is passed as a hidden argument in all non-static functions of a class
+d) this pointer is passed as a hidden argument in all static functions of a class
+View AnswerAnswer: c
+Explanation: As static functions are a type of global function for a class so all the object shares the common instance of that static function whereas all the objects have there own instance for non-static functions and hence they are passed as a hidden argument in all the non-static members but not in static members.
+
+16. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    #include <algorithm>    using namespace std;    int main()     {        string s = "spaces in text";        s.erase(remove(s.begin(), s.end(), ' ' ), s.end() ) ;        cout << s << endl;    }
+a) spacesintext
+b) spaces in text
+c) spaces
+d) spaces in
+View Answer Answer: a
+Explanation: In this program, We formed a algorithm to remove spaces in the string.
+Output:
+$ g++ dan.cpp
+$ a.out
+spacesintext
+
+############## https://www.sanfoundry.com/multiple-choice-questions-c-pointers-function-arguments/
+Pre-requisite for C Pointers and Function Arguments MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/object-oriented-programming-questions-answers-pointer/
+1. Which is the pointer which denotes the object calling the member function?
+a) Variable pointer
+b) This pointer
+c) Null pointer
+d) Zero pointer
+View AnswerAnswer: b
+Explanation: The pointer which denotes the object calling the member function is known as this pointer. The this pointer is usually used when there are members in the function with same name as those of the class members.
+
+
+
+
+2. Which among the following is true?
+a) this pointer is passed implicitly when member functions are called
+b) this pointer is passed explicitly when member functions are called
+c) this pointer is passed with help of pointer member functions are called
+d) this pointer is passed with help of void pointer member functions are called
+View AnswerAnswer: a
+Explanation: When an object calls some member function, it implicitly passes itself as an argument. This allows the compiler to know which member should be used for the purposes. This also allows to reduce the ambiguity among the variable and data member names.
+
+3. The this pointer is accessible __________________
+a) Within all the member functions of the class
+b) Only within functions returning void
+c) Only within non-static functions
+d) Within the member functions with zero arguments
+View AnswerAnswer: c
+Explanation: The this pointer is available only within the non-static member functions of a class. If the member function is static, it will be common to all the objects and hence a single object can’t refer to those functions independently.
+
+
+    
+Note: Join free Sanfoundry classes at Telegram or Youtube
+
+
+
+
+4. An object’s this pointer _____________________
+a) Isn’t part of class
+b) Isn’t part of program
+c) Isn’t part of compiler
+d) Isn’t part of object itself
+View AnswerAnswer: d
+Explanation: The object’s this pointer being called are not part of the object itself. This can be cross verified by checking that it doesn’t take up any space for the data to be stored or pointed.
+
+5. The result of sizeof() function __________________
+a) Includes space reserved for this pointer
+b) Includes space taken up by the address pointer by this pointer
+c) Doesn’t include the space taken by this pointer
+d) Doesn’t include space for any data member
+View AnswerAnswer: c
+Explanation: The space taken by this pointer is not reflected in by the sizeof() operator. This is because object’s this pointer is not part of object itself. This is a cross verification for the concept stating that this pointer doesn’t take any space in the object.
+
+
+    Take Object Oriented Programming Tests Now!
+
+
+
+
+6. Whenever non-static member functions are called _______________
+a) Address of the object is passed implicitly as an argument
+b) Address of the object is passed explicitly as an argument
+c) Address is specified globally so that the address is not used again
+d) Address is specified as return type of the function
+View AnswerAnswer: a
+Explanation: The address is passed implicitly as an argument to the function. This doesn’t have to be passed explicitly. The address is passed, of the object which is calling the non-static member function.
+
+7. Which is the correct interpretation of the member function call from an object, object.function(parameter);
+a) object.function(&this, parameter)
+b) object(&function,parameter)
+c) function(&object,&parameter)
+d) function(&object,parameter)
+View AnswerAnswer: d
+Explanation: The function name is specified first and then the parameter lists. The parameter list is included with the object name along with & symbol. This denotes that the address of the object is being passed as an argument.
+
+
+
+
+8. The address of the object _________________
+a) Can’t be accessed from inside the function
+b) Can’t be accessed in the program
+c) Is available inside the member function using this pointer
+d) Can be accessed using the object name inside the member function
+View AnswerAnswer: c
+Explanation: The address of the object with respect to which the member functions are being called, are stored in this pointer. This pointer is hence used whenever there are members with same name as those of the variables inside the function.
+
+9. Which among the following is true?
+a) This pointer can be used to guard against any kind of reference
+b) This pointer can be used to guard against self-reference
+c) This pointer can be used to guard from other pointers
+d) This pointer can be used to guard from parameter referencing
+View AnswerAnswer: b
+Explanation: The this pointer can be used to guard itself whenever self-reference is used. This allows accidental address access. And accidental modification of data.
+
+
+
+
+10. Which syntax doesn’t execute/is false when executed?
+a) if(&object != this)
+b) if(&function !=object)
+c) this.if(!this)
+d) this.function(!this)
+View AnswerAnswer: a
+Explanation: The condition becomes false when executed and hence doesn’t executes. This is the case where this pointer can guard itself from the self-reference. Here if the address of the object doesn’t match with this pointer that means the object doesn’t refer itself.
+
+11. The this pointers _____________________
+a) Are modifiable
+b) Can be assigned any value
+c) Are made variables
+d) Are non-modifiable
+View AnswerAnswer: d
+Explanation: The this pointer is non modifiable. This is because the address of any object remains constant throughout its life time. Hence the address must not be changed otherwise wrong members of invalid addresses might get accessed.
+
+12. Earlier implementations of C++ ___________________
+a) Never allowed assignment to this pointer
+b) Allowed no assignment to this pointer
+c) Allowed assignments to this pointer
+d) Never allowed assignment to any pointer
+View AnswerAnswer: c
+Explanation: The earlier, most initial versions of C++ used to allow assignments to this pointers. That used to allow modifications of this pointer. Later that feature got disabled.
+
+13. This pointer can be used directly to ___________
+a) To manipulate self-referential data structures
+b) To manipulate any reference to pointers to member functions
+c) To manipulate class references
+d) To manipulate and disable any use of pointers
+View AnswerAnswer: a
+Explanation: This is a feature provided, that can be used directly. The manipulation of self-referential data structures is just an application of this feature. Other conditions fails as this pointer doesn’t deal with those things.
+
+14. Which among the following is/are type(s) of this pointer?
+a) const
+b) volatile
+c) const or volatile
+d) int
+View AnswerAnswer: c
+Explanation: The this pointer can be declared const or volatile. This depends on need of program and type of code. This is just an additional feature.
+
+15. Which is the correct syntax for declaring the type of this in a member function?
+a) classType [cv-qualifier-list] *const this;
+b) classType const[cv-qualifier-list] *this;
+c) [cv-qualifier-list]*const classType this;
+d) [cv-qualifier-list] classType *const this;
+View AnswerAnswer: d
+Explanation: The syntax contains the cv-qualifier-list that can be determined from the member function declaratory that can be either const or volatile or can be made both. Hence we write it as list. classType denotes the name of class to mention to which class does the object belong to. And *const this denotes that the this pointer is having a constant value.
+Sanfoundry Global Education & Learning Series – Object Oriented Programming (OOPs).
+To practice all areas of Object Oriented Programming (OOPs) using C++, here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - Object Oriented Programming using C++ Questions and Answers – Pointer to Objects» Next - Object Oriented Programming using C++ Questions and Answers – Default Arguments 
+Next Steps:
+
+
+
+Get Free Certificate of Merit in Object Oriented Programming
+Participate in Object Oriented Programming Certification Contest
+Become a Top Ranker in Object Oriented Programming
+Take Object Oriented Programming Tests
+Chapterwise Practice Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+Chapterwise Mock Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+Related Posts:Practice MCA MCQs
+Practice Computer Science MCQs
+Apply for Computer Science Internship
+Buy Object Oriented Programming Books
+Buy Computer Science Books
+ 
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-quiz-pointer-structures/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/mathematics-questions-answers-mid-point-theorem/
+1. What is the length of DE if DE || BC and D and E are midpoints of AB and AC?
+b) 15cm
+c) 9cm
+d) 20cm
+View AnswerAnswer: c
+Explanation: Since In ABC, D and E are midpoints of the sides AB and AC and DE || BC, by mid-point theorem, DE = ½ BC = ½ x 18 = 9cm.
+
+
+
+
+2. Which of the following relation is correct if S is midpoint of PR?
+b) QS = ½ PR
+c) QS = 2PR
+d) QS = ¼ PR
+View AnswerAnswer: b
+Explanation: Draw ST || RQ meeting PQ at point T
+
+STQ + TQR = 180° (Interior angles on the same side of transversal)
+ STQ = 90°
+Also, Since ST || RQ and S is midpoint of PR, by midpoint theorem,
+T is midpoint of PQ i.e. PT = TQ ————— (i)
+and ST= ½ RQ
+In PTS and TQS,
+PT = TQ (from equation i)
+PTS = STQ = 90°
+TS = TS (Common side)
+Hence, PTS  TQS (by SAS congruence criterion)
+ PS = QS (Corresponding parts of congruent triangles)
+But, PS = ½ PR (S is midpoint of PR)
+ QS = ½ PR.
+
+3. What is the ration of AC/CF if AD and BE are the median and DF || BE?
+b) 1
+c) 1/4
+d) 1/2
+View AnswerAnswer: a
+Explanation: Since In BEC, D is the midpoint of the BC and DF || BE, by mid-point theorem,
+DF = ½ BE and
+F is midpoint of EC i.e. EF = FC ——————–(i)
+Also, AE = EC = ½ AC——————-(ii) (BE is median to side AC)
+From i, CF = ½ EC
+ CF = ½ (½ AC) (from equation ii)
+ CF = ¼ AC.
+
+
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+
+
+
+
+4. Identify the correct relation from the given options if PQRS is a parallelogram and V is midpoint of PQ.
+b) TU = PU
+c) TU = ½ PU
+d) TU = 2PU
+View AnswerAnswer: c
+Explanation: Since In PQU, V is the midpoint of the PQ and VR || PU, by mid-point theorem,
+VR = ½ PU and
+R is midpoint of QU i.e. QR = RU ——————–(i)
+Also, in PQU, R is the midpoint of the QU and RT || PQ (PQRS is parallelogram), by mid-point theorem,
+TR = ½ PQ and
+T is midpoint of PU
+i.e. PT = TU
+ TU = ½ PU.
+
+5. Find the ration of (AB + CD)/EG if EG || AB and AB || DC and E and G are the midpoints.
+b) 1/2
+c) 2
+d) 3/2
+View AnswerAnswer: c
+Explanation: In ABD, EF || AB and E is the midpoint of the AD, by mid-point theorem,
+F is the midpoint of BD
+and EF = ½ AB —————— (i)
+Also, in BDC, G and F are the midpoints of the BC and BD and FG || DC, by mid-point theorem,
+FG = ½ CD —————— (ii)
+Adding equation i and ii, EF + FG = ½ AB + ½ CD
+ EG = ½ (AB + CD).
+
+
+
+    Check this: Class 10 Mathematics MCQs | Class 8 Mathematics MCQs
+
+
+
+
+6. Find the perimeter of ABC, if perimeter of PQR is 36cm and A, B and C are midpoints.
+b) 18cm
+c) 20cm
+d) 36cm
+View AnswerAnswer: b
+Explanation: In PQR, A and B are the midpoints of the PQ and PR, by mid-point theorem,
+AB || QR and AB = ½ QR —————— (i)
+Similarly, A and C are the midpoints of the PQ and QR, by mid-point theorem,
+AC || PR and AC = ½ PR —————— (i)
+and B and C are the midpoints of the PR and QR, by mid-point theorem,
+BC || PQ and BC = ½ PQ —————— (i)
+Now, perimeter of ABC = AB + BC + AC
+ perimeter of ABC = ½ QR + ½ PQ + ½ PR (from equation i, ii and iii)
+ perimeter of ABC = ½ (QR + PQ + PR)
+ perimeter of ABC = ½ (perimeter of PQR) = ½ x 36 = 18cm.
+
+7. Find the ratio of the angles D : E : F of DEF formed by joining the midpoints of the sides of ABC.
+b) 4 : 3 : 2
+c) 2 : 3 : 5
+d) 5 : 3 : 2
+View AnswerAnswer: a
+Explanation: Since D, E and F are the midpoints of the sides AB, BC and AC of ABC, by mid-point theorem, DF || BC, DE || AC and FE || AB
+As EF || AB and DF || BC,  EF || BD and DF || BE  DFEB is a parallelogram
+ B = DFE = 60° ————— (i) (Opposite angles of parallelogram are equal)
+Similarly, As EF || AB and DE || AC,  EF || AD and DE || AF  AFED is a parallelogram
+ A = DEF = 40°——————– (ii) (Opposite angles of parallelogram are equal)
+and as DE || AC and DF || BC,  DE || FC and DF || EC  DECF is a parallelogram
+ C = EDF = 80° ——————— (iii) (Opposite angles of parallelogram are equal)
+Now, D: E: F = 80 : 40 : 60 (from equation i,ii and iii)
+ D: E: F = 4 : 2 : 3.
+
+
+
+
+8. If ABCR and PQRS are rectangles and B is the midpoint of PR, find the ratio of AC/PR.
+b) 2
+c) 1
+d) 5/2
+View AnswerAnswer: a
+Explanation: In PSR, B is the midpoint of PR and AB || SP, by mid-point theorem,
+A is midpoint of SR i.e. AS = AR —————— (i)
+Similarly, in SRQ, A is the midpoint of SR and AC || SR, by mid-point theorem,
+AC = ½ SQ and C is midpoint of RQ i.e. RC = CQ —————— (i)
+Now, AC = ½ SQ
+ AC = ½ PR (Diagonals of rectangle are equal)
+ AC/PR = 1/2.
+
+9. From the diagram below, if D and E are mid points of the lines AB and AC respectively and if DE  BC, then what is the relation between DE and BC?
+b) 3DE = BC
+c) 2DE = BC
+d) There is no definite relation between DE and BC
+View AnswerAnswer: c
+Explanation: According to mid-point theorem, if D and E are mid points of the lines AB and AC respectively and if DE  BC, then 2DE = BC.
+
+
+
+
+10. From the diagram given below, if P, Q and R are mid points of sides AB, BC and AC respectively, then RQP is congruent to BDE, DAF and EFC.
+b) False
+View AnswerAnswer: a
+Explanation: P, Q and R are mid points of sides AB, BC and AC respectively (given).
+Therefore, according to theorem 8.9, PQ  AC, QR  AB and PR  BC.
+Hence, APQR, PBQR and PQCR are all parallelograms.
+Now, PQ is the diagonal of the parallelogram PBQR. Therefore, according to theorem 8.1,
+PQR is congruent to QPB.
+Similarly, QR and RP are the diagonals of parallelograms PQCR and APQR respectively.
+Therefore, PQR is congruent to CRQ and
+PQR is congruent to RAP.
+
+Sanfoundry Global Education & Learning Series – Mathematics – Class 9.
+To practice all areas of Mathematics,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - Mathematics Questions and Answers – Another Condition for a Quadrilateral to be a Parallelogram» Next - Mathematics Questions and Answers – Figures on the Same Base and Between the Same Parallels Related Posts:Practice Class 8 Mathematics MCQs
+Practice Class 10 Mathematics MCQs
+Buy Class 9 - Mathematics Books
+ 
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/mysql-questions-answers-using-views/
+1. Which of these is also known as a virtual table?
+a) SCHEMA
+b) DATABASE
+c) JOIN
+d) VIEW
+View AnswerAnswer: d
+Explanation: In MySQL, a ‘View’ is also called a virtual table. It does not contain any data but only appears as a table. It is an alternative way to show or describe a table similar to the original table.
+
+
+
+
+2. A View can be used to select a subset of the table columns.
+a) True
+b) False
+View AnswerAnswer: a
+Explanation: In MySQL, a ‘View’ is used to present a table in the database. It is a virtual table. It is also used to present a subset of the columns that are present in the original table of the database.
+
+3. What is xyz in the following MySQL statement?
+
+
+    
+Note: Join free Sanfoundry classes at Telegram or Youtube
+
+
+
+
+CREATE VIEW xyz AS SELECT a, b FROM t;
+a) table
+b) column
+c) view
+d) database
+View AnswerAnswer: c
+Explanation: A ‘View’ is created in MySQL by writing the clause ‘CREATE VIEW’ followed by the view name. Then follows the list of column names of the table that are to be presented as the view.
+
+
+    Take MySQL Mock Tests - Chapterwise!Start the Test Now: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+
+
+4. What is abc in the following MySQL statement?
+CREATE VIEW xyz (abc) AS SELECT a FROM t;
+a) row name
+b) column name
+c) view
+d) database
+View AnswerAnswer: b
+Explanation: Column names for a view can be explicitly provided in the ‘CREATE VIEW’ clause itself. It presents the table view with the aliased column names instead of the original column names.
+
+
+
+
+5. A view can refer to multiple tables via __________
+a) UNION
+b) JOIN
+c) GROUP
+d) SELECT
+View AnswerAnswer: b
+Explanation: In MySQL, a ‘View’ can refer to multiple tables. This makes it a lot simpler to execute the queries involving joins. When a selection is made from the view, the join is executed producing the results.
+
+
+
+
+6. Views are not updatable.
+a) True
+b) False
+View AnswerAnswer: b
+Explanation: In MySQL, some ‘Views’ are updatable. The operators ‘INSERT’, ‘DELETE’ and ‘UPDATE’ can be used. They can be operated on the ‘Views’ to make changes to it. A table can be created and set as a view.
+
+7. A view can be deleted using the command __________
+a) REMOVE
+b) DELETE
+c) CLEAR
+d) DROP
+View AnswerAnswer: d
+Explanation: In MySQL, ‘Views’ act as virtual tables. Many operations can be performed on views like the operations on tables. A view can be created, displayed and dropped. They can also be used to perform calculations.
+
+8. What cannot be done on a view?
+a) display
+b) filter
+c) index
+d) drop
+View AnswerAnswer: c
+Explanation: In MySQL, ‘Views’ act as virtual tables. It is not possible to create indexes on a view. However, they can be used for the views that are processed using the merge algorithm.
+
+9. What can be used to check for views that have been invalidated by DROP or ALTER operations?
+a) CREATE TABLE
+b) VERIFY TABLE
+c) DETAILS TABLE
+d) CHECK TABLE
+View AnswerAnswer: d
+Explanation: A ‘View’ is created in MySQL by writing the clause ‘CREATE VIEW’ followed by the view name. Once a view is dropped or altered after being created, it can be checked by the ‘CHECK TABLE’ clause.
+
+10. Which of the following does not support a materialized view?
+a) MySQL
+b) Oracle
+c) PostgreSQL
+d) SybaseSQL
+View AnswerAnswer: a
+Explanation: In MySQL, ‘Views’ are treated a little differently than Oracle, PostgreSQL and SybaseSQL since they support materialized views and MySQL does not use the materialized view.
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - MySQL Questions and Answers – Performing Multiple – Table Retrievals with Union» Next - MySQL Questions and Answers – Multiple – Table Deletes and Updates 
+Next Steps:
+
+
+
+Get Free Certificate of Merit in MySQL
+Participate in MySQL Certification Contest
+Become a Top Ranker in MySQL
+Take MySQL Tests
+Chapterwise Practice Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+Chapterwise Mock Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+Related Posts:Apply for Programming Internship
+Practice Programming MCQs
+Buy Information Technology Books
+Buy MySQL Books
+Apply for MySQL Internship
+ 
+############## https://www.sanfoundry.com/multiple-choice-questions-c-pointers-function-arguments/
+Pre-requisite for C Pointers and Function Arguments MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/object-oriented-programming-questions-answers-pointer/
+1. Which is the pointer which denotes the object calling the member function?
+a) Variable pointer
+b) This pointer
+c) Null pointer
+d) Zero pointer
+View AnswerAnswer: b
+Explanation: The pointer which denotes the object calling the member function is known as this pointer. The this pointer is usually used when there are members in the function with same name as those of the class members.
+
+
+
+
+2. Which among the following is true?
+a) this pointer is passed implicitly when member functions are called
+b) this pointer is passed explicitly when member functions are called
+c) this pointer is passed with help of pointer member functions are called
+d) this pointer is passed with help of void pointer member functions are called
+View AnswerAnswer: a
+Explanation: When an object calls some member function, it implicitly passes itself as an argument. This allows the compiler to know which member should be used for the purposes. This also allows to reduce the ambiguity among the variable and data member names.
+
+3. The this pointer is accessible __________________
+a) Within all the member functions of the class
+b) Only within functions returning void
+c) Only within non-static functions
+d) Within the member functions with zero arguments
+View AnswerAnswer: c
+Explanation: The this pointer is available only within the non-static member functions of a class. If the member function is static, it will be common to all the objects and hence a single object can’t refer to those functions independently.
+
+
+    
+Note: Join free Sanfoundry classes at Telegram or Youtube
+
+
+
+
+4. An object’s this pointer _____________________
+a) Isn’t part of class
+b) Isn’t part of program
+c) Isn’t part of compiler
+d) Isn’t part of object itself
+View AnswerAnswer: d
+Explanation: The object’s this pointer being called are not part of the object itself. This can be cross verified by checking that it doesn’t take up any space for the data to be stored or pointed.
+
+5. The result of sizeof() function __________________
+a) Includes space reserved for this pointer
+b) Includes space taken up by the address pointer by this pointer
+c) Doesn’t include the space taken by this pointer
+d) Doesn’t include space for any data member
+View AnswerAnswer: c
+Explanation: The space taken by this pointer is not reflected in by the sizeof() operator. This is because object’s this pointer is not part of object itself. This is a cross verification for the concept stating that this pointer doesn’t take any space in the object.
+
+
+    Take Object Oriented Programming Tests Now!
+
+
+
+
+6. Whenever non-static member functions are called _______________
+a) Address of the object is passed implicitly as an argument
+b) Address of the object is passed explicitly as an argument
+c) Address is specified globally so that the address is not used again
+d) Address is specified as return type of the function
+View AnswerAnswer: a
+Explanation: The address is passed implicitly as an argument to the function. This doesn’t have to be passed explicitly. The address is passed, of the object which is calling the non-static member function.
+
+7. Which is the correct interpretation of the member function call from an object, object.function(parameter);
+a) object.function(&this, parameter)
+b) object(&function,parameter)
+c) function(&object,&parameter)
+d) function(&object,parameter)
+View AnswerAnswer: d
+Explanation: The function name is specified first and then the parameter lists. The parameter list is included with the object name along with & symbol. This denotes that the address of the object is being passed as an argument.
+
+
+
+
+8. The address of the object _________________
+a) Can’t be accessed from inside the function
+b) Can’t be accessed in the program
+c) Is available inside the member function using this pointer
+d) Can be accessed using the object name inside the member function
+View AnswerAnswer: c
+Explanation: The address of the object with respect to which the member functions are being called, are stored in this pointer. This pointer is hence used whenever there are members with same name as those of the variables inside the function.
+
+9. Which among the following is true?
+a) This pointer can be used to guard against any kind of reference
+b) This pointer can be used to guard against self-reference
+c) This pointer can be used to guard from other pointers
+d) This pointer can be used to guard from parameter referencing
+View AnswerAnswer: b
+Explanation: The this pointer can be used to guard itself whenever self-reference is used. This allows accidental address access. And accidental modification of data.
+
+
+
+
+10. Which syntax doesn’t execute/is false when executed?
+a) if(&object != this)
+b) if(&function !=object)
+c) this.if(!this)
+d) this.function(!this)
+View AnswerAnswer: a
+Explanation: The condition becomes false when executed and hence doesn’t executes. This is the case where this pointer can guard itself from the self-reference. Here if the address of the object doesn’t match with this pointer that means the object doesn’t refer itself.
+
+11. The this pointers _____________________
+a) Are modifiable
+b) Can be assigned any value
+c) Are made variables
+d) Are non-modifiable
+View AnswerAnswer: d
+Explanation: The this pointer is non modifiable. This is because the address of any object remains constant throughout its life time. Hence the address must not be changed otherwise wrong members of invalid addresses might get accessed.
+
+12. Earlier implementations of C++ ___________________
+a) Never allowed assignment to this pointer
+b) Allowed no assignment to this pointer
+c) Allowed assignments to this pointer
+d) Never allowed assignment to any pointer
+View AnswerAnswer: c
+Explanation: The earlier, most initial versions of C++ used to allow assignments to this pointers. That used to allow modifications of this pointer. Later that feature got disabled.
+
+13. This pointer can be used directly to ___________
+a) To manipulate self-referential data structures
+b) To manipulate any reference to pointers to member functions
+c) To manipulate class references
+d) To manipulate and disable any use of pointers
+View AnswerAnswer: a
+Explanation: This is a feature provided, that can be used directly. The manipulation of self-referential data structures is just an application of this feature. Other conditions fails as this pointer doesn’t deal with those things.
+
+14. Which among the following is/are type(s) of this pointer?
+a) const
+b) volatile
+c) const or volatile
+d) int
+View AnswerAnswer: c
+Explanation: The this pointer can be declared const or volatile. This depends on need of program and type of code. This is just an additional feature.
+
+15. Which is the correct syntax for declaring the type of this in a member function?
+a) classType [cv-qualifier-list] *const this;
+b) classType const[cv-qualifier-list] *this;
+c) [cv-qualifier-list]*const classType this;
+d) [cv-qualifier-list] classType *const this;
+View AnswerAnswer: d
+Explanation: The syntax contains the cv-qualifier-list that can be determined from the member function declaratory that can be either const or volatile or can be made both. Hence we write it as list. classType denotes the name of class to mention to which class does the object belong to. And *const this denotes that the this pointer is having a constant value.
+Sanfoundry Global Education & Learning Series – Object Oriented Programming (OOPs).
+To practice all areas of Object Oriented Programming (OOPs) using C++, here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - Object Oriented Programming using C++ Questions and Answers – Pointer to Objects» Next - Object Oriented Programming using C++ Questions and Answers – Default Arguments 
+Next Steps:
+
+
+
+Get Free Certificate of Merit in Object Oriented Programming
+Participate in Object Oriented Programming Certification Contest
+Become a Top Ranker in Object Oriented Programming
+Take Object Oriented Programming Tests
+Chapterwise Practice Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+Chapterwise Mock Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+Related Posts:Practice MCA MCQs
+Practice Computer Science MCQs
+Apply for Computer Science Internship
+Buy Object Oriented Programming Books
+Buy Computer Science Books
+ 
+############## https://www.sanfoundry.com/multiple-choice-questions-c-pointers-function-arguments/
+Pre-requisite for C Pointers and Function Arguments MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/1000-data-structure-questions-answers/
+
+############## https://www.sanfoundry.com/c-programming-questions-answers-pointers-pointers/
+Pre-requisite for C Pointers to Pointers MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/multiple-choice-questions-c-pointers-function-arguments/
+Pre-requisite for C Pointers and Function Arguments MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-interview-questions-answers/
+1. Who is the father of C language?
+a) Steve Jobs
+b) James Gosling
+c) Dennis Ritchie
+d) Rasmus Lerdorf
+View AnswerAnswer: c
+Explanation: Dennis Ritchie is the father of C Programming Language. C programming language was developed in 1972 at American Telephone & Telegraph Bell Laboratories of USA.
+
+
+
+
+2. Which of the following is not a valid C variable name?
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+View AnswerAnswer: d
+Explanation: Since only underscore and no other special character is allowed in a variable name, it results in an error.
+
+3. All keywords in C are in ____________
+a) LowerCase letters
+b) UpperCase letters
+c) CamelCase letters
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+4. Which of the following is true for variable names in C?
+a) They can contain alphanumeric characters as well as special characters
+b) It is not an error to declare a variable to be one of the keywords(like goto, static)
+c) Variable names cannot start with a digit
+d) Variable can be of any length
+View AnswerAnswer: c
+Explanation: According to the syntax for C variable name, it cannot start with a digit.
+
+5. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+View AnswerAnswer: b
+Explanation: Space, comma and $ cannot be used in a variable name.
+
+6. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+View AnswerAnswer: a
+Explanation: volatile is C keyword.
+
+
+
+
+7. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+8. Which of the following declaration is not supported by C language?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+View AnswerAnswer: a
+Explanation: It is legal in Java, but not in C language.
+
+9. Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+View AnswerAnswer: c
+Explanation: const is a keyword constant in C program.
+
+
+
+
+10. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: None. 
+11. Which of the following typecasting is accepted by C language?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+View Answer Answer: c
+Explanation: None.
+
+12. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+View Answer Answer: d
+Explanation: None. 
+13. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+View Answer Answer: c
+Explanation: None. 
+14. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None. 
+
+
+
+
+15. Functions can return enumeration constants in C?
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+View Answer Answer: a
+Explanation: None. 
+16. Functions in C Language are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+View Answer Answer: b
+Explanation: None. 
+17. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+View Answer Answer: c
+Explanation: None.  
+18. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+View AnswerAnswer: c
+Explanation: Conditional compilation is the preprocessor facility to produce a different executable.
+
+19. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+
+
+
+20. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+View AnswerAnswer: a
+Explanation: #pragma is compiler specific feature. 
+21. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None.
+
+22. The C-preprocessors are specified with _________ symbol.
+a) #
+b) $
+c) ” ”
+d) &
+View Answer Answer: a
+Explanation: The C-preprocessors are specified with # symbol.
+
+23. How is search done in #include and #include “somelibrary.h” according to C standard?
+a) When former is used, current directory is searched and when latter is used, standard directory is searched
+b) When former is used, standard directory is searched and when latter is used, current directory is searched
+c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched
+d) For both, search for ‘somelibrary’ is done in implementation-defined places
+View AnswerAnswer: d
+Explanation: None.
+
+24. How many number of pointer (*) does C have against a pointer variable declaration?
+a) 7
+b) 127
+c) 255
+d) No limits
+View Answer  Answer: d
+Explanation: None.  
+25. Which of the following is not possible statically in C language?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+View Answer  Answer: a
+Explanation: None.  
+26. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+View Answer  Answer: d
+Explanation: None. 
+27. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+View Answer  Answer: d
+Explanation: None. 
+28. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+View Answer  Answer: d
+Explanation: None.  
+29. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+View Answer  Answer: c
+Explanation: None.  
+30. What is the sizeof(char) in a 32-bit C compiler?
+a) 1 bit
+b) 2 bits
+c) 1 Byte
+d) 2 Bytes
+View Answer  Answer: c
+Explanation: None. 
+31. Which of the following is not an operator in C?
+a) ,
+b) sizeof()
+c) ~
+d) None of the mentioned
+View Answer  Answer: d
+Explanation: None.
+
+32. scanf() is a predefined function in______header file.
+a) stdlib. h
+b) ctype. h
+c) stdio. h
+d) stdarg. h
+View AnswerAnswer: c
+Explanation: scanf() is a predefined function in "stdio.h" header file.printf and scanf() carry out input and output functions in C. These functions statements are present in the header file stdio.h.
+
+33. What is meant by ‘a’ in the following C operation?
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+View Answer  Answer: b
+Explanation: None. 
+34. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int y = 10000;        int y = 34;        printf("Hello World! %d\n", y);        return 0;    }
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+View AnswerAnswer: a
+Explanation: Since y is already defined, redefining it results in an error.
+Output:
+$ cc pgm2.c
+pgm2.c: In function ‘main’:
+pgm2.c:5: error: redefinition of ‘y’
+pgm2.c:4: note: previous definition of ‘y’ was here
+
+35. What will happen if the following C code is executed?
+    #include <stdio.h>    int main()    {        int main = 3;        printf("%d", main);        return 0;    }
+a) It will cause a compile-time error
+b) It will cause a run-time error
+c) It will run without any error and prints 3
+d) It will experience infinite looping
+View AnswerAnswer: c
+Explanation: A C program can have same function name and same variable name.
+$ cc pgm3.c
+$ a.out
+3
+
+36. What will be the output of the following C code?
+    #include  <stdio.h>    int main()    {       signed char chr;       chr = 128;       printf("%d\n", chr);       return 0;    }
+a) 128
+b) -128
+c) Depends on the compiler
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: signed char will be a negative number.
+Output:
+$ cc pgm2.c
+$ a.out
+-128
+
+37. What will be the output of the following C code on a 64 bit machine?
+    #include <stdio.h>    union Sti    {        int nu;        char m;    };    int main()    {        union Sti s;        printf("%d", sizeof(s));        return 0;    }
+a) 8
+b) 5
+c) 9
+d) 4
+View AnswerAnswer: d
+Explanation: Since the size of a union is the size of its maximum data type, here int is the largest data type. Hence the size of the union is 4.
+Output:
+$ cc pgm7.c
+$ a.out
+4
+
+38. What will be the output of the following C function?
+    #include <stdio.h>    enum birds {SPARROW, PEACOCK, PARROT};    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};    int main()    {        enum birds m = TIGER;        int k;        k = m;        printf("%d\n", k);        return 0;    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+View AnswerAnswer: d
+Explanation: m is an integer constant, hence it is compatible.
+Output:
+$ cc pgm5.c
+$ a.out
+8
+
+39. What will be the output of the following C code?
+    #include <stdio.h>    int const print()    {        printf("Sanfoundry.com");        return 0;    }    void main()    {        print();    }
+a) Error because function name cannot be preceded by const
+b) Sanfoundry.com
+c) Sanfoundry.com is printed infinite times
+d) Blank screen, no output
+View AnswerAnswer: b
+Explanation: None.
+Output:
+$ cc pgm13.c
+$ a.out
+Sanfoundry.com
+
+40. Will the following C code compile without any error?
+    #include <stdio.h>    int main()    {        for (int k = 0; k < 10; k++);            return 0;    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+View AnswerAnswer: c
+Explanation: Compilers implementing C90 do not allow this, but compilers implementing C99 allow it.
+Output:
+$ cc pgm4.c
+pgm4.c: In function ‘main’:
+pgm4.c:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+pgm4.c:4: note: use option -std=c99 or -std=gnu99 to compile your code
+
+41. What will be the final value of x in the following C code?
+    #include <stdio.h>    void main()    {        int x = 5 * 9 / 3 + 9;    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+View AnswerAnswer: c
+Explanation: None.
+
+42. What will be the output of the following C code? (Initial values: x= 7, y = 8)
+    #include <stdio.h>    void main()    {        float x;        int y;        printf("enter two numbers \n", x);        scanf("%f %f", &x, &y);        printf("%f, %d", x, y);    }
+a) 7.000000, 7
+b) Run time error
+c) 7.000000, junk
+d) Varies
+View Answer Answer: c
+Explanation: None.
+
+43. What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?
+    #include <stdio.h>    int main()    {        short int i = 20;        char c = 97;        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));        return 0;    }
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+View Answer Answer: c
+Explanation: None.
+
+44. What is the difference between the following 2 C codes?
+    #include <stdio.h> //Program 1    int main()    {        int d, a = 1, b = 2;        d =  a++ + ++b;        printf("%d %d %d", d, a, b);    }
+    #include <stdio.h> //Program 2    int main()    {        int d, a = 1, b = 2;        d =  a++ +++b;        printf("%d %d %d", d, a, b);    }
+a) No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+b) Space does make a difference, values of a, b, d are different
+c) Program 1 has syntax error, program 2 is not
+d) Program 2 has syntax error, program 1 is not
+View Answer Answer: d
+Explanation: None.
+
+45. What will be the output of the following C code snippet?
+    #include <stdio.h>    void main()    {        1 < 2 ? return 1: return 2;    }
+a) returns 1
+b) returns 2
+c) Varies
+d) Compile time error
+View Answer Answer: d
+Explanation: None.
+
+46. What will be the value of the following assignment expression?
+ (x = foo())!= 1 considering foo() returns 2
+a) 2
+b) True
+c) 1
+d) 0
+View AnswerAnswer: a
+Explanation: None.
+
+47. What will be the output of the following C function?
+    #include <stdio.h>    void reverse(int i);    int main()    {        reverse(1);    }    void reverse(int i)    {        if (i > 5)            return ;        printf("%d ", i);        return reverse((i++, i));    }
+a) 1 2 3 4 5
+b) Segmentation fault
+c) Compilation error
+d) Undefined behaviour
+View Answer Answer: a
+Explanation: None.
+
+48. What will be the final values of i and j in the following C code?
+    #include <stdio.h>    int x = 0;    int main()    {        int i = (f() + g()) | g(); //bitwise or        int j = g() | (f() + g()); //bitwise or    }    int f()    {        if (x == 0)            return x + 1;        else            return x - 1;    }    int g()    {        return x++;    }
+a) i value is 1 and j value is 1
+b) i value is 0 and j value is 0
+c) i value is 1 and j value is undefined
+d) i and j value are undefined
+View Answer Answer: c
+Explanation: None.
+
+49. Comment on the following C statement.
+a) Output will be 3, 2
+b) Output will be 3, 1
+c) Output will be 6, 1
+d) Output is compiler dependent
+View AnswerAnswer: d
+Explanation: None. 
+50. How many times i value is checked in the following C program?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i < 3)            i++;        printf("In while loop\n");    }
+a) 2
+b) 3
+c) 4
+d) 1
+View Answer Answer: c
+Explanation: None. 
+51. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        int i = 0;        do        {            i++;            if (i == 2)                continue;                printf("In while loop ");        } while (i < 2);        printf("%d\n", i);    }
+a) In while loop 2
+b) In while loop in while loop 3
+c) In while loop 3
+d) Infinite loop
+View Answer Answer: a
+Explanation: None. 
+52. What will be the data type returned for the following C function?
+    #include <stdio.h>    int func()    {        return (double)(char)5.0;    }
+a) char
+b) int
+c) double
+d) multiple type-casting in return is illegal
+View Answer Answer: b
+Explanation: None. 
+53. What is the problem in the following C declarations?
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+View Answer Answer: d
+Explanation: None.  
+54. Which option should be selected to work the following C expression?
+string p = "HELLO";
+a) typedef char [] string;
+b) typedef char *string;
+c) typedef char [] string; and typedef char *string;
+d) Such expression cannot be generated in C
+View Answer  Answer: b
+Explanation: None.  
+55. What is the meaning of the following C statement?
+a) 10 spaces before the string state is printed
+b) Print empty spaces if the string state is less than 10 characters
+c) Print the last 10 characters of the string
+d) None of the mentioned
+View Answer  Answer: b
+Explanation: None. 
+56. What are the elements present in the array of the following C code?
+int array[5] = {5};
+a) 5, 5, 5, 5, 5
+b) 5, 0, 0, 0, 0
+c) 5, (garbage), (garbage), (garbage), (garbage)
+d) (garbage), (garbage), (garbage), (garbage), 5
+View Answer  Answer: b
+Explanation: None. 
+57. What will be the output of the following C function when EOF returns?
+a) ‘’ character of array line is encountered
+b) ‘n’ character in array line is encountered
+c) ‘t’ character in array line is encountered
+d) When an error occurs
+View Answer  Answer: d
+Explanation: None.  
+58. Which part of the program address space is p stored in the following C code?
+    #include <stdio.h>    int *p;    int main()    {        int i = 0;        p = &i;        return 0;    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+View Answer Answer: c
+Explanation: None. 
+59. Which of the following sequences are unaccepted in C language?
+a)
+   #if
+   #else
+   #endif
+b)
+   #if
+   #elif
+   #endif
+c)
+   #if
+   #if
+   #endif
+d)
+   #if
+   #undef
+   #endif
+View Answer Answer: c
+Explanation: None.
+  
+59. Comment on the output of following C code.
+    #include <stdio.h>    main()    {        char *p = 0;        *p = 'a';        printf("value in pointer p is %c\n", *p);    }
+a) It will print a
+b) It will print 0
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+60. What is the output of this C code?
+   #include <stdio.h>   main()   {       if (sizeof(int) > -1)           printf("True");       else           printf("False");   }
+a) True
+b) False
+View Answer Answer:b
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+61. What is the output of this C code?
+    #include <stdio.h>    main()    {        char *p = "Sanfoundry C-Test";        p[0] = 'a';        p[1] = 'b';        printf("%s", p);    }
+a) abnfoundry C-Test
+b) Sanfoundry C-Test
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+62. What is the output of this C code?
+    #include <stdio.h>    int main()    {        float f = 0.1;        if (f == 0.1)            printf("True");        else            printf("False");    }
+a) True
+b) False
+View Answer Answer:a
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+63. What is the output of this C code?
+    #include <stdio.h>    main()    {        int n = 0, m = 0;        if (n > 0)            if (m > 0)                printf("True");        else             printf("False");    }
+a) True
+b) False
+c) No Output will be printed
+d) Run Time Error
+View Answer Answer:c
+Output:
+$ cc pgm.c
+$ a.out
+$
+
+
+
+
+Chapterwise Multiple Choice Questions on C Programming
+
+
+
+Our 1000+ MCQs focus on all topics of the C Programming subject, covering 100+ topics. This will help you to prepare for exams, contests, online tests, quizzes, viva-voce, interviews, and certifications. You can practice these MCQs chapter by chapter starting from the 1st chapter or you can jump to any chapter of your choice. You can also download the PDF of C Programming MCQs by applying below.
+
+
+
+C Data Types, Operators and Expressions
+Control Flow Statements in C
+C Functions and Structure of a Program
+C Pointers and Arrays
+Structures, Unions and Bit-Fields in C
+C Input and Output
+Floating Point & Sizeof Operator in C
+Enumerations and Typedefs in C
+C String Operations
+C Library
+Dynamic Memory Allocation in C
+C Preprocessor
+Miscellaneous Topics in C
+
+
+
+1. C MCQs on Data Types, Operators and Expressions
+The section contains C MCQs on variable names, datatypes, constants, declarations, arithmetic operators, relational and logical operators, type conversions, bitwise operators, assignment operators, increment and decrement operators, conditional expressions, evaluation order and precedence. 
+
+
+
+Variable Names – 1
+Variable Names – 2
+Data Types and Sizes – 1
+Data Types and Sizes – 2
+C Constants – 1
+C Constants – 2
+C Declarations – 1
+C Declarations – 2
+ Arithmetic Operators – 1
+Arithmetic Operators – 2
+ Relational & Logical Operators – 1
+ Relational & Logical Operators – 2
+Type Conversions – 1
+Type Conversions – 2
+
+
+Increment and Decrement Operators – 1
+Increment and Decrement Operators – 2
+Bitwise Operators – 1
+Bitwise Operators – 2
+Assigment Operators & Expressions – 1
+Assigment Operators & Expressions – 2
+ Conditional Expressions – 1
+Conditional Expressions – 2
+Precedence and Order of Evaluation – 1
+Precedence and Order of Evaluation – 2
+Precedence and Order of Evaluation – 3
+Precedence and Order of Evaluation – 4
+Precedence and Order of Evaluation – 5
+Precedence and Order of Evaluation – 6
+
+
+
+
+
+
+2. Multiple Choice Questions on Control Flow Statements in C
+The section contains C Language multiple choice questions on switch statements, if-then-else statements, for and while loops, break and continue, goto and labels.
+
+
+
+If-then-else Statements – 1
+If-then-else Statements – 2
+Switch Statements – 1
+Switch Statements – 2
+For Loops – 1
+For Loops – 2
+
+
+While Loops – 1
+While Loops – 2
+Break and Continue – 1
+Break and Continue – 2
+Goto & Labels – 1
+Goto & Labels – 2
+
+
+
+
+
+
+3. MCQs on C Functions and Structure of a Program
+The section contains C MCQs on functions basics, external variables, variable scope, static and register variables, automatic variables, c-preprocessor, file inclusion, macro substitution and conditional inclusion.
+
+
+
+Basics of Functions – 1
+Basics of Functions – 2
+Functions Returning Non-integers – 1
+Functions Returning Non-integers – 2
+External Variables – 1
+External Variables – 2
+Scope of a Variable – 1
+Scope of a Variable – 2
+Static Variables – 1
+Static Variables – 2
+Register Variables – 1
+
+
+Register Variables – 2
+Automatic Variables – 1
+Automatic Variables – 2
+C-Preprocessor – 1
+C-Preprocessor – 2
+File Inclusion – 1
+File Inclusion – 2
+Macro Substitution – 1
+Macro Substitution – 2
+Conditional Inclusion – 1
+Conditional Inclusion – 2
+
+
+
+
+
+
+4. Multiple Choice Questions on Pointers and Arrays in C
+The section contains C Programming multiple choice questions and answers on pointers and addresses, function arguments, arrays, address arithmetic, character pointers and functions, multidimensional arrays, pointer arrays initialization, command line arguments and complicated declarations.
+
+
+
+Pointers and Addresses – 1
+Pointers and Addresses – 2
+Pointers and Function Arguments – 1
+Pointers and Function Arguments – 2
+Pointers and Arrays – 1
+Pointers and Arrays – 2
+Address Arithmetic – 1
+Address Arithmetic – 2
+Character Pointers and Functions – 1
+Character Pointers and Functions – 2
+Pointers to Pointers – 1
+Pointers to Pointers – 2
+
+
+Multidimensional Arrays – 1
+Multidimensional Arrays – 2
+Initialization of Pointer Arrays – 1
+Initialization of Pointer Arrays – 2
+Pointers Vs. Multi-dimensional Arrays – 1
+Pointers Vs. Multi-dimensional Arrays – 2
+Command Line Arguments – 1
+Command Line Arguments – 2
+Pointers to Functions – 1
+Pointers to Functions – 2
+Complicated Declarations – 1
+Complicated Declarations – 2
+
+
+
+
+
+
+5. C MCQs on Structures, Unions and Bit-Fields
+The section contains C language MCQs on structures basics, functions, arrays of structures, pointer to structires, self referential structures, table lookup, typedefs, unions and bit fields.
+
+
+
+Basics of Structures – 1
+Basics of Structures – 2
+Structures and Functions – 1
+Structures and Functions – 2
+Arrays of Structures – 1
+Arrays of Structures – 2
+Pointer to Structures – 1
+Pointer to Structures – 2
+Self-Referential Structures – 1
+
+
+Self-Referential Structures – 2
+Table Lookup – 1
+Table Lookup – 2
+C Typedefs – 1
+C Typedefs – 2
+C Unions – 1
+C Unions – 2
+C Bit-fields – 1
+C Bit-fields – 2
+
+
+
+
+
+
+6. Multiple Choice Questions on C Input and Output
+The section contains C multiple choice questions and answers on standard input and output, formatted input and output, variable length argument, file access, error handling, line input and output, string operations, character class testing, ungetc, storage management, mathematical functions, random number generation, file operations, printf and scanf.
+
+
+
+Standard Input & Output – 1
+Standard Input & Output – 2
+Formatted Output – 1
+Formatted Output – 2
+Variable Length Argument – 1
+Variable Length Argument – 2
+Formatted Input – 1
+Formatted Input – 2
+File Access – 1
+File Access – 2
+Error Handling – 1
+Error Handling – 2
+Line Input & Output – 1
+Line Input & Output – 2
+String Operations – 1
+String Operations – 2
+
+
+Character Class Testing & Conversions – 1
+Character Class Testing & Conversions – 2
+Ungetc – 1
+Ungetc – 2
+Storage Management – 1
+Storage Management – 2
+Mathematical Functions – 1
+Mathematical Functions – 2
+Random Number Generation – 1
+Random Number Generation – 2
+C printf – 1
+C printf – 2
+C scanf – 1
+C scanf – 2
+File Operations – 1
+File Operations – 2
+
+
+
+
+
+
+7. MCQs on Floating Point & Sizeof Operator in C
+The section contains C Language MCQs on float datatype and sizeof keyword.
+
+
+
+Float Datatype – 1
+Float Datatype – 2
+
+
+Sizeof Keyword – 1
+Sizeof Keyword – 2
+
+
+
+
+
+
+8. Multiple Choice Questions on Enumerations and Typedefs in C
+The section contains C multiple choice questions and answers on enums and typedef.
+
+
+
+C Enums – 1
+C Enums – 2
+
+
+C Typedef
+
+
+
+
+
+
+9. C MCQs on String Operations
+The section contains C MCQs on string operations, character and error handling. 
+
+
+
+String Operations – 1
+String Operations – 2
+String Operations – 3
+String Operations – 4
+
+
+Character Handling – 1
+Character Handling  – 2
+Error Handling
+
+
+
+
+
+
+10. Multiple Choice Questions on C Library
+The section contains C multiple choice questions and answers on mathematical functions, general utilities, diagnostics, variable argument lists, non local jumps, localization, signal handling, standard definition, implementation defined limits, date and time functions.
+
+
+
+Mathematical Functions – 1
+Mathematical Functions – 2
+Mathematical Functions – 3
+General Utilities – 1
+General Utilities – 2
+General Utilities – 3
+General Utilities – 4
+General Utilities – 5
+General Utilities – 6
+Diagnostics – 1
+Diagnostics – 2
+
+
+Variable Argument Lists
+Localization
+Non-Local Jumps – 1
+Non-Local Jumps – 2
+Signal Handling
+Standard Definition
+Date and Time Functions – 1
+Date and Time Functions – 2
+Date and Time Functions – 3
+Implementation-Defined Limits – 1
+Implementation-Defined Limits – 2
+
+
+
+
+
+
+11. C MCQs on Dynamic Memory Allocation
+The section contains C MCQs on static and dynamic memory allocation, dma functions, memory leak and dangling pointers.
+
+
+
+Static vs Dynamic Memory Allocation
+DMA Functions, Memory Leak, Dangling Pointers – 1
+
+
+DMA Functions, Memory Leak, Dangling Pointers – 2
+
+
+
+
+
+
+12. Multiple Choice Questions on C Preprocessor
+The section contains C multiple choice questions and answers on pragma, stringizers, conditional preprocessor directives and token concatenation.
+
+
+
+Pragma
+Stringizers
+Conditional Preprocessor Directives – 1
+
+
+Conditional Preprocessor Directives – 2
+Token Concatenation
+
+
+
+
+
+
+13. Miscellaneous Topics in C
+The section contains C MCQ questions on inline, endianness, recursion and signed qualifier.
+
+
+
+Inline
+Endianness
+
+
+Recursion
+Signed Qualifier
+
+
+
+
+
+If you would like to learn "C Programming" thoroughly, you should attempt to work on the complete set of 1000+ MCQs - multiple choice questions and answers mentioned above. It will immensely help anyone trying to crack an exam or an interview.
+
+Note: We are working on pdf download for C Programming MCQs and will publish the download link here. Fill this C Programming mcq pdf download request form for download notification.
+Wish you the best in your endeavor to learn and master C Programming!
+
+ 
+############## https://www.sanfoundry.com/operating-system-questions-answers/
+1. What is an operating system?
+a) interface between the hardware and application programs
+b) collection of programs that manages hardware resources
+c) system service provider to the application programs
+d) all of the mentioned
+View AnswerAnswer: d
+Explanation: An Operating System acts as an intermediary between user/user applications/application programs and hardware. It is a program that manages hardware resources. It provides services to application programs.
+
+
+
+
+2. What is the main function of the command interpreter?
+a) to provide the interface between the API and application program
+b) to handle the files in the operating system
+c) to get and execute the next user-specified command
+d) none of the mentioned
+View AnswerAnswer: c
+Explanation: The main function of a command interpreter is to get and execute the next user-specified command. Command Interpreter checks for valid command and then runs that command else it will throw an error.
+
+3. In Operating Systems, which of the following is/are CPU scheduling algorithms?
+a) Priority
+b) Round Robin
+c) Shortest Job First
+d) All of the mentioned
+View AnswerAnswer: d
+Explanation: In Operating Systems, CPU scheduling algorithms are:
+i) First Come First Served scheduling
+ii) Shortest Job First scheduling
+iii) Priority scheduling
+iv) Round Robin scheduling
+v) Multilevel Queue scheduling
+vi) Multilevel Feedback Queue scheduling
+All of these scheduling algorithms have their own advantages and disadvantages.
+
+4. To access the services of the operating system, the interface is provided by the ___________
+a) Library
+b) System calls
+c) Assembly instructions
+d) API
+View AnswerAnswer: b
+Explanation: To access services of the Operating System an interface is provided by the System Calls. Generally, these are functions written in C and C++. Open, Close, Read, Write are some of most prominently used system calls.
+
+5. CPU scheduling is the basis of ___________
+a) multiprogramming operating systems
+b) larger memory sized systems
+c) multiprocessor systems
+d) none of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+
+
+
+6. Which one of the following is not true?
+a) kernel remains in the memory during the entire computer session
+b) kernel is made of various modules which can not be loaded in running operating system
+c) kernel is the first part of the operating system to load into memory during booting
+d) kernel is the program that constitutes the central core of the operating system
+View AnswerAnswer: b
+Explanation: Kernel is the first program that is loaded in memory when OS is loading as well as it remains in memory till OS is running. Kernel is the core part of the OS which is responsible for managing resources, allowing multiple processes to use the resources and provide services to various processes. Kernel modules can be loaded and unloaded in run-time i.e. in running OS.
+
+7. Which one of the following errors will be handle by the operating system?
+a) lack of paper in printer
+b) connection failure in the network
+c) power failure
+d) all of the mentioned
+View AnswerAnswer: d
+Explanation: All the mentioned errors are handled by OS. The OS is continuously monitoring all of its resources. Also, the OS is constantly detecting and correcting errors.
+
+8. Where is the operating system placed in the memory?
+a) either low or high memory (depending on the location of interrupt vector)
+b) in the low memory
+c) in the high memory
+d) none of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+9. If a process fails, most operating system write the error information to a ______
+a) new file
+b) another running process
+c) log file
+d) none of the mentioned
+View AnswerAnswer: c
+Explanation: If a process fails, most operating systems write the error information to a log file. Log file is examined by the debugger, to find out what is the actual cause of that particular problem. Log file is useful for system programmers for correcting errors.
+
+
+
+
+10. Which one of the following is not a real time operating system?
+a) RTLinux
+b) Palm OS
+c) QNX
+d) VxWorks
+View AnswerAnswer: b
+Explanation: VxWorks, QNX & RTLinux are real-time operating systems. Palm OS is a mobile operating system. Palm OS is developed for Personal Digital Assistants (PDAs).
+
+11. What does OS X has?
+a) monolithic kernel with modules
+b) microkernel
+c) monolithic kernel
+d) hybrid kernel
+View AnswerAnswer: d
+Explanation: OS X has a hybrid kernel. Hybrid kernel is a combination of two different kernels. OS X is developed by Apple and originally it is known as Mac OS X.
+
+12. In operating system, each process has its own __________
+a) open files
+b) pending alarms, signals, and signal handlers
+c) address space and global variables
+d) all of the mentioned
+View AnswerAnswer: d
+Explanation: In Operating Systems, each process has its own address space which contains code, data, stack, and heap segments or sections. Each process also has a list of files that is opened by the process as well as all pending alarms, signals, and various signal handlers.
+
+13. In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?
+a) Suspended state
+b) Terminated state
+c) Ready state
+d) Blocked state
+View AnswerAnswer: c
+Explanation: In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the Ready State. In a time-sharing operating system, unit time is defined for sharing CPU, it is called a time quantum or time slice. If a process takes less than 1 time quantum, then the process itself releases the CPU.
+
+14. Cascading termination refers to the termination of all child processes if the parent process terminates ______
+a) Normally or abnormally
+b) Abnormally
+c) Normally
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: Cascading termination refers to the termination of all child processes if the parent process terminates Normally or Abnormally. Some systems don’t allow child processes to exist if the parent process has terminated. Cascading termination is normally initiated by the operating system.
+
+
+
+
+15. When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________
+a) Terminated state
+b) Suspended state
+c) Running state
+d) Ready state
+View AnswerAnswer: d
+Explanation: Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the ready state. Process never goes directly to the running state from the waiting state. Only processes which are in ready state go to the running state whenever CPU allocated by operating system.
+
+16. Transient operating system code is a code that ____________
+a) stays in the memory always
+b) never enters the memory space
+c) comes and goes as needed
+d) is not easily accessible
+View AnswerAnswer: c
+Explanation: None.
+
+17. The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________
+a) assigning ready processes to waiting queue
+b) assigning running processes to blocked queue
+c) assigning ready processes to CPU
+d) all of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+18. The FCFS algorithm is particularly troublesome for ____________
+a) operating systems
+b) multiprocessor systems
+c) time sharing systems
+d) multiprogramming systems
+View AnswerAnswer: d
+Explanation: In a time sharing system, each user needs to get a share of the CPU at regular intervals.
+
+19. For an effective operating system, when to check for deadlock?
+a) every time a resource request is made at fixed time intervals
+b) at fixed time intervals
+c) every time a resource request is made
+d) none of the mentioned
+View AnswerAnswer: a
+Explanation: In an effective operating system, we must verify the deadlock each time a request for resources is made at fixed time intervals.
+
+
+
+
+20. A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.
+a) operating system
+b) resources
+c) system storage state
+d) resource allocation state
+View AnswerAnswer: d
+Explanation: Resource allocation states are used to maintain the availability of the already and current available resources.
+
+21. Swapping _______ be done when a process has pending I/O, or has to execute I/O operations only into operating system buffers.
+a) must never
+b) maybe
+c) can
+d) must
+View AnswerAnswer: a
+Explanation: None.
+
+22. The main memory accommodates ____________
+a) cpu
+b) user processes
+c) operating system
+d) all of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+23. The operating system is responsible for?
+a) bad-block recovery
+b) booting from disk
+c) disk initialization
+d) all of the mentioned
+View AnswerAnswer: d
+Explanation: None.
+
+24. The operating system and the other processes are protected from being modified by an already running process because ____________
+a) every address generated by the CPU is being checked against the relocation and limit registers
+b) they have a protection algorithm
+c) they are in different memory spaces
+d) they are in different logical addresses
+View AnswerAnswer: a
+Explanation: None.
+
+25. Using transient code, _______ the size of the operating system during program execution.
+a) maintains
+b) changes
+c) increases
+d) decreases
+View AnswerAnswer: b
+Explanation: None.
+
+26. The operating system maintains a ______ table that keeps track of how many frames have been allocated, how many are there, and how many are available.
+a) memory
+b) mapping
+c) page
+d) frame
+View AnswerAnswer: d
+Explanation: None.
+
+27. To obtain better memory utilization, dynamic loading is used. With dynamic loading, a routine is not loaded until it is called. For implementing dynamic loading ____________
+a) special support from operating system is essential
+b) special support from hardware is required
+c) user programs can implement dynamic loading without any special support from hardware or operating system
+d) special support from both hardware and operating system is essential
+View AnswerAnswer: c
+Explanation: None.
+
+28. The _________ presents a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system.
+a) Device drivers
+b) I/O systems
+c) Devices
+d) Buses
+View AnswerAnswer: a
+Explanation: None.
+
+29. In real time operating system ____________
+a) process scheduling can be done only once
+b) all processes have the same priority
+c) kernel is not required
+d) a task must be serviced by its deadline period
+View AnswerAnswer: d
+Explanation: None.
+
+30. Hard real time operating system has ______________ jitter than a soft real time operating system.
+a) equal
+b) more
+c) less
+d) none of the mentioned
+View AnswerAnswer: c
+Explanation: Jitter is the undesired deviation from the true periodicity.
+
+31. For real time operating systems, interrupt latency should be ____________
+a) zero
+b) minimal
+c) maximum
+d) dependent on the scheduling
+View AnswerAnswer: b
+Explanation: Interrupt latency is the time duration between the generation of interrupt and execution of its service.
+
+32. Which one of the following is a real time operating system?
+a) Windows CE
+b) RTLinux
+c) VxWorks
+d) All of the mentioned
+View AnswerAnswer: d
+Explanation: None.
+
+33. The priority of a process will ______________ if the scheduler assigns it a static priority.
+a) depends on the operating system
+b) change
+c) remain unchanged
+d) none of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+34. What are the characteristics of Host based IDS?
+a) Logs are analysed to detect tails of intrusion
+b) The host operating system logs in the audit information
+c) Logs includes logins, file opens, and program executions
+d) All of the mentioned
+View AnswerAnswer: d
+Explanation: None.
+
+35. What are the characteristics of stack based IDS?
+a) It is programmed to interpret a certain series of packets
+b) It models the normal usage of the network as a noise characterization
+c) They are integrated closely with the TCP/IP stack and watch packets
+d) The host operating system logs in the audit information
+View AnswerAnswer: c
+Explanation: None.
+
+36. If the sum of the working – set sizes increases, exceeding the total number of available frames ____________
+a) the operating system selects a process to suspend
+b) the system crashes
+c) then the process crashes
+d) the memory overflows
+View AnswerAnswer: a
+Explanation: None.
+
+37. The information about all files is kept in ____________
+a) operating system
+b) separate directory structure
+c) swap space
+d) none of the mentioned
+View AnswerAnswer: b
+Explanation: None.
+
+38. The operating system keeps a small table containing information about all open files called ____________
+a) file table
+b) directory table
+c) open-file table
+d) system table
+View AnswerAnswer: c
+Explanation: None.
+
+39. What will happen in the single level directory?
+a) All files are contained in the same directory
+b) All files are contained in different directories all at the same level
+c) Depends on the operating system
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+40. The operating system _______ the links when traversing directory trees, to preserve the acyclic structure of the system.
+a) deletes
+b) considers
+c) ignores
+d) none of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+41. To recover from failures in the network operations _____________ information may be maintained.
+a) operating system
+b) ip address
+c) stateless
+d) state
+View AnswerAnswer: d
+Explanation: None.
+
+42. On systems where there are multiple operating system, the decision to load a particular one is done by _____________
+a) process control block
+b) file control block
+c) boot loader
+d) bootstrap
+View AnswerAnswer: c
+Explanation: None.
+
+43. Whenever a process needs I/O to or from a disk it issues a ______________
+a) system call to the operating system
+b) a special procedure
+c) system call to the CPU
+d) all of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+44. The two steps the operating system takes to use a disk to hold its files are _______ and ________
+a) caching & logical formatting
+b) logical formatting & swap space creation
+c) swap space creation & caching
+d) partitioning & logical formatting
+View AnswerAnswer: d
+Explanation: None.
+
+45. The _______ program initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system.
+a) bootstrap
+b) main
+c) bootloader
+d) rom
+View AnswerAnswer: a
+Explanation: None.
+
+46. In SCSI disks used in high end PCs, the controller maintains a list of _________ on the disk. The disk is initialized during ________ formatting which sets aside spare sectors not visible to the operating system.
+a) destroyed blocks, partitioning
+b) bad blocks, low level formatting
+c) destroyed blocks, high level formatting
+d) bad blocks, partitioning
+View AnswerAnswer: b
+Explanation: None.
+
+47. Which principle states that programs, users, and even the systems be given just enough privileges to perform their task?
+a) principle of least privilege
+b) principle of process scheduling
+c) principle of operating system
+d) none of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+48. Network operating system runs on ___________
+a) every system in the network
+b) server
+c) both server and every system in the network
+d) none of the mentioned
+View AnswerAnswer: b
+Explanation: None.
+
+49. What are the types of distributed operating systems?
+a) Zone based Operating system
+b) Level based Operating system
+c) Network Operating system
+d) All of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+50. In Unix, which system call creates the new process?
+a) create
+b) fork
+c) new
+d) none of the mentioned
+View AnswerAnswer: b
+Explanation: In UNIX, a new process is created by fork() system call. fork() system call returns a process ID which is generally the process id of the child process created.
+
+
+
+
+Chapterwise Multiple Choice Questions on Operating System
+
+
+
+Our 1000+ MCQs focus on all topics of the Operating System subject, covering 100+ topics. This will help you to prepare for exams, contests, online tests, quizzes, viva-voce, interviews, and certifications. You can practice these MCQs chapter by chapter starting from the 1st chapter or you can jump to any chapter of your choice. You can also download the PDF of Operating System MCQs by applying below.
+
+
+
+Processes
+Distributed Communication
+CPU Scheduling
+Process Synchronization
+Deadlocks
+Memory Management
+I/O Systems
+Real Time Operating Systems(RTOS)
+Multimedia Systems
+Security
+The Linux System
+Virtual Memory
+File Systems and their Implementation
+Mass-Storage Structures
+Protection
+Distributed Operating System
+Distributed File Systems
+
+
+
+1. Processes
+The section contains multiple choice questions and answers on different concepts of Processes. These include Process Control Block, Scheduling Queues, Synchronization, Creation and Inter Process Communication.
+
+
+
+Basics
+Processes
+Process Control Block
+Process Scheduling Queues
+
+
+Process Synchronization
+Process Creation
+Inter Process Communication
+
+
+
+
+
+
+2. Distributed Communication
+The section contains questions and answers on concept of Distributed Communication. They include Remote Procedure Calls and Structures.
+
+
+
+Remote Procedure Calls
+
+
+Structures
+
+
+
+
+
+
+3. CPU Scheduling
+The section contains MCQs on phenomenon of CPU Scheduling. They include CPU Scheduling Benefits and CPU Scheduling Algorithms.
+
+
+
+CPU Scheduling
+CPU Scheduling Benefits
+
+
+CPU Scheduling Algorithms – 1
+CPU Scheduling Algorithms – 2
+
+
+
+
+
+
+4. Process Synchronization
+The section contains multiple choice questions and answers on Process Synchronization concept. These include questions on The Critical Section (CS), Semaphores, Synchronization Problems, Monitors and Atomic Transactions.
+
+
+
+The Critical Section (CS) Problem and Solutions
+Semaphores – 1
+Semaphores – 2
+
+
+Classic Synchronization Problems
+Monitors
+Atomic Transactions
+
+
+
+
+
+
+5. Deadlocks
+The section contains questions and answers on Deadlocks. The sub-topics include Deadlock Prevention, Avoidance, Detection and Recovery.
+
+
+
+Deadlock
+Deadlock Prevention
+Deadlock Avoidance
+
+
+Deadlock Detection
+Deadlock Recovery
+
+
+
+
+
+
+6. Memory Management
+The section contains MCQs on various concepts of Memory Management. These include Swapping Processes, Memory Management and Allocation, Paging and Segmentation.
+
+
+
+Swapping Processes – 1
+Swapping Processes – 2
+Memory Management
+Memory Allocation – 1
+
+
+Memory Allocation – 2
+Paging – 1
+Paging – 2
+Segmentation
+
+
+
+
+
+
+7. I/O Systems
+The section contains multiple choice questions and answers on I/O Systems like Application Interfaces and Kernel Subsystems.
+
+
+
+I/O System – Application I/O Interface – 1
+I/O System – Application I/O Interface – 2
+
+
+I/O System – Kernel I/O Subsystems
+
+
+
+
+
+
+8. Real Time Operating Systems(RTOS)
+The section contains questions and answers on Implementation of Real Time Operating Systems and Real Time CPU Scheduling.
+
+
+
+RTOS
+Implementing Real Time Operating Systems – 1
+Implementing Real Time Operating Systems – 2
+
+
+Real Time CPU Scheduling – 1
+Real Time CPU Scheduling – 2
+
+
+
+
+
+
+9. Multimedia Systems
+The section contains MCQs on Compression of Multimedia Systems, Network Management of Multimedia Systems and Disk Scheduling of Multimedia Systems.
+
+
+
+Multimedia Systems
+Multimedia System – Compression – 1
+Multimedia System – Compression – 2
+
+
+Multimedia System – Compression – 3
+Multimedia System – CPU and Disk Scheduling
+Multimedia System – Network Management
+
+
+
+
+
+
+10. Security
+The section contains multiple choice questions and answers on different aspects of Security. These include security of System Threats, Detection of Intrusions, making systems and facilities secure and the concept of Cryptography used for Security.
+
+
+
+Security – User Authentication
+Security – Program and System Threats
+Security – Securing Systems and Facilities
+
+
+Security – Intrusion Detection
+Security – Cryptography
+Secondary Storage
+
+
+
+
+
+
+11. The Linux System
+The section contains questions and answers on various aspects of Linux Operating Systems. These include Threading and their respective models, various system calls like exec and fork, Thread Pools and Cancellation.
+
+
+
+Linux
+Threads
+User and Kernel Threads
+Multi Threading Models
+
+
+The fork and exec System Calls
+Thread Cancellation
+Signal Handling
+Thread Pools
+
+
+
+
+
+
+12. Virtual Memory
+The section contains MCQs on various concepts of Virtual Memory, Demand Paging, certain Page Replacement Algorithms and Thrashing.
+
+
+
+Virtual Memory
+Demand Paging
+Page Replacement Algorithms – 1
+
+
+Page Replacement Algorithms – 2
+Allocation of Frames
+Thrashing
+
+
+
+
+
+
+13. File Systems and their Implementation
+The section contains multiple choice questions and answers on the implementation of file systems, certain access methods, directory structures, mounting and sharing and certain allocation methods.
+
+
+
+File System
+File System Implementation
+File System Interface Access Methods – 1
+File System Interface Access Methods – 2
+File System Interface Directory Structure – 1
+File System Interface Directory Structure – 2
+File System Interface Mounting and Sharing
+File System Interface Protection
+
+
+File System – Allocation Methods – 1
+File System – Allocation Methods – 2
+File System – Allocation Methods – 3
+File System – Performance
+File System Implementation – Recovery
+Network File System – 1
+Network File System – 2
+
+
+
+
+
+
+14. Mass-Storage Structures
+The section contains questions and answers on Scheduling of disks, Swap space management, various structures of RAID and other tertiary storage structures.
+
+
+
+I/O Subsystem
+Disk Scheduling – 1
+Disk Scheduling – 2
+Disk Management
+
+
+Swap Space Management
+RAID Structure – 1
+RAID Structure – 2
+Tertiary Storage
+
+
+
+
+
+
+15. Protection
+The section contains MCQs on various sub-topics of Protection. It includes Access Matrix, protection of memory and revocation of access rights.
+
+
+
+Protection – Access Matrix
+Protection
+Security
+
+
+Protection – Memory Protection
+Protection – Revocation of Access Rights
+
+
+
+
+
+
+16. Distributed Operating System
+The section contains multiple choice questions and answers on Distributed Operating System, Sharing of Resources and Robustness of Distributed Operating System, Network Structure and Topology.
+
+
+
+Distributed Operating System
+Types & Resource Sharing
+
+
+Network Structure & Topology
+Robustness of Distributed Systems
+
+
+
+
+
+
+17. Distributed File Systems
+The section contains questions and answers on properties of Distributed File Systems, Distributed Coordination and Synchronization.
+
+
+
+Distributed File System – 1
+Distributed File System – 2
+Distributed File System – 3
+
+
+Distributed Coordination
+Distributed Synchronization
+
+
+
+
+
+If you would like to learn "Operating System" thoroughly, you should attempt to work on the complete set of 1000+ MCQs - multiple choice questions and answers mentioned above. It will immensely help anyone trying to crack an exam or an interview.
+
+Note: We are working on pdf download for Operating System MCQs and will publish the download link here. Fill this Operating System mcq pdf download request form for download notification.
+Wish you the best in your endeavor to learn and master Operating System!
+
+ 
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/c-interview-questions-answers/
+1. Who is the father of C language?
+a) Steve Jobs
+b) James Gosling
+c) Dennis Ritchie
+d) Rasmus Lerdorf
+View AnswerAnswer: c
+Explanation: Dennis Ritchie is the father of C Programming Language. C programming language was developed in 1972 at American Telephone & Telegraph Bell Laboratories of USA.
+
+
+
+
+2. Which of the following is not a valid C variable name?
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+View AnswerAnswer: d
+Explanation: Since only underscore and no other special character is allowed in a variable name, it results in an error.
+
+3. All keywords in C are in ____________
+a) LowerCase letters
+b) UpperCase letters
+c) CamelCase letters
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+4. Which of the following is true for variable names in C?
+a) They can contain alphanumeric characters as well as special characters
+b) It is not an error to declare a variable to be one of the keywords(like goto, static)
+c) Variable names cannot start with a digit
+d) Variable can be of any length
+View AnswerAnswer: c
+Explanation: According to the syntax for C variable name, it cannot start with a digit.
+
+5. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+View AnswerAnswer: b
+Explanation: Space, comma and $ cannot be used in a variable name.
+
+6. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+View AnswerAnswer: a
+Explanation: volatile is C keyword.
+
+
+
+
+7. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+View AnswerAnswer: c
+Explanation: None.
+
+8. Which of the following declaration is not supported by C language?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+View AnswerAnswer: a
+Explanation: It is legal in Java, but not in C language.
+
+9. Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+View AnswerAnswer: c
+Explanation: const is a keyword constant in C program.
+
+
+
+
+10. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: None. 
+11. Which of the following typecasting is accepted by C language?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+View Answer Answer: c
+Explanation: None.
+
+12. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+View Answer Answer: d
+Explanation: None. 
+13. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+View Answer Answer: c
+Explanation: None. 
+14. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None. 
+
+
+
+
+15. Functions can return enumeration constants in C?
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+View Answer Answer: a
+Explanation: None. 
+16. Functions in C Language are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+View Answer Answer: b
+Explanation: None. 
+17. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+View Answer Answer: c
+Explanation: None.  
+18. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+View AnswerAnswer: c
+Explanation: Conditional compilation is the preprocessor facility to produce a different executable.
+
+19. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+View AnswerAnswer: a
+Explanation: None.
+
+
+
+
+20. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+View AnswerAnswer: a
+Explanation: #pragma is compiler specific feature. 
+21. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+View Answer Answer: d
+Explanation: None.
+
+22. The C-preprocessors are specified with _________ symbol.
+a) #
+b) $
+c) ” ”
+d) &
+View Answer Answer: a
+Explanation: The C-preprocessors are specified with # symbol.
+
+23. How is search done in #include and #include “somelibrary.h” according to C standard?
+a) When former is used, current directory is searched and when latter is used, standard directory is searched
+b) When former is used, standard directory is searched and when latter is used, current directory is searched
+c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched
+d) For both, search for ‘somelibrary’ is done in implementation-defined places
+View AnswerAnswer: d
+Explanation: None.
+
+24. How many number of pointer (*) does C have against a pointer variable declaration?
+a) 7
+b) 127
+c) 255
+d) No limits
+View Answer  Answer: d
+Explanation: None.  
+25. Which of the following is not possible statically in C language?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+View Answer  Answer: a
+Explanation: None.  
+26. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+View Answer  Answer: d
+Explanation: None. 
+27. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+View Answer  Answer: d
+Explanation: None. 
+28. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+View Answer  Answer: d
+Explanation: None.  
+29. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+View Answer  Answer: c
+Explanation: None.  
+30. What is the sizeof(char) in a 32-bit C compiler?
+a) 1 bit
+b) 2 bits
+c) 1 Byte
+d) 2 Bytes
+View Answer  Answer: c
+Explanation: None. 
+31. Which of the following is not an operator in C?
+a) ,
+b) sizeof()
+c) ~
+d) None of the mentioned
+View Answer  Answer: d
+Explanation: None.
+
+32. scanf() is a predefined function in______header file.
+a) stdlib. h
+b) ctype. h
+c) stdio. h
+d) stdarg. h
+View AnswerAnswer: c
+Explanation: scanf() is a predefined function in "stdio.h" header file.printf and scanf() carry out input and output functions in C. These functions statements are present in the header file stdio.h.
+
+33. What is meant by ‘a’ in the following C operation?
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+View Answer  Answer: b
+Explanation: None. 
+34. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int y = 10000;        int y = 34;        printf("Hello World! %d\n", y);        return 0;    }
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+View AnswerAnswer: a
+Explanation: Since y is already defined, redefining it results in an error.
+Output:
+$ cc pgm2.c
+pgm2.c: In function ‘main’:
+pgm2.c:5: error: redefinition of ‘y’
+pgm2.c:4: note: previous definition of ‘y’ was here
+
+35. What will happen if the following C code is executed?
+    #include <stdio.h>    int main()    {        int main = 3;        printf("%d", main);        return 0;    }
+a) It will cause a compile-time error
+b) It will cause a run-time error
+c) It will run without any error and prints 3
+d) It will experience infinite looping
+View AnswerAnswer: c
+Explanation: A C program can have same function name and same variable name.
+$ cc pgm3.c
+$ a.out
+3
+
+36. What will be the output of the following C code?
+    #include  <stdio.h>    int main()    {       signed char chr;       chr = 128;       printf("%d\n", chr);       return 0;    }
+a) 128
+b) -128
+c) Depends on the compiler
+d) None of the mentioned
+View AnswerAnswer: b
+Explanation: signed char will be a negative number.
+Output:
+$ cc pgm2.c
+$ a.out
+-128
+
+37. What will be the output of the following C code on a 64 bit machine?
+    #include <stdio.h>    union Sti    {        int nu;        char m;    };    int main()    {        union Sti s;        printf("%d", sizeof(s));        return 0;    }
+a) 8
+b) 5
+c) 9
+d) 4
+View AnswerAnswer: d
+Explanation: Since the size of a union is the size of its maximum data type, here int is the largest data type. Hence the size of the union is 4.
+Output:
+$ cc pgm7.c
+$ a.out
+4
+
+38. What will be the output of the following C function?
+    #include <stdio.h>    enum birds {SPARROW, PEACOCK, PARROT};    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};    int main()    {        enum birds m = TIGER;        int k;        k = m;        printf("%d\n", k);        return 0;    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+View AnswerAnswer: d
+Explanation: m is an integer constant, hence it is compatible.
+Output:
+$ cc pgm5.c
+$ a.out
+8
+
+39. What will be the output of the following C code?
+    #include <stdio.h>    int const print()    {        printf("Sanfoundry.com");        return 0;    }    void main()    {        print();    }
+a) Error because function name cannot be preceded by const
+b) Sanfoundry.com
+c) Sanfoundry.com is printed infinite times
+d) Blank screen, no output
+View AnswerAnswer: b
+Explanation: None.
+Output:
+$ cc pgm13.c
+$ a.out
+Sanfoundry.com
+
+40. Will the following C code compile without any error?
+    #include <stdio.h>    int main()    {        for (int k = 0; k < 10; k++);            return 0;    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+View AnswerAnswer: c
+Explanation: Compilers implementing C90 do not allow this, but compilers implementing C99 allow it.
+Output:
+$ cc pgm4.c
+pgm4.c: In function ‘main’:
+pgm4.c:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+pgm4.c:4: note: use option -std=c99 or -std=gnu99 to compile your code
+
+41. What will be the final value of x in the following C code?
+    #include <stdio.h>    void main()    {        int x = 5 * 9 / 3 + 9;    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+View AnswerAnswer: c
+Explanation: None.
+
+42. What will be the output of the following C code? (Initial values: x= 7, y = 8)
+    #include <stdio.h>    void main()    {        float x;        int y;        printf("enter two numbers \n", x);        scanf("%f %f", &x, &y);        printf("%f, %d", x, y);    }
+a) 7.000000, 7
+b) Run time error
+c) 7.000000, junk
+d) Varies
+View Answer Answer: c
+Explanation: None.
+
+43. What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?
+    #include <stdio.h>    int main()    {        short int i = 20;        char c = 97;        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));        return 0;    }
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+View Answer Answer: c
+Explanation: None.
+
+44. What is the difference between the following 2 C codes?
+    #include <stdio.h> //Program 1    int main()    {        int d, a = 1, b = 2;        d =  a++ + ++b;        printf("%d %d %d", d, a, b);    }
+    #include <stdio.h> //Program 2    int main()    {        int d, a = 1, b = 2;        d =  a++ +++b;        printf("%d %d %d", d, a, b);    }
+a) No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+b) Space does make a difference, values of a, b, d are different
+c) Program 1 has syntax error, program 2 is not
+d) Program 2 has syntax error, program 1 is not
+View Answer Answer: d
+Explanation: None.
+
+45. What will be the output of the following C code snippet?
+    #include <stdio.h>    void main()    {        1 < 2 ? return 1: return 2;    }
+a) returns 1
+b) returns 2
+c) Varies
+d) Compile time error
+View Answer Answer: d
+Explanation: None.
+
+46. What will be the value of the following assignment expression?
+ (x = foo())!= 1 considering foo() returns 2
+a) 2
+b) True
+c) 1
+d) 0
+View AnswerAnswer: a
+Explanation: None.
+
+47. What will be the output of the following C function?
+    #include <stdio.h>    void reverse(int i);    int main()    {        reverse(1);    }    void reverse(int i)    {        if (i > 5)            return ;        printf("%d ", i);        return reverse((i++, i));    }
+a) 1 2 3 4 5
+b) Segmentation fault
+c) Compilation error
+d) Undefined behaviour
+View Answer Answer: a
+Explanation: None.
+
+48. What will be the final values of i and j in the following C code?
+    #include <stdio.h>    int x = 0;    int main()    {        int i = (f() + g()) | g(); //bitwise or        int j = g() | (f() + g()); //bitwise or    }    int f()    {        if (x == 0)            return x + 1;        else            return x - 1;    }    int g()    {        return x++;    }
+a) i value is 1 and j value is 1
+b) i value is 0 and j value is 0
+c) i value is 1 and j value is undefined
+d) i and j value are undefined
+View Answer Answer: c
+Explanation: None.
+
+49. Comment on the following C statement.
+a) Output will be 3, 2
+b) Output will be 3, 1
+c) Output will be 6, 1
+d) Output is compiler dependent
+View AnswerAnswer: d
+Explanation: None. 
+50. How many times i value is checked in the following C program?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i < 3)            i++;        printf("In while loop\n");    }
+a) 2
+b) 3
+c) 4
+d) 1
+View Answer Answer: c
+Explanation: None. 
+51. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        int i = 0;        do        {            i++;            if (i == 2)                continue;                printf("In while loop ");        } while (i < 2);        printf("%d\n", i);    }
+a) In while loop 2
+b) In while loop in while loop 3
+c) In while loop 3
+d) Infinite loop
+View Answer Answer: a
+Explanation: None. 
+52. What will be the data type returned for the following C function?
+    #include <stdio.h>    int func()    {        return (double)(char)5.0;    }
+a) char
+b) int
+c) double
+d) multiple type-casting in return is illegal
+View Answer Answer: b
+Explanation: None. 
+53. What is the problem in the following C declarations?
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+View Answer Answer: d
+Explanation: None.  
+54. Which option should be selected to work the following C expression?
+string p = "HELLO";
+a) typedef char [] string;
+b) typedef char *string;
+c) typedef char [] string; and typedef char *string;
+d) Such expression cannot be generated in C
+View Answer  Answer: b
+Explanation: None.  
+55. What is the meaning of the following C statement?
+a) 10 spaces before the string state is printed
+b) Print empty spaces if the string state is less than 10 characters
+c) Print the last 10 characters of the string
+d) None of the mentioned
+View Answer  Answer: b
+Explanation: None. 
+56. What are the elements present in the array of the following C code?
+int array[5] = {5};
+a) 5, 5, 5, 5, 5
+b) 5, 0, 0, 0, 0
+c) 5, (garbage), (garbage), (garbage), (garbage)
+d) (garbage), (garbage), (garbage), (garbage), 5
+View Answer  Answer: b
+Explanation: None. 
+57. What will be the output of the following C function when EOF returns?
+a) ‘’ character of array line is encountered
+b) ‘n’ character in array line is encountered
+c) ‘t’ character in array line is encountered
+d) When an error occurs
+View Answer  Answer: d
+Explanation: None.  
+58. Which part of the program address space is p stored in the following C code?
+    #include <stdio.h>    int *p;    int main()    {        int i = 0;        p = &i;        return 0;    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+View Answer Answer: c
+Explanation: None. 
+59. Which of the following sequences are unaccepted in C language?
+a)
+   #if
+   #else
+   #endif
+b)
+   #if
+   #elif
+   #endif
+c)
+   #if
+   #if
+   #endif
+d)
+   #if
+   #undef
+   #endif
+View Answer Answer: c
+Explanation: None.
+  
+59. Comment on the output of following C code.
+    #include <stdio.h>    main()    {        char *p = 0;        *p = 'a';        printf("value in pointer p is %c\n", *p);    }
+a) It will print a
+b) It will print 0
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+60. What is the output of this C code?
+   #include <stdio.h>   main()   {       if (sizeof(int) > -1)           printf("True");       else           printf("False");   }
+a) True
+b) False
+View Answer Answer:b
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+61. What is the output of this C code?
+    #include <stdio.h>    main()    {        char *p = "Sanfoundry C-Test";        p[0] = 'a';        p[1] = 'b';        printf("%s", p);    }
+a) abnfoundry C-Test
+b) Sanfoundry C-Test
+c) Compile time error
+d) Run time error
+View Answer Answer:d
+Output:
+$ cc pgm.c
+$ a.out
+Segmentation fault (core dumped)
+
+62. What is the output of this C code?
+    #include <stdio.h>    int main()    {        float f = 0.1;        if (f == 0.1)            printf("True");        else            printf("False");    }
+a) True
+b) False
+View Answer Answer:a
+Output:
+$ cc pgm.c
+$ a.out
+False
+
+63. What is the output of this C code?
+    #include <stdio.h>    main()    {        int n = 0, m = 0;        if (n > 0)            if (m > 0)                printf("True");        else             printf("False");    }
+a) True
+b) False
+c) No Output will be printed
+d) Run Time Error
+View Answer Answer:c
+Output:
+$ cc pgm.c
+$ a.out
+$
+
+
+
+
+Chapterwise Multiple Choice Questions on C Programming
+
+
+
+Our 1000+ MCQs focus on all topics of the C Programming subject, covering 100+ topics. This will help you to prepare for exams, contests, online tests, quizzes, viva-voce, interviews, and certifications. You can practice these MCQs chapter by chapter starting from the 1st chapter or you can jump to any chapter of your choice. You can also download the PDF of C Programming MCQs by applying below.
+
+
+
+C Data Types, Operators and Expressions
+Control Flow Statements in C
+C Functions and Structure of a Program
+C Pointers and Arrays
+Structures, Unions and Bit-Fields in C
+C Input and Output
+Floating Point & Sizeof Operator in C
+Enumerations and Typedefs in C
+C String Operations
+C Library
+Dynamic Memory Allocation in C
+C Preprocessor
+Miscellaneous Topics in C
+
+
+
+1. C MCQs on Data Types, Operators and Expressions
+The section contains C MCQs on variable names, datatypes, constants, declarations, arithmetic operators, relational and logical operators, type conversions, bitwise operators, assignment operators, increment and decrement operators, conditional expressions, evaluation order and precedence. 
+
+
+
+Variable Names – 1
+Variable Names – 2
+Data Types and Sizes – 1
+Data Types and Sizes – 2
+C Constants – 1
+C Constants – 2
+C Declarations – 1
+C Declarations – 2
+ Arithmetic Operators – 1
+Arithmetic Operators – 2
+ Relational & Logical Operators – 1
+ Relational & Logical Operators – 2
+Type Conversions – 1
+Type Conversions – 2
+
+
+Increment and Decrement Operators – 1
+Increment and Decrement Operators – 2
+Bitwise Operators – 1
+Bitwise Operators – 2
+Assigment Operators & Expressions – 1
+Assigment Operators & Expressions – 2
+ Conditional Expressions – 1
+Conditional Expressions – 2
+Precedence and Order of Evaluation – 1
+Precedence and Order of Evaluation – 2
+Precedence and Order of Evaluation – 3
+Precedence and Order of Evaluation – 4
+Precedence and Order of Evaluation – 5
+Precedence and Order of Evaluation – 6
+
+
+
+
+
+
+2. Multiple Choice Questions on Control Flow Statements in C
+The section contains C Language multiple choice questions on switch statements, if-then-else statements, for and while loops, break and continue, goto and labels.
+
+
+
+If-then-else Statements – 1
+If-then-else Statements – 2
+Switch Statements – 1
+Switch Statements – 2
+For Loops – 1
+For Loops – 2
+
+
+While Loops – 1
+While Loops – 2
+Break and Continue – 1
+Break and Continue – 2
+Goto & Labels – 1
+Goto & Labels – 2
+
+
+
+
+
+
+3. MCQs on C Functions and Structure of a Program
+The section contains C MCQs on functions basics, external variables, variable scope, static and register variables, automatic variables, c-preprocessor, file inclusion, macro substitution and conditional inclusion.
+
+
+
+Basics of Functions – 1
+Basics of Functions – 2
+Functions Returning Non-integers – 1
+Functions Returning Non-integers – 2
+External Variables – 1
+External Variables – 2
+Scope of a Variable – 1
+Scope of a Variable – 2
+Static Variables – 1
+Static Variables – 2
+Register Variables – 1
+
+
+Register Variables – 2
+Automatic Variables – 1
+Automatic Variables – 2
+C-Preprocessor – 1
+C-Preprocessor – 2
+File Inclusion – 1
+File Inclusion – 2
+Macro Substitution – 1
+Macro Substitution – 2
+Conditional Inclusion – 1
+Conditional Inclusion – 2
+
+
+
+
+
+
+4. Multiple Choice Questions on Pointers and Arrays in C
+The section contains C Programming multiple choice questions and answers on pointers and addresses, function arguments, arrays, address arithmetic, character pointers and functions, multidimensional arrays, pointer arrays initialization, command line arguments and complicated declarations.
+
+
+
+Pointers and Addresses – 1
+Pointers and Addresses – 2
+Pointers and Function Arguments – 1
+Pointers and Function Arguments – 2
+Pointers and Arrays – 1
+Pointers and Arrays – 2
+Address Arithmetic – 1
+Address Arithmetic – 2
+Character Pointers and Functions – 1
+Character Pointers and Functions – 2
+Pointers to Pointers – 1
+Pointers to Pointers – 2
+
+
+Multidimensional Arrays – 1
+Multidimensional Arrays – 2
+Initialization of Pointer Arrays – 1
+Initialization of Pointer Arrays – 2
+Pointers Vs. Multi-dimensional Arrays – 1
+Pointers Vs. Multi-dimensional Arrays – 2
+Command Line Arguments – 1
+Command Line Arguments – 2
+Pointers to Functions – 1
+Pointers to Functions – 2
+Complicated Declarations – 1
+Complicated Declarations – 2
+
+
+
+
+
+
+5. C MCQs on Structures, Unions and Bit-Fields
+The section contains C language MCQs on structures basics, functions, arrays of structures, pointer to structires, self referential structures, table lookup, typedefs, unions and bit fields.
+
+
+
+Basics of Structures – 1
+Basics of Structures – 2
+Structures and Functions – 1
+Structures and Functions – 2
+Arrays of Structures – 1
+Arrays of Structures – 2
+Pointer to Structures – 1
+Pointer to Structures – 2
+Self-Referential Structures – 1
+
+
+Self-Referential Structures – 2
+Table Lookup – 1
+Table Lookup – 2
+C Typedefs – 1
+C Typedefs – 2
+C Unions – 1
+C Unions – 2
+C Bit-fields – 1
+C Bit-fields – 2
+
+
+
+
+
+
+6. Multiple Choice Questions on C Input and Output
+The section contains C multiple choice questions and answers on standard input and output, formatted input and output, variable length argument, file access, error handling, line input and output, string operations, character class testing, ungetc, storage management, mathematical functions, random number generation, file operations, printf and scanf.
+
+
+
+Standard Input & Output – 1
+Standard Input & Output – 2
+Formatted Output – 1
+Formatted Output – 2
+Variable Length Argument – 1
+Variable Length Argument – 2
+Formatted Input – 1
+Formatted Input – 2
+File Access – 1
+File Access – 2
+Error Handling – 1
+Error Handling – 2
+Line Input & Output – 1
+Line Input & Output – 2
+String Operations – 1
+String Operations – 2
+
+
+Character Class Testing & Conversions – 1
+Character Class Testing & Conversions – 2
+Ungetc – 1
+Ungetc – 2
+Storage Management – 1
+Storage Management – 2
+Mathematical Functions – 1
+Mathematical Functions – 2
+Random Number Generation – 1
+Random Number Generation – 2
+C printf – 1
+C printf – 2
+C scanf – 1
+C scanf – 2
+File Operations – 1
+File Operations – 2
+
+
+
+
+
+
+7. MCQs on Floating Point & Sizeof Operator in C
+The section contains C Language MCQs on float datatype and sizeof keyword.
+
+
+
+Float Datatype – 1
+Float Datatype – 2
+
+
+Sizeof Keyword – 1
+Sizeof Keyword – 2
+
+
+
+
+
+
+8. Multiple Choice Questions on Enumerations and Typedefs in C
+The section contains C multiple choice questions and answers on enums and typedef.
+
+
+
+C Enums – 1
+C Enums – 2
+
+
+C Typedef
+
+
+
+
+
+
+9. C MCQs on String Operations
+The section contains C MCQs on string operations, character and error handling. 
+
+
+
+String Operations – 1
+String Operations – 2
+String Operations – 3
+String Operations – 4
+
+
+Character Handling – 1
+Character Handling  – 2
+Error Handling
+
+
+
+
+
+
+10. Multiple Choice Questions on C Library
+The section contains C multiple choice questions and answers on mathematical functions, general utilities, diagnostics, variable argument lists, non local jumps, localization, signal handling, standard definition, implementation defined limits, date and time functions.
+
+
+
+Mathematical Functions – 1
+Mathematical Functions – 2
+Mathematical Functions – 3
+General Utilities – 1
+General Utilities – 2
+General Utilities – 3
+General Utilities – 4
+General Utilities – 5
+General Utilities – 6
+Diagnostics – 1
+Diagnostics – 2
+
+
+Variable Argument Lists
+Localization
+Non-Local Jumps – 1
+Non-Local Jumps – 2
+Signal Handling
+Standard Definition
+Date and Time Functions – 1
+Date and Time Functions – 2
+Date and Time Functions – 3
+Implementation-Defined Limits – 1
+Implementation-Defined Limits – 2
+
+
+
+
+
+
+11. C MCQs on Dynamic Memory Allocation
+The section contains C MCQs on static and dynamic memory allocation, dma functions, memory leak and dangling pointers.
+
+
+
+Static vs Dynamic Memory Allocation
+DMA Functions, Memory Leak, Dangling Pointers – 1
+
+
+DMA Functions, Memory Leak, Dangling Pointers – 2
+
+
+
+
+
+
+12. Multiple Choice Questions on C Preprocessor
+The section contains C multiple choice questions and answers on pragma, stringizers, conditional preprocessor directives and token concatenation.
+
+
+
+Pragma
+Stringizers
+Conditional Preprocessor Directives – 1
+
+
+Conditional Preprocessor Directives – 2
+Token Concatenation
+
+
+
+
+
+
+13. Miscellaneous Topics in C
+The section contains C MCQ questions on inline, endianness, recursion and signed qualifier.
+
+
+
+Inline
+Endianness
+
+
+Recursion
+Signed Qualifier
+
+
+
+
+
+If you would like to learn "C Programming" thoroughly, you should attempt to work on the complete set of 1000+ MCQs - multiple choice questions and answers mentioned above. It will immensely help anyone trying to crack an exam or an interview.
+
+Note: We are working on pdf download for C Programming MCQs and will publish the download link here. Fill this C Programming mcq pdf download request form for download notification.
+Wish you the best in your endeavor to learn and master C Programming!
+
+ 
+############## https://www.sanfoundry.com/cplusplus-interview-questions-answers/
+1. Who invented C++?
+a) Dennis Ritchie
+b) Ken Thompson
+c) Brian Kernighan
+d) Bjarne Stroustrup
+View AnswerAnswer: d
+Explanation: Bjarne Stroustrup is the original creator of C++ in 1979 at AT&T Bell Labs.
+
+
+
+
+2. What is C++?
+a) C++ is an object oriented programming language
+b) C++ is a procedural programming language
+c) C++ supports both procedural and object oriented programming language
+d) C++ is a functional programming language
+View AnswerAnswer: c
+Explanation: C++ supports both procedural(step by step instruction) and object oriented programming (using the concept of classes and objects).
+
+3. Which of the following is the correct syntax of including a user defined header files in C++?
+a) #include [userdefined] 
+b) #include “userdefined”
+c) #include <userdefined.h>
+d) #include <userdefined>
+View AnswerAnswer: b
+Explanation: C++ uses double quotes to include a user-defined header file. The correct syntax of including user-defined is #include “userdefinedname”.
+
+4. Which of the following is used for comments in C++?
+a) /* comment */
+b) // comment */
+c) // comment
+d) both // comment or /* comment */
+View AnswerAnswer: d
+Explanation: Both the ways are used for commenting in C++ programming. // is used for single line comments and /* … */ is used for multiple line comments.
+
+5. Which of the following user-defined header file extension used in c++?
+a) hg
+b) cpp
+c) h
+d) hf
+View AnswerAnswer: c
+Explanation: .h extensions are used for user defined header files. To include a user defined header file one should use #include”name.h” i.e. enclosed within double quotes.
+
+
+
+
+6. Which of the following is a correct identifier in C++?
+a) VAR_1234
+b) $var_name
+c) 7VARNAME
+d) 7var_name
+View AnswerAnswer: a
+Explanation: The rules for writing an identifier is as follows:
+i) may contain lowercase/uppercase letters, digits or underscore(_) only
+ii) should start with a non-digit character
+iii) should not contain any special characters like @, $, etc.
+
+7. Which of the following is not a type of Constructor in C++?
+a) Default constructor
+b) Parameterized constructor
+c) Copy constructor
+d) Friend constructor
+View AnswerAnswer: d
+Explanation: Friend function is not a constructor whereas others are a type of constructor used for object initialization.
+
+8. Which of the following approach is used by C++?
+a) Left-right
+b) Right-left
+c) Bottom-up
+d) Top-down
+View AnswerAnswer: c
+Explanation: C++ is an object-oriented language and OOL uses a bottom-up approach to solve/view a problem.
+
+9. What is virtual inheritance in C++?
+a) C++ technique to enhance multiple inheritance
+b) C++ technique to ensure that a private member of the base class can be accessed somehow
+c) C++ technique to avoid multiple inheritances of classes
+d) C++ technique to avoid multiple copies of the base class into children/derived class
+View AnswerAnswer: d
+Explanation: Virtual inheritance is a C++ technique with which it ensures that a derived class contains only one copy of the base class’s variables. Refer Wikipedia for more info.
+
+
+
+
+10. What happens if the following C++ statement is compiled and executed?
+int *ptr = NULL;
+delete ptr;
+a) The program is not semantically correct
+b) The program is compiled and executed successfully
+c) The program gives a compile-time error
+d) The program compiled successfully but throws an error during run-time
+View AnswerAnswer: b
+Explanation: The above statement is syntactically and semantically correct as C++ allows the programmer to delete a NULL pointer, therefore, the program is compiled and executed successfully.
+
+11. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+}
+a) Hello
+b) World
+c) Error
+d) Hello World
+View AnswerAnswer: c
+Explanation: There is no operation defined for the addition of character array in C++ hence the compiler throws an error as it does not understood what to do about this expression.
+
+
+
+
+12. What is the difference between delete and delete[] in C++?
+a) delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case
+b) delete is used to delete normal objects whereas delete[] is used to pointer objects
+c) delete is a keyword whereas delete[] is an identifier
+d) delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects
+View AnswerAnswer: d
+Explanation: delete is used to delete a single object initiated using new keyword whereas delete[] is used to delete a group of objects initiated with the new operator.
+
+13. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+int main(void) 
+{ 
+}
+a) Error in C and successful execution in C++
+b) Error in both C and C++
+c) Error in C++ and successful execution in C
+d) A successful run in both C and C++
+View AnswerAnswer: c
+Explanation: new is a keyword in C++, therefore, we cannot declare a variable with name new but as there is no such keyword new in C, therefore, the program is compiled and executed successfully in C.
+
+
+
+
+14. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+void func(void)
+{
+}
+void main() 
+{ 
+}
+a) Outputs Hello twice in both C and C++
+b) Error in C and successful execution in C++
+c) Error in C++ and successful execution in C
+d) Error in both C and C++
+View AnswerAnswer: d
+Explanation: As the func(void) needs no argument during its call, hence when we are calling func(2) with 2 as passed as a parameter then this statement gives the error in both C++ and C compiler.
+
+15. Which of the following is correct about this pointer in C++?
+a) this pointer is passed as a hidden argument in all static variables of a class
+b) this pointer is passed as a hidden argument in all the functions of a class
+c) this pointer is passed as a hidden argument in all non-static functions of a class
+d) this pointer is passed as a hidden argument in all static functions of a class
+View AnswerAnswer: c
+Explanation: As static functions are a type of global function for a class so all the object shares the common instance of that static function whereas all the objects have there own instance for non-static functions and hence they are passed as a hidden argument in all the non-static members but not in static members.
+
+16. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    #include <algorithm>    using namespace std;    int main()     {        string s = "spaces in text";        s.erase(remove(s.begin(), s.end(), ' ' ), s.end() ) ;        cout << s << endl;    }
+a) spacesintext
+b) spaces in text
+c) spaces
+d) spaces in
+View Answer Answer: a
+Explanation: In this program, We formed a algorithm to remove spaces in the string.
+Output:
+$ g++ dan.cpp
+$ a.out
+spacesintext
+
+############## https://www.sanfoundry.com/multiple-choice-questions-c-pointers-function-arguments/
+Pre-requisite for C Pointers and Function Arguments MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/object-oriented-programming-questions-answers-pointer/
+1. Which is the pointer which denotes the object calling the member function?
+a) Variable pointer
+b) This pointer
+c) Null pointer
+d) Zero pointer
+View AnswerAnswer: b
+Explanation: The pointer which denotes the object calling the member function is known as this pointer. The this pointer is usually used when there are members in the function with same name as those of the class members.
+
+
+
+
+2. Which among the following is true?
+a) this pointer is passed implicitly when member functions are called
+b) this pointer is passed explicitly when member functions are called
+c) this pointer is passed with help of pointer member functions are called
+d) this pointer is passed with help of void pointer member functions are called
+View AnswerAnswer: a
+Explanation: When an object calls some member function, it implicitly passes itself as an argument. This allows the compiler to know which member should be used for the purposes. This also allows to reduce the ambiguity among the variable and data member names.
+
+3. The this pointer is accessible __________________
+a) Within all the member functions of the class
+b) Only within functions returning void
+c) Only within non-static functions
+d) Within the member functions with zero arguments
+View AnswerAnswer: c
+Explanation: The this pointer is available only within the non-static member functions of a class. If the member function is static, it will be common to all the objects and hence a single object can’t refer to those functions independently.
+
+
+    
+Note: Join free Sanfoundry classes at Telegram or Youtube
+
+
+
+
+4. An object’s this pointer _____________________
+a) Isn’t part of class
+b) Isn’t part of program
+c) Isn’t part of compiler
+d) Isn’t part of object itself
+View AnswerAnswer: d
+Explanation: The object’s this pointer being called are not part of the object itself. This can be cross verified by checking that it doesn’t take up any space for the data to be stored or pointed.
+
+5. The result of sizeof() function __________________
+a) Includes space reserved for this pointer
+b) Includes space taken up by the address pointer by this pointer
+c) Doesn’t include the space taken by this pointer
+d) Doesn’t include space for any data member
+View AnswerAnswer: c
+Explanation: The space taken by this pointer is not reflected in by the sizeof() operator. This is because object’s this pointer is not part of object itself. This is a cross verification for the concept stating that this pointer doesn’t take any space in the object.
+
+
+    Take Object Oriented Programming Tests Now!
+
+
+
+
+6. Whenever non-static member functions are called _______________
+a) Address of the object is passed implicitly as an argument
+b) Address of the object is passed explicitly as an argument
+c) Address is specified globally so that the address is not used again
+d) Address is specified as return type of the function
+View AnswerAnswer: a
+Explanation: The address is passed implicitly as an argument to the function. This doesn’t have to be passed explicitly. The address is passed, of the object which is calling the non-static member function.
+
+7. Which is the correct interpretation of the member function call from an object, object.function(parameter);
+a) object.function(&this, parameter)
+b) object(&function,parameter)
+c) function(&object,&parameter)
+d) function(&object,parameter)
+View AnswerAnswer: d
+Explanation: The function name is specified first and then the parameter lists. The parameter list is included with the object name along with & symbol. This denotes that the address of the object is being passed as an argument.
+
+
+
+
+8. The address of the object _________________
+a) Can’t be accessed from inside the function
+b) Can’t be accessed in the program
+c) Is available inside the member function using this pointer
+d) Can be accessed using the object name inside the member function
+View AnswerAnswer: c
+Explanation: The address of the object with respect to which the member functions are being called, are stored in this pointer. This pointer is hence used whenever there are members with same name as those of the variables inside the function.
+
+9. Which among the following is true?
+a) This pointer can be used to guard against any kind of reference
+b) This pointer can be used to guard against self-reference
+c) This pointer can be used to guard from other pointers
+d) This pointer can be used to guard from parameter referencing
+View AnswerAnswer: b
+Explanation: The this pointer can be used to guard itself whenever self-reference is used. This allows accidental address access. And accidental modification of data.
+
+
+
+
+10. Which syntax doesn’t execute/is false when executed?
+a) if(&object != this)
+b) if(&function !=object)
+c) this.if(!this)
+d) this.function(!this)
+View AnswerAnswer: a
+Explanation: The condition becomes false when executed and hence doesn’t executes. This is the case where this pointer can guard itself from the self-reference. Here if the address of the object doesn’t match with this pointer that means the object doesn’t refer itself.
+
+11. The this pointers _____________________
+a) Are modifiable
+b) Can be assigned any value
+c) Are made variables
+d) Are non-modifiable
+View AnswerAnswer: d
+Explanation: The this pointer is non modifiable. This is because the address of any object remains constant throughout its life time. Hence the address must not be changed otherwise wrong members of invalid addresses might get accessed.
+
+12. Earlier implementations of C++ ___________________
+a) Never allowed assignment to this pointer
+b) Allowed no assignment to this pointer
+c) Allowed assignments to this pointer
+d) Never allowed assignment to any pointer
+View AnswerAnswer: c
+Explanation: The earlier, most initial versions of C++ used to allow assignments to this pointers. That used to allow modifications of this pointer. Later that feature got disabled.
+
+13. This pointer can be used directly to ___________
+a) To manipulate self-referential data structures
+b) To manipulate any reference to pointers to member functions
+c) To manipulate class references
+d) To manipulate and disable any use of pointers
+View AnswerAnswer: a
+Explanation: This is a feature provided, that can be used directly. The manipulation of self-referential data structures is just an application of this feature. Other conditions fails as this pointer doesn’t deal with those things.
+
+14. Which among the following is/are type(s) of this pointer?
+a) const
+b) volatile
+c) const or volatile
+d) int
+View AnswerAnswer: c
+Explanation: The this pointer can be declared const or volatile. This depends on need of program and type of code. This is just an additional feature.
+
+15. Which is the correct syntax for declaring the type of this in a member function?
+a) classType [cv-qualifier-list] *const this;
+b) classType const[cv-qualifier-list] *this;
+c) [cv-qualifier-list]*const classType this;
+d) [cv-qualifier-list] classType *const this;
+View AnswerAnswer: d
+Explanation: The syntax contains the cv-qualifier-list that can be determined from the member function declaratory that can be either const or volatile or can be made both. Hence we write it as list. classType denotes the name of class to mention to which class does the object belong to. And *const this denotes that the this pointer is having a constant value.
+Sanfoundry Global Education & Learning Series – Object Oriented Programming (OOPs).
+To practice all areas of Object Oriented Programming (OOPs) using C++, here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - Object Oriented Programming using C++ Questions and Answers – Pointer to Objects» Next - Object Oriented Programming using C++ Questions and Answers – Default Arguments 
+Next Steps:
+
+
+
+Get Free Certificate of Merit in Object Oriented Programming
+Participate in Object Oriented Programming Certification Contest
+Become a Top Ranker in Object Oriented Programming
+Take Object Oriented Programming Tests
+Chapterwise Practice Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+Chapterwise Mock Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+Related Posts:Practice MCA MCQs
+Practice Computer Science MCQs
+Apply for Computer Science Internship
+Buy Object Oriented Programming Books
+Buy Computer Science Books
+ 
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-quiz-pointer-structures/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/mathematics-questions-answers-mid-point-theorem/
+1. What is the length of DE if DE || BC and D and E are midpoints of AB and AC?
+b) 15cm
+c) 9cm
+d) 20cm
+View AnswerAnswer: c
+Explanation: Since In ABC, D and E are midpoints of the sides AB and AC and DE || BC, by mid-point theorem, DE = ½ BC = ½ x 18 = 9cm.
+
+
+
+
+2. Which of the following relation is correct if S is midpoint of PR?
+b) QS = ½ PR
+c) QS = 2PR
+d) QS = ¼ PR
+View AnswerAnswer: b
+Explanation: Draw ST || RQ meeting PQ at point T
+
+STQ + TQR = 180° (Interior angles on the same side of transversal)
+ STQ = 90°
+Also, Since ST || RQ and S is midpoint of PR, by midpoint theorem,
+T is midpoint of PQ i.e. PT = TQ ————— (i)
+and ST= ½ RQ
+In PTS and TQS,
+PT = TQ (from equation i)
+PTS = STQ = 90°
+TS = TS (Common side)
+Hence, PTS  TQS (by SAS congruence criterion)
+ PS = QS (Corresponding parts of congruent triangles)
+But, PS = ½ PR (S is midpoint of PR)
+ QS = ½ PR.
+
+3. What is the ration of AC/CF if AD and BE are the median and DF || BE?
+b) 1
+c) 1/4
+d) 1/2
+View AnswerAnswer: a
+Explanation: Since In BEC, D is the midpoint of the BC and DF || BE, by mid-point theorem,
+DF = ½ BE and
+F is midpoint of EC i.e. EF = FC ——————–(i)
+Also, AE = EC = ½ AC——————-(ii) (BE is median to side AC)
+From i, CF = ½ EC
+ CF = ½ (½ AC) (from equation ii)
+ CF = ¼ AC.
+
+
+
+Sanfoundry Certification Contest of the Month is Live. 100+ Subjects. Participate Now!
+
+
+
+
+4. Identify the correct relation from the given options if PQRS is a parallelogram and V is midpoint of PQ.
+b) TU = PU
+c) TU = ½ PU
+d) TU = 2PU
+View AnswerAnswer: c
+Explanation: Since In PQU, V is the midpoint of the PQ and VR || PU, by mid-point theorem,
+VR = ½ PU and
+R is midpoint of QU i.e. QR = RU ——————–(i)
+Also, in PQU, R is the midpoint of the QU and RT || PQ (PQRS is parallelogram), by mid-point theorem,
+TR = ½ PQ and
+T is midpoint of PU
+i.e. PT = TU
+ TU = ½ PU.
+
+5. Find the ration of (AB + CD)/EG if EG || AB and AB || DC and E and G are the midpoints.
+b) 1/2
+c) 2
+d) 3/2
+View AnswerAnswer: c
+Explanation: In ABD, EF || AB and E is the midpoint of the AD, by mid-point theorem,
+F is the midpoint of BD
+and EF = ½ AB —————— (i)
+Also, in BDC, G and F are the midpoints of the BC and BD and FG || DC, by mid-point theorem,
+FG = ½ CD —————— (ii)
+Adding equation i and ii, EF + FG = ½ AB + ½ CD
+ EG = ½ (AB + CD).
+
+
+
+    Check this: Class 10 Mathematics MCQs | Class 8 Mathematics MCQs
+
+
+
+
+6. Find the perimeter of ABC, if perimeter of PQR is 36cm and A, B and C are midpoints.
+b) 18cm
+c) 20cm
+d) 36cm
+View AnswerAnswer: b
+Explanation: In PQR, A and B are the midpoints of the PQ and PR, by mid-point theorem,
+AB || QR and AB = ½ QR —————— (i)
+Similarly, A and C are the midpoints of the PQ and QR, by mid-point theorem,
+AC || PR and AC = ½ PR —————— (i)
+and B and C are the midpoints of the PR and QR, by mid-point theorem,
+BC || PQ and BC = ½ PQ —————— (i)
+Now, perimeter of ABC = AB + BC + AC
+ perimeter of ABC = ½ QR + ½ PQ + ½ PR (from equation i, ii and iii)
+ perimeter of ABC = ½ (QR + PQ + PR)
+ perimeter of ABC = ½ (perimeter of PQR) = ½ x 36 = 18cm.
+
+7. Find the ratio of the angles D : E : F of DEF formed by joining the midpoints of the sides of ABC.
+b) 4 : 3 : 2
+c) 2 : 3 : 5
+d) 5 : 3 : 2
+View AnswerAnswer: a
+Explanation: Since D, E and F are the midpoints of the sides AB, BC and AC of ABC, by mid-point theorem, DF || BC, DE || AC and FE || AB
+As EF || AB and DF || BC,  EF || BD and DF || BE  DFEB is a parallelogram
+ B = DFE = 60° ————— (i) (Opposite angles of parallelogram are equal)
+Similarly, As EF || AB and DE || AC,  EF || AD and DE || AF  AFED is a parallelogram
+ A = DEF = 40°——————– (ii) (Opposite angles of parallelogram are equal)
+and as DE || AC and DF || BC,  DE || FC and DF || EC  DECF is a parallelogram
+ C = EDF = 80° ——————— (iii) (Opposite angles of parallelogram are equal)
+Now, D: E: F = 80 : 40 : 60 (from equation i,ii and iii)
+ D: E: F = 4 : 2 : 3.
+
+
+
+
+8. If ABCR and PQRS are rectangles and B is the midpoint of PR, find the ratio of AC/PR.
+b) 2
+c) 1
+d) 5/2
+View AnswerAnswer: a
+Explanation: In PSR, B is the midpoint of PR and AB || SP, by mid-point theorem,
+A is midpoint of SR i.e. AS = AR —————— (i)
+Similarly, in SRQ, A is the midpoint of SR and AC || SR, by mid-point theorem,
+AC = ½ SQ and C is midpoint of RQ i.e. RC = CQ —————— (i)
+Now, AC = ½ SQ
+ AC = ½ PR (Diagonals of rectangle are equal)
+ AC/PR = 1/2.
+
+9. From the diagram below, if D and E are mid points of the lines AB and AC respectively and if DE  BC, then what is the relation between DE and BC?
+b) 3DE = BC
+c) 2DE = BC
+d) There is no definite relation between DE and BC
+View AnswerAnswer: c
+Explanation: According to mid-point theorem, if D and E are mid points of the lines AB and AC respectively and if DE  BC, then 2DE = BC.
+
+
+
+
+10. From the diagram given below, if P, Q and R are mid points of sides AB, BC and AC respectively, then RQP is congruent to BDE, DAF and EFC.
+b) False
+View AnswerAnswer: a
+Explanation: P, Q and R are mid points of sides AB, BC and AC respectively (given).
+Therefore, according to theorem 8.9, PQ  AC, QR  AB and PR  BC.
+Hence, APQR, PBQR and PQCR are all parallelograms.
+Now, PQ is the diagonal of the parallelogram PBQR. Therefore, according to theorem 8.1,
+PQR is congruent to QPB.
+Similarly, QR and RP are the diagonals of parallelograms PQCR and APQR respectively.
+Therefore, PQR is congruent to CRQ and
+PQR is congruent to RAP.
+
+Sanfoundry Global Education & Learning Series – Mathematics – Class 9.
+To practice all areas of Mathematics,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - Mathematics Questions and Answers – Another Condition for a Quadrilateral to be a Parallelogram» Next - Mathematics Questions and Answers – Figures on the Same Base and Between the Same Parallels Related Posts:Practice Class 8 Mathematics MCQs
+Practice Class 10 Mathematics MCQs
+Buy Class 9 - Mathematics Books
+ 
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
+############## https://www.sanfoundry.com/mysql-questions-answers-using-views/
+1. Which of these is also known as a virtual table?
+a) SCHEMA
+b) DATABASE
+c) JOIN
+d) VIEW
+View AnswerAnswer: d
+Explanation: In MySQL, a ‘View’ is also called a virtual table. It does not contain any data but only appears as a table. It is an alternative way to show or describe a table similar to the original table.
+
+
+
+
+2. A View can be used to select a subset of the table columns.
+a) True
+b) False
+View AnswerAnswer: a
+Explanation: In MySQL, a ‘View’ is used to present a table in the database. It is a virtual table. It is also used to present a subset of the columns that are present in the original table of the database.
+
+3. What is xyz in the following MySQL statement?
+
+
+    
+Note: Join free Sanfoundry classes at Telegram or Youtube
+
+
+
+
+CREATE VIEW xyz AS SELECT a, b FROM t;
+a) table
+b) column
+c) view
+d) database
+View AnswerAnswer: c
+Explanation: A ‘View’ is created in MySQL by writing the clause ‘CREATE VIEW’ followed by the view name. Then follows the list of column names of the table that are to be presented as the view.
+
+
+    Take MySQL Mock Tests - Chapterwise!Start the Test Now: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+
+
+4. What is abc in the following MySQL statement?
+CREATE VIEW xyz (abc) AS SELECT a FROM t;
+a) row name
+b) column name
+c) view
+d) database
+View AnswerAnswer: b
+Explanation: Column names for a view can be explicitly provided in the ‘CREATE VIEW’ clause itself. It presents the table view with the aliased column names instead of the original column names.
+
+
+
+
+5. A view can refer to multiple tables via __________
+a) UNION
+b) JOIN
+c) GROUP
+d) SELECT
+View AnswerAnswer: b
+Explanation: In MySQL, a ‘View’ can refer to multiple tables. This makes it a lot simpler to execute the queries involving joins. When a selection is made from the view, the join is executed producing the results.
+
+
+
+
+6. Views are not updatable.
+a) True
+b) False
+View AnswerAnswer: b
+Explanation: In MySQL, some ‘Views’ are updatable. The operators ‘INSERT’, ‘DELETE’ and ‘UPDATE’ can be used. They can be operated on the ‘Views’ to make changes to it. A table can be created and set as a view.
+
+7. A view can be deleted using the command __________
+a) REMOVE
+b) DELETE
+c) CLEAR
+d) DROP
+View AnswerAnswer: d
+Explanation: In MySQL, ‘Views’ act as virtual tables. Many operations can be performed on views like the operations on tables. A view can be created, displayed and dropped. They can also be used to perform calculations.
+
+8. What cannot be done on a view?
+a) display
+b) filter
+c) index
+d) drop
+View AnswerAnswer: c
+Explanation: In MySQL, ‘Views’ act as virtual tables. It is not possible to create indexes on a view. However, they can be used for the views that are processed using the merge algorithm.
+
+9. What can be used to check for views that have been invalidated by DROP or ALTER operations?
+a) CREATE TABLE
+b) VERIFY TABLE
+c) DETAILS TABLE
+d) CHECK TABLE
+View AnswerAnswer: d
+Explanation: A ‘View’ is created in MySQL by writing the clause ‘CREATE VIEW’ followed by the view name. Once a view is dropped or altered after being created, it can be checked by the ‘CHECK TABLE’ clause.
+
+10. Which of the following does not support a materialized view?
+a) MySQL
+b) Oracle
+c) PostgreSQL
+d) SybaseSQL
+View AnswerAnswer: a
+Explanation: In MySQL, ‘Views’ are treated a little differently than Oracle, PostgreSQL and SybaseSQL since they support materialized views and MySQL does not use the materialized view.
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+« Prev - MySQL Questions and Answers – Performing Multiple – Table Retrievals with Union» Next - MySQL Questions and Answers – Multiple – Table Deletes and Updates 
+Next Steps:
+
+
+
+Get Free Certificate of Merit in MySQL
+Participate in MySQL Certification Contest
+Become a Top Ranker in MySQL
+Take MySQL Tests
+Chapterwise Practice Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+Chapterwise Mock Tests: Chapter 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10
+
+
+Related Posts:Apply for Programming Internship
+Practice Programming MCQs
+Buy Information Technology Books
+Buy MySQL Books
+Apply for MySQL Internship
+ 
+############## https://www.sanfoundry.com/c-quiz-questions-pointers-arrays/
+Pre-requisite for C Pointers and Arrays MCQ set: Video Tutorial on C Pointers.
+############## https://www.sanfoundry.com/c-questions-answers-dangling-pointers/
+Pre-requisite for this C MCQ set: Advanced C Programming Video Tutorial.
