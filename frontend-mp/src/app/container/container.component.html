@@ -1,23 +1,31 @@
 <app-header></app-header>
 
-<div class="container">
-    <div class="mb-3">
-        <label for="formFile" class="form-label">Upload your video File</label>
-        <input class="form-control" type="file" id="formFile" (change)="onFileSelected($event)">
-    </div>
-    <b>OR</b>
-    <div class="mb-3">
-        <label for="formUrl" class="form-label">Paste your video URL</label>
-        <input class="form-control" type="text" id="formUrl">
-    </div>
 
-    <!--DRAG AND DROP FILE -->
-    <div class="drop-zone">
-        <span class="drop-zone__prompt">Drop file here or click to upload</span>
-        <input type="file" id="formFile" name="formFile" class="drop-zone__input">
+<div class="container">
+    <div style="padding: 15px;">
+        <div>
+            <div class="dropzone" fileDragDrop (filesChangeEmiter)="onFileSelected($event)">
+                <div class="text-wrapper">
+                    <div class="centered">
+                        <input type="file" name="file" id="file" (change)="onFileSelected($any($event.target).files)" multiple>
+                        <label for="file"><span class="textLink">Select your file</span> or Drop it here!</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 mat-subheader>Files</h3>
+        <div class="row fileItem" *ngFor="let f of files; let ind = index">
+            <div class="col-sm-12 fileItemIconDiv" (click)="openConfirmDialog(ind);">
+                <i class="fa-6x fileItemIcon"></i>
+            </div>
+            <div class="col-sm-12 fileItemText">
+                <span>{{f.name}}</span>
+            </div>
+        </div>
+
     </div>
 </div>
-
 <app-footer>
 
 </app-footer>
