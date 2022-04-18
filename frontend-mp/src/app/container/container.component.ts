@@ -13,6 +13,8 @@ import { DialogConfirmComponent } from '../dialog-confirm/dialog-confirm.compone
 export class ContainerComponent implements OnInit {
   public files: any[] = [];
   video_file: any = null;
+  summary:any[]=[];
+  transcript:any={};
   constructor(private upload: UploadService, private _snackBar: MatSnackBar, public dialog: MatDialog) { }
 
   ngOnInit(): void {
@@ -55,11 +57,13 @@ export class ContainerComponent implements OnInit {
 
 
   uploadFileToServer() {
-    this.upload.postFile(this.video_file).subscribe(data => {
+    this.upload.postFile(this.video_file).subscribe((data:any) => {
       this._snackBar.open("Successfully upload!", 'Close', {
         duration: 2000,
       });
       console.log(data)
+      this.summary=data.summary
+      this.transcript=data.transcript
     }, error => {
       console.log(error);
     });

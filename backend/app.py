@@ -1,7 +1,7 @@
 # from __future__ import unicode_literals
 # import youtube_dl
 import os
-from flask import Flask, flash, request, redirect, url_for, session
+from flask import Flask, flash, request, redirect, url_for, session,jsonify
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 # import logging
@@ -47,9 +47,9 @@ def fileUpload():
 
     summary=t5(transcript)
     print("Summary Generated",summary)
-
-    response="File Upload Success" 
-    return response
+    
+    return jsonify({"data":"File Upload Success","transcript":transcript,"summary":summary})
+    
 
 
 if __name__ == "__main__":
