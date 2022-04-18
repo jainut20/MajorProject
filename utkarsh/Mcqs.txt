@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ############## https://www.sanfoundry.com/computer-fundamentals-questions-answers-data-types/
 1. Which of the following is not a data type?
 a) Symbolic Data
@@ -140,14 +139,6 @@ Buy Computer Fundamental Books
 Practice Information Technology MCQs
 Apply for BCA Internship
  
-=======
-############## https://www.allindiaexams.in/engineering/cse/c-multiple-choice-questions-answers/data-types
-In this Data Types C Questions and Answers section you can learn and practice Data Types C Questions and Answers to improve your skills in order to face technical inerview conducted by Banks. By 
-
-
-
-Practicing these interview questions, you can easily crack any Bank Exams interview.
->>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
 ############## https://www.sanfoundry.com/computer-fundamentals-questions-answers-data-types/
 1. Which of the following is not a data type?
 a) Symbolic Data
@@ -250,15 +241,9 @@ c) Links
 d) Data Objects
 View AnswerAnswer: b
 Explanation: Attributes can determine how any location can be used. Attributes can be type, name, component, etc. Data objects are the variables and constants in a program.
-<<<<<<< HEAD
-Sanfoundry Global Education & Learning Series – Computer Fundamentals.
-To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
-« Prev - Computer Fundamentals Questions and Answers – The Hexadecimal Number System» Next - Computer Fundamentals Questions and Answers – BCD 
-=======
 Sanfoundry Global Education & Learning Series ï¿½ Computer Fundamentals.
 To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
 ï¿½ Prev - Computer Fundamentals Questions and Answers ï¿½ The Hexadecimal Number Systemï¿½ Next - Computer Fundamentals Questions and Answers ï¿½ BCD 
->>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
 Next Steps:
 
 
@@ -294,7 +279,6 @@ Buy BCA Books
 Buy Computer Fundamental Books
 Practice Information Technology MCQs
 Apply for BCA Internship
-<<<<<<< HEAD
  
 ############## https://www.sanfoundry.com/1000-data-structure-questions-answers/
 
@@ -406,7 +390,7 @@ b) There are chances of wastage of memory space if elements inserted in an array
 c) Index value of an array can be negative
 d) Elements are sequentially accessed
 View AnswerAnswer: b
-Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions can’t be used again. Wastage will occur in memory.
+Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions canï¿½t be used again. Wastage will occur in memory.
 
 11. Assuming int is of 4bytes, what is the size of int arr[15];?
 a) 15
@@ -430,9 +414,9 @@ c) exponentially
 d) logarithmically
 View AnswerAnswer: a
 Explanation: Elements in an array are accessed randomly. In Linked lists, elements are accessed sequentially.
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-» Next - Data Structure Questions and Answers – Stack Operations – 1 
+ï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 1 
 Next Steps:
 
 
@@ -476,7 +460,7 @@ b) Push
 c) Evaluation
 d) Pop
 View AnswerAnswer: b
-Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack – overflow can happen.
+Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack ï¿½ overflow can happen.
 
 
 
@@ -512,9 +496,9 @@ d) User flow
 View AnswerAnswer: a
 Explanation: The stack is filled with 5 elements and pushing one more element causes a stack overflow. This results in overwriting memory, code and loss of unsaved work on the computer.
 
-5. Entries in a stack are “ordered”. What is the meaning of this statement?
+5. Entries in a stack are ï¿½orderedï¿½. What is the meaning of this statement?
 a) A collection of stacks is sortable
-b) Stack entries may be compared with the ‘<‘ operation
+b) Stack entries may be compared with the ï¿½<ï¿½ operation
 c) The entries are stored in a linked list
 d) There is a Sequential entry that is one by one
 View AnswerAnswer: d
@@ -554,7 +538,7 @@ d) 4 or more
 View AnswerAnswer: b
 Explanation: In the entire parenthesis balancing method when the incoming token is a left parenthesis it is pushed into stack. A right parenthesis makes pop operation to delete the elements in stack till we get left parenthesis as top most element. 2 left parenthesis are pushed whereas one right parenthesis removes one of left parenthesis. 2 elements are there before right parenthesis which is the maximum number of elements in stack at run time.
 
-9. What is the value of the postfix expression 6 3 2 4 + – *?
+9. What is the value of the postfix expression 6 3 2 4 + ï¿½ *?
 a) 1
 b) 40
 c) 74
@@ -573,9 +557,9 @@ d) 4
 View AnswerAnswer: d
 Explanation: When we perform the conversion from infix to postfix expression +, *, (, * symbols are placed inside the stack. A maximum of 4 symbols are identified during the entire conversion.
 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Array and Array Operations» Next - Data Structure Questions and Answers – Stack Operations – 2 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Array and Array Operationsï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 2 
 Next Steps:
 
 
@@ -632,13 +616,13 @@ d) difficult to implement
 View AnswerAnswer: c
 Explanation: The size of array is fixed in normal arrays. We need to know the number of nodes in the tree before array declaration. It is the main disadvantage of using arrays to represent binary trees.
 
-3. What must be the ideal size of array if the height of tree is ‘l’?
+3. What must be the ideal size of array if the height of tree is ï¿½lï¿½?
 a) 2l-1
 b) l-1
 c) l
 d) 2l
 View AnswerAnswer: a
-Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ‘L’ is 2L-1. Hence size of array is taken as 2L-1.
+Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ï¿½Lï¿½ is 2L-1. Hence size of array is taken as 2L-1.
 
 
     
@@ -647,7 +631,7 @@ Note: Join free Sanfoundry classes at Telegram or Youtube
 
 
 
-4. What are the children for node ‘w’ of a complete-binary tree in an array representation?
+4. What are the children for node ï¿½wï¿½ of a complete-binary tree in an array representation?
 a) 2w and 2w+1
 b) 2+w and 2-w
 c) w+1/2 and w/2
@@ -655,13 +639,13 @@ d) w-1/2 and w+1/2
 View AnswerAnswer: a
 Explanation: The left child is generally taken as 2*w whereas the right child will be taken as 2*w+1 because root node is present at index 0 in the array and to access every index position in the array.
 
-5. What is the parent for a node ‘w’ of a complete binary tree in an array representation when w is not 0?
+5. What is the parent for a node ï¿½wï¿½ of a complete binary tree in an array representation when w is not 0?
 a) floor(w-1/2)
 b) ceil(w-1/2)
 c) w-1/2
 d) w/2
 View AnswerAnswer: a
-Explanation: Floor of w-1/2 because we can’t miss a node.
+Explanation: Floor of w-1/2 because we canï¿½t miss a node.
 
 
     Take Data Structure I Practice Tests - Chapterwise!Start the Test Now: Chapter 1,
@@ -704,7 +688,7 @@ c)
 d)
 View AnswerAnswer: a
 Explanation: The i value must skip through all nodes in the next level and current level must be one+next level.
-  
+ï¿½ï¿½
 8. Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
 a) yes because we are overcoming the need of pointers and so space efficiency
 b) yes because array values are indexable
@@ -734,9 +718,9 @@ c) No in case of sparse trees
 d) Yes by using both inorder and array elements
 View AnswerAnswer: b
 Explanation: We need any two traversals for tree formation but if some additional stuff or techniques are used while storing a tree in an array then one traversal can facilitate like also storing null values of a node in array. 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Free List» Next - Data Structure Questions and Answers – Binary Trees using Linked Lists 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Free Listï¿½ Next - Data Structure Questions and Answers ï¿½ Binary Trees using Linked Lists 
 Next Steps:
 
 
@@ -836,7 +820,7 @@ b) 3
 c) 1
 d) 11
 View AnswerAnswer: b
-Explanation: By euler’s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
+Explanation: By eulerï¿½s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
 
 
 
@@ -847,7 +831,7 @@ b) (n*n+n+2*m)/2
 c) (n*n-n-2*m)/2
 d) (n*n-n+2*m)/2
 View AnswerAnswer: a
-Explanation: The union of G and G’ would be a complete graph so, the number of 	edges in G’= number of edges in the complete form of G(nC2)-edges in G(m).
+Explanation: The union of G and Gï¿½ would be a complete graph so, the number of 	edges in Gï¿½= number of edges in the complete form of G(nC2)-edges in G(m).
 
 9. Which of the following properties does a simple graph not hold?
 a) Must be connected
@@ -903,9 +887,9 @@ c) Adjacency List, Adjacency Matrix as well as Incidence Matrix
 d) No way to represent
 View AnswerAnswer: c
 Explanation: Adjacency Matrix, Adjacency List and Incidence Matrix are used to represent a graph.  
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Direct Addressing Tables» Next - Data Structure Questions and Answers – Adjacency Matrix 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Direct Addressing Tablesï¿½ Next - Data Structure Questions and Answers ï¿½ Adjacency Matrix 
 Next Steps:
 
 
@@ -1044,9 +1028,9 @@ c) Links
 d) Data Objects
 View AnswerAnswer: b
 Explanation: Attributes can determine how any location can be used. Attributes can be type, name, component, etc. Data objects are the variables and constants in a program.
-Sanfoundry Global Education & Learning Series – Computer Fundamentals.
+Sanfoundry Global Education & Learning Series ï¿½ Computer Fundamentals.
 To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
-« Prev - Computer Fundamentals Questions and Answers – The Hexadecimal Number System» Next - Computer Fundamentals Questions and Answers – BCD 
+ï¿½ Prev - Computer Fundamentals Questions and Answers ï¿½ The Hexadecimal Number Systemï¿½ Next - Computer Fundamentals Questions and Answers ï¿½ BCD 
 Next Steps:
 
 
@@ -1220,7 +1204,7 @@ $ a.out
 20
 
 ############## https://www.sanfoundry.com/vhdl-questions-answers-user-defined-data-types/
-1. How the keyword “TYPE” is used?
+1. How the keyword ï¿½TYPEï¿½ is used?
 a) TYPE datatype_name IS type_from_predefined_datatypes;
 b) TYPE datatype_name IS datatype_range;
 c) TYPE datatype_range IS datatype_name;
@@ -1233,13 +1217,13 @@ Explanation: The keyword TYPE is used to define new data type if any user wants 
 
 2. Which of the following is a wrong declaration for a new data type?
 a) TYPE my_logic IS RANGE 0 to 100;
-b) TYPE my_logic IS (‘0’, ‘1’, ‘2’);
+b) TYPE my_logic IS (ï¿½0ï¿½, ï¿½1ï¿½, ï¿½2ï¿½);
 c) TYPE my_logic IS ARRAY (0 TO 3) OF BIT;
 d) TYPE my_logic IS  <0 TO 20 >
 View AnswerAnswer: d
-Explanation: TYPE can be used in three forms as shown above. For defining range, there are two methods as illustrated in option TYPE my_logic IS RANGE 0 to 100; and option TYPE my_logic IS (‘0’, ‘1’, ‘2’);. If we want to define a user defined array then the sytanx like option TYPE my_logic IS ARRAY (0 TO 3) OF BIT; follows. But, we can’t define range by using <> sign.
+Explanation: TYPE can be used in three forms as shown above. For defining range, there are two methods as illustrated in option TYPE my_logic IS RANGE 0 to 100; and option TYPE my_logic IS (ï¿½0ï¿½, ï¿½1ï¿½, ï¿½2ï¿½);. If we want to define a user defined array then the sytanx like option TYPE my_logic IS ARRAY (0 TO 3) OF BIT; follows. But, we canï¿½t define range by using <> sign.
 
-3. One can’t define an array without any constraints in VHDL.
+3. One canï¿½t define an array without any constraints in VHDL.
 a) True
 b) False
 View AnswerAnswer: b
@@ -1266,7 +1250,7 @@ b) SUBTYPE subtype_name IS subtype_range TYPE type_name
 c) SUBTYPE subtype_name TYPE type_name IS subtype_range
 d) SUBTYPE subtype_name IS TYPE subtype_range
 View AnswerAnswer: d
-Explanation: The correct way to define a SUBTYPE is the syntax shown in option d. For example, if we want to define a SUBTYPE of STD_LOGIC with 3 values only like X, 0 and 1. We can define it as SUBTYPE my _ subtype IS STD_LOGIC RANGE ‘X’ TO ‘1’.
+Explanation: The correct way to define a SUBTYPE is the syntax shown in option d. For example, if we want to define a SUBTYPE of STD_LOGIC with 3 values only like X, 0 and 1. We can define it as SUBTYPE my _ subtype IS STD_LOGIC RANGE ï¿½Xï¿½ TO ï¿½1ï¿½.
 
 
     Take VHDL Tests Now!
@@ -1274,7 +1258,7 @@ Explanation: The correct way to define a SUBTYPE is the syntax shown in option d
 
 
 
-6. Which of the following can’t be the value of x? Refer to the VHDL code given below.
+6. Which of the following canï¿½t be the value of x? Refer to the VHDL code given below.
 TYPE color IS (red, green, blue, black, white, gray);
 SUBTYPE primary IS color RANGE red to blue;
 VARIABLE x: primary;
@@ -1283,7 +1267,7 @@ b) Red
 c) Green
 d) Blue
 View AnswerAnswer: a
-Explanation: PRIMARY is a subtype of COLOR as declared in the code. The range of PRIMARY is declared “red” to “blue”. It means that an object of Primary type can have values red, green or blue. So White can’t be assigned to x.
+Explanation: PRIMARY is a subtype of COLOR as declared in the code. The range of PRIMARY is declared ï¿½redï¿½ to ï¿½blueï¿½. It means that an object of Primary type can have values red, green or blue. So White canï¿½t be assigned to x.
 
 
 
@@ -1301,7 +1285,7 @@ b) 9
 c) 64
 d) 27
 View AnswerAnswer: c
-Explanation: First of all, array1 is array of BIT_VECTOR type that means it contains 4 BIT_VECTOR. One BIT_VECTOR is here declared to be consisting of 4 bits. Therefore, Array 1 can have 16 bits. Now, array2 is an array of 4 array1. Therefore, total bits are 4 × 16 = 64.
+Explanation: First of all, array1 is array of BIT_VECTOR type that means it contains 4 BIT_VECTOR. One BIT_VECTOR is here declared to be consisting of 4 bits. Therefore, Array 1 can have 16 bits. Now, array2 is an array of 4 array1. Therefore, total bits are 4 ï¿½ 16 = 64.
 
 8. Refer to the four declarations below, which of the following is not a 2 dimensional array?
 TYPE array1 IS ARRAY ( 3 DOWNTO 0, 1 DOWNTO 0 ) OF STD_LOGIC;
@@ -1313,7 +1297,7 @@ b) array3
 c) array2
 d) array1
 View AnswerAnswer: b
-Explanation: Here, array1 is a 2-D array with 4 rows and 2 columns (3 DOWNTO 0 and 1 DOWNTO 0) of STD_LOGIC type. Though, array2 declaration looks like 1D array, but it is 2D array, since it is of type STD_LOGIC_VECTOR, which is already a 1D array, so array2 is a 2D array. Similarly array4 is 4 × 4 matrix. But, array3 is a 3D array. Because it is 1D array of 2D array named as array2.
+Explanation: Here, array1 is a 2-D array with 4 rows and 2 columns (3 DOWNTO 0 and 1 DOWNTO 0) of STD_LOGIC type. Though, array2 declaration looks like 1D array, but it is 2D array, since it is of type STD_LOGIC_VECTOR, which is already a 1D array, so array2 is a 2D array. Similarly array4 is 4 ï¿½ 4 matrix. But, array3 is a 3D array. Because it is 1D array of 2D array named as array2.
 
 9. User can define its own integer data type.
 a) True
@@ -1327,10 +1311,10 @@ b) REAL
 c) CHARACTER
 d) STD_LOGIC
 View AnswerAnswer: a
-Explanation: We can say that NATURAL is a subtype of  INTEGER. The range of NATURAL datatype is 0 to 231-1, whereas the range of INTEGER is – (231-1) to (231-1). Therefore, it can be written as SUBTYPE NATURAL IS INTEGER RANGE 0 TO 2147483647.
-Sanfoundry Global Education & Learning Series – VHDL.
+Explanation: We can say that NATURAL is a subtype of  INTEGER. The range of NATURAL datatype is 0 to 231-1, whereas the range of INTEGER is ï¿½ (231-1) to (231-1). Therefore, it can be written as SUBTYPE NATURAL IS INTEGER RANGE 0 TO 2147483647.
+Sanfoundry Global Education & Learning Series ï¿½ VHDL.
 To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - VHDL Questions and Answers – Data Objects and Types» Next - VHDL Questions and Answers – Data Conversion 
+ï¿½ Prev - VHDL Questions and Answers ï¿½ Data Objects and Typesï¿½ Next - VHDL Questions and Answers ï¿½ Data Conversion 
 Next Steps:
 
 
@@ -1477,7 +1461,7 @@ b) There are chances of wastage of memory space if elements inserted in an array
 c) Index value of an array can be negative
 d) Elements are sequentially accessed
 View AnswerAnswer: b
-Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions can’t be used again. Wastage will occur in memory.
+Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions canï¿½t be used again. Wastage will occur in memory.
 
 11. Assuming int is of 4bytes, what is the size of int arr[15];?
 a) 15
@@ -1501,9 +1485,9 @@ c) exponentially
 d) logarithmically
 View AnswerAnswer: a
 Explanation: Elements in an array are accessed randomly. In Linked lists, elements are accessed sequentially.
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-» Next - Data Structure Questions and Answers – Stack Operations – 1 
+ï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 1 
 Next Steps:
 
 
@@ -1547,7 +1531,7 @@ b) Push
 c) Evaluation
 d) Pop
 View AnswerAnswer: b
-Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack – overflow can happen.
+Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack ï¿½ overflow can happen.
 
 
 
@@ -1583,9 +1567,9 @@ d) User flow
 View AnswerAnswer: a
 Explanation: The stack is filled with 5 elements and pushing one more element causes a stack overflow. This results in overwriting memory, code and loss of unsaved work on the computer.
 
-5. Entries in a stack are “ordered”. What is the meaning of this statement?
+5. Entries in a stack are ï¿½orderedï¿½. What is the meaning of this statement?
 a) A collection of stacks is sortable
-b) Stack entries may be compared with the ‘<‘ operation
+b) Stack entries may be compared with the ï¿½<ï¿½ operation
 c) The entries are stored in a linked list
 d) There is a Sequential entry that is one by one
 View AnswerAnswer: d
@@ -1625,7 +1609,7 @@ d) 4 or more
 View AnswerAnswer: b
 Explanation: In the entire parenthesis balancing method when the incoming token is a left parenthesis it is pushed into stack. A right parenthesis makes pop operation to delete the elements in stack till we get left parenthesis as top most element. 2 left parenthesis are pushed whereas one right parenthesis removes one of left parenthesis. 2 elements are there before right parenthesis which is the maximum number of elements in stack at run time.
 
-9. What is the value of the postfix expression 6 3 2 4 + – *?
+9. What is the value of the postfix expression 6 3 2 4 + ï¿½ *?
 a) 1
 b) 40
 c) 74
@@ -1644,9 +1628,9 @@ d) 4
 View AnswerAnswer: d
 Explanation: When we perform the conversion from infix to postfix expression +, *, (, * symbols are placed inside the stack. A maximum of 4 symbols are identified during the entire conversion.
 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Array and Array Operations» Next - Data Structure Questions and Answers – Stack Operations – 2 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Array and Array Operationsï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 2 
 Next Steps:
 
 
@@ -1703,13 +1687,13 @@ d) difficult to implement
 View AnswerAnswer: c
 Explanation: The size of array is fixed in normal arrays. We need to know the number of nodes in the tree before array declaration. It is the main disadvantage of using arrays to represent binary trees.
 
-3. What must be the ideal size of array if the height of tree is ‘l’?
+3. What must be the ideal size of array if the height of tree is ï¿½lï¿½?
 a) 2l-1
 b) l-1
 c) l
 d) 2l
 View AnswerAnswer: a
-Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ‘L’ is 2L-1. Hence size of array is taken as 2L-1.
+Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ï¿½Lï¿½ is 2L-1. Hence size of array is taken as 2L-1.
 
 
     
@@ -1718,7 +1702,7 @@ Note: Join free Sanfoundry classes at Telegram or Youtube
 
 
 
-4. What are the children for node ‘w’ of a complete-binary tree in an array representation?
+4. What are the children for node ï¿½wï¿½ of a complete-binary tree in an array representation?
 a) 2w and 2w+1
 b) 2+w and 2-w
 c) w+1/2 and w/2
@@ -1726,13 +1710,13 @@ d) w-1/2 and w+1/2
 View AnswerAnswer: a
 Explanation: The left child is generally taken as 2*w whereas the right child will be taken as 2*w+1 because root node is present at index 0 in the array and to access every index position in the array.
 
-5. What is the parent for a node ‘w’ of a complete binary tree in an array representation when w is not 0?
+5. What is the parent for a node ï¿½wï¿½ of a complete binary tree in an array representation when w is not 0?
 a) floor(w-1/2)
 b) ceil(w-1/2)
 c) w-1/2
 d) w/2
 View AnswerAnswer: a
-Explanation: Floor of w-1/2 because we can’t miss a node.
+Explanation: Floor of w-1/2 because we canï¿½t miss a node.
 
 
     Take Data Structure I Practice Tests - Chapterwise!Start the Test Now: Chapter 1,
@@ -1775,7 +1759,7 @@ c)
 d)
 View AnswerAnswer: a
 Explanation: The i value must skip through all nodes in the next level and current level must be one+next level.
-  
+ï¿½ï¿½
 8. Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
 a) yes because we are overcoming the need of pointers and so space efficiency
 b) yes because array values are indexable
@@ -1805,9 +1789,9 @@ c) No in case of sparse trees
 d) Yes by using both inorder and array elements
 View AnswerAnswer: b
 Explanation: We need any two traversals for tree formation but if some additional stuff or techniques are used while storing a tree in an array then one traversal can facilitate like also storing null values of a node in array. 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Free List» Next - Data Structure Questions and Answers – Binary Trees using Linked Lists 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Free Listï¿½ Next - Data Structure Questions and Answers ï¿½ Binary Trees using Linked Lists 
 Next Steps:
 
 
@@ -1907,7 +1891,7 @@ b) 3
 c) 1
 d) 11
 View AnswerAnswer: b
-Explanation: By euler’s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
+Explanation: By eulerï¿½s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
 
 
 
@@ -1918,7 +1902,7 @@ b) (n*n+n+2*m)/2
 c) (n*n-n-2*m)/2
 d) (n*n-n+2*m)/2
 View AnswerAnswer: a
-Explanation: The union of G and G’ would be a complete graph so, the number of 	edges in G’= number of edges in the complete form of G(nC2)-edges in G(m).
+Explanation: The union of G and Gï¿½ would be a complete graph so, the number of 	edges in Gï¿½= number of edges in the complete form of G(nC2)-edges in G(m).
 
 9. Which of the following properties does a simple graph not hold?
 a) Must be connected
@@ -1974,9 +1958,9 @@ c) Adjacency List, Adjacency Matrix as well as Incidence Matrix
 d) No way to represent
 View AnswerAnswer: c
 Explanation: Adjacency Matrix, Adjacency List and Incidence Matrix are used to represent a graph.  
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Direct Addressing Tables» Next - Data Structure Questions and Answers – Adjacency Matrix 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Direct Addressing Tablesï¿½ Next - Data Structure Questions and Answers ï¿½ Adjacency Matrix 
 Next Steps:
 
 
@@ -2123,7 +2107,7 @@ b) There are chances of wastage of memory space if elements inserted in an array
 c) Index value of an array can be negative
 d) Elements are sequentially accessed
 View AnswerAnswer: b
-Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions can’t be used again. Wastage will occur in memory.
+Explanation: Arrays are of fixed size. If we insert elements less than the allocated size, unoccupied positions canï¿½t be used again. Wastage will occur in memory.
 
 11. Assuming int is of 4bytes, what is the size of int arr[15];?
 a) 15
@@ -2147,9 +2131,9 @@ c) exponentially
 d) logarithmically
 View AnswerAnswer: a
 Explanation: Elements in an array are accessed randomly. In Linked lists, elements are accessed sequentially.
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-» Next - Data Structure Questions and Answers – Stack Operations – 1 
+ï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 1 
 Next Steps:
 
 
@@ -2193,7 +2177,7 @@ b) Push
 c) Evaluation
 d) Pop
 View AnswerAnswer: b
-Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack – overflow can happen.
+Explanation: Push operation allows users to insert elements in the stack. If the stack is filled completely and trying to perform push operation stack ï¿½ overflow can happen.
 
 
 
@@ -2229,9 +2213,9 @@ d) User flow
 View AnswerAnswer: a
 Explanation: The stack is filled with 5 elements and pushing one more element causes a stack overflow. This results in overwriting memory, code and loss of unsaved work on the computer.
 
-5. Entries in a stack are “ordered”. What is the meaning of this statement?
+5. Entries in a stack are ï¿½orderedï¿½. What is the meaning of this statement?
 a) A collection of stacks is sortable
-b) Stack entries may be compared with the ‘<‘ operation
+b) Stack entries may be compared with the ï¿½<ï¿½ operation
 c) The entries are stored in a linked list
 d) There is a Sequential entry that is one by one
 View AnswerAnswer: d
@@ -2271,7 +2255,7 @@ d) 4 or more
 View AnswerAnswer: b
 Explanation: In the entire parenthesis balancing method when the incoming token is a left parenthesis it is pushed into stack. A right parenthesis makes pop operation to delete the elements in stack till we get left parenthesis as top most element. 2 left parenthesis are pushed whereas one right parenthesis removes one of left parenthesis. 2 elements are there before right parenthesis which is the maximum number of elements in stack at run time.
 
-9. What is the value of the postfix expression 6 3 2 4 + – *?
+9. What is the value of the postfix expression 6 3 2 4 + ï¿½ *?
 a) 1
 b) 40
 c) 74
@@ -2290,9 +2274,9 @@ d) 4
 View AnswerAnswer: d
 Explanation: When we perform the conversion from infix to postfix expression +, *, (, * symbols are placed inside the stack. A maximum of 4 symbols are identified during the entire conversion.
 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Array and Array Operations» Next - Data Structure Questions and Answers – Stack Operations – 2 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Array and Array Operationsï¿½ Next - Data Structure Questions and Answers ï¿½ Stack Operations ï¿½ 2 
 Next Steps:
 
 
@@ -2349,13 +2333,13 @@ d) difficult to implement
 View AnswerAnswer: c
 Explanation: The size of array is fixed in normal arrays. We need to know the number of nodes in the tree before array declaration. It is the main disadvantage of using arrays to represent binary trees.
 
-3. What must be the ideal size of array if the height of tree is ‘l’?
+3. What must be the ideal size of array if the height of tree is ï¿½lï¿½?
 a) 2l-1
 b) l-1
 c) l
 d) 2l
 View AnswerAnswer: a
-Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ‘L’ is 2L-1. Hence size of array is taken as 2L-1.
+Explanation: Maximum elements in a tree (complete binary tree in worst case) of height ï¿½Lï¿½ is 2L-1. Hence size of array is taken as 2L-1.
 
 
     
@@ -2364,7 +2348,7 @@ Note: Join free Sanfoundry classes at Telegram or Youtube
 
 
 
-4. What are the children for node ‘w’ of a complete-binary tree in an array representation?
+4. What are the children for node ï¿½wï¿½ of a complete-binary tree in an array representation?
 a) 2w and 2w+1
 b) 2+w and 2-w
 c) w+1/2 and w/2
@@ -2372,13 +2356,13 @@ d) w-1/2 and w+1/2
 View AnswerAnswer: a
 Explanation: The left child is generally taken as 2*w whereas the right child will be taken as 2*w+1 because root node is present at index 0 in the array and to access every index position in the array.
 
-5. What is the parent for a node ‘w’ of a complete binary tree in an array representation when w is not 0?
+5. What is the parent for a node ï¿½wï¿½ of a complete binary tree in an array representation when w is not 0?
 a) floor(w-1/2)
 b) ceil(w-1/2)
 c) w-1/2
 d) w/2
 View AnswerAnswer: a
-Explanation: Floor of w-1/2 because we can’t miss a node.
+Explanation: Floor of w-1/2 because we canï¿½t miss a node.
 
 
     Take Data Structure I Practice Tests - Chapterwise!Start the Test Now: Chapter 1,
@@ -2421,7 +2405,7 @@ c)
 d)
 View AnswerAnswer: a
 Explanation: The i value must skip through all nodes in the next level and current level must be one+next level.
-  
+ï¿½ï¿½
 8. Consider a situation of writing a binary tree into a file with memory storage efficiency in mind, is array representation of tree is good?
 a) yes because we are overcoming the need of pointers and so space efficiency
 b) yes because array values are indexable
@@ -2451,9 +2435,9 @@ c) No in case of sparse trees
 d) Yes by using both inorder and array elements
 View AnswerAnswer: b
 Explanation: We need any two traversals for tree formation but if some additional stuff or techniques are used while storing a tree in an array then one traversal can facilitate like also storing null values of a node in array. 
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Free List» Next - Data Structure Questions and Answers – Binary Trees using Linked Lists 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Free Listï¿½ Next - Data Structure Questions and Answers ï¿½ Binary Trees using Linked Lists 
 Next Steps:
 
 
@@ -2553,7 +2537,7 @@ b) 3
 c) 1
 d) 11
 View AnswerAnswer: b
-Explanation: By euler’s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
+Explanation: By eulerï¿½s formula the relation between vertices(n), edges(q) and 	regions(r) is given by n-q+r=2. 
 
 
 
@@ -2564,7 +2548,7 @@ b) (n*n+n+2*m)/2
 c) (n*n-n-2*m)/2
 d) (n*n-n+2*m)/2
 View AnswerAnswer: a
-Explanation: The union of G and G’ would be a complete graph so, the number of 	edges in G’= number of edges in the complete form of G(nC2)-edges in G(m).
+Explanation: The union of G and Gï¿½ would be a complete graph so, the number of 	edges in Gï¿½= number of edges in the complete form of G(nC2)-edges in G(m).
 
 9. Which of the following properties does a simple graph not hold?
 a) Must be connected
@@ -2620,9 +2604,9 @@ c) Adjacency List, Adjacency Matrix as well as Incidence Matrix
 d) No way to represent
 View AnswerAnswer: c
 Explanation: Adjacency Matrix, Adjacency List and Incidence Matrix are used to represent a graph.  
-Sanfoundry Global Education & Learning Series – Data Structure.
+Sanfoundry Global Education & Learning Series ï¿½ Data Structure.
 To practice all areas of Data Structure, here is complete set of 1000+ Multiple Choice Questions and Answers.
-« Prev - Data Structure Questions and Answers – Direct Addressing Tables» Next - Data Structure Questions and Answers – Adjacency Matrix 
+ï¿½ Prev - Data Structure Questions and Answers ï¿½ Direct Addressing Tablesï¿½ Next - Data Structure Questions and Answers ï¿½ Adjacency Matrix 
 Next Steps:
 
 
@@ -2659,17 +2643,3 @@ Buy Programming Books
 Practice Design & Analysis of Algorithms MCQ
 Buy Data Structure Books
  
-=======
- ############## https://www.algbly.com/More/MCQs/C-mcq/C-variable-datatypes-3.html
-C++ Programming Examples.############## https://study2online.com/c-language/data-type/english/1/
-1) Which data type is most suitable for storing a number 65000 in a 32-bit system?
-############## https://www.examveda.com/java-program/practice-mcq-question-on-data-types-and-variables/
-
-B. 
-############## https://www.geeksforgeeks.org/c-language-2-gq/data-types-gq/
-Writing code in comment? Please use ide.geeksforgeeks.org, generate link and share the link here.############## https://sindhitutorials.com/mcqs/java/data-types
-Data type identify the size and type of the value that can be stored in variable. The Java Language is rich by perspective of data types which allow you to go with different types and different sizes of the variable. Here is a list of all possible Data type MCQs with interview questions and answers.############## https://engineeringinterviewquestions.com/mcqs-on-data-types-and-variables-and-answers/
-Ruby Programming Multiple Choice Questions on ï¿½Data Types and Variablesï¿½.############## https://mcqslearn.com/intro/computers/data-types-and-structures-multiple-choice-questions.php
-"In the command "110 DIM num(10)" in BASIC language, the '110' declares" Multiple Choice Questions (MCQ) on data types and structures with choices one-dimensional array, two-dimensional array, three-dimension array, and mulch-dimension array for online computer science schools. Solve data types and structures quiz questions for merit scholarship test and certificate programs for online college courses.############## https://www.examtray.com/c-questions/c-programming-mcq-questions-and-answers-data-types-and-storage-classes-1
-Learn C Data Types and Storage Classes with MCQ Questions and Answers. Find questions on types of Storage Classes like Life, Scope and the default value of variables. Easily attend exams after reading these Multiple Choice Questions.
->>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
