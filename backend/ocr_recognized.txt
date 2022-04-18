@@ -1,0 +1,256 @@
+ PROGRAMMING AND
+DATA] STRUCTURES
+Understanding Wild Pointers
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+v = 10;
+eturn
+
+ How TO AVOID WILD POINTERS?
+(1.) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+int var = 10;
+Pp = &var3 400+ No MORE A WILD POINTER
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocqted
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA]STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = 40;
+return
+
+ How TO AVOID WILD POINTERS?
+(4.) Initialize them with the addr:
+
+
+ How TO AVOID WILD POINTERS?
+2.) Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA] STRUCTURES
+Understanding Wild Pointers
+v
+
+ PROGRAMMING AND
+DATA|STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = 10;
+p = 10;
+returra;
+
+ How TO AVOID WILD POINTERS?
+(1.) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+int var = 10;
+int +o,
+p = &var;
+return
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 105
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA]STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = 40;
+return
+
+ How TO AVOID WILD POINTERS?
+(4.) Initialize them with the addr:
+
+
+ How TO AVOID WILD POINTERS?
+2.) Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 99;
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA] STRUCTURES
+Understanding Wild Pointers
+v
+
+ PROGRAMMING AND
+DATA|STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = 9
+return
+
+ How TO AVOID WILD POINTERS?
+2. ) Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+Ta) S 123 wv
+free(p);
+return 
+
+ How TO AVOID WILD POINTERS?
+2.) Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA|STRUCTURES
+UTaYo(=Tacarolael{avemaulie! Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = 993
+return
+
+ How TO AVOID WILD POINTERS?
+2. ) Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+a) = 13 wv
+free(p);
+return 
+
+ PROGRAMMING AND
+DATA]STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+*p = WO;
+return
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = ;
+free(p);
+return 
+
