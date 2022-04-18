@@ -12,6 +12,11 @@
                     </div>
                 </div>
             </div>
+            <br>
+
+            <h5>Upload Progress:</h5>
+            <mat-progress-bar mode="determinate" [value]=progress_value></mat-progress-bar>
+
         </div>
         <hr>
         <h3 mat-subheader>Files</h3>
@@ -23,12 +28,27 @@
                 <span>{{f.name}}</span>
             </div>
         </div>
-    {{
-        summary
-    }}
-    {{
-        transcript
-    }}
+        <hr *ngIf="(transcript | keyvalue)?.length">
+        <div *ngIf="(transcript | keyvalue)?.length">
+            <h3 mat-subheader>Transcript</h3>
+            <div *ngFor="let item of transcript | keyvalue">
+                {{item.key}}: {{item.value}}
+            </div>
+        </div>
+        <hr *ngIf="summary.length > 0">
+        <div *ngIf="summary.length > 0">
+            <h3 mat-subheader>Summary</h3>
+            <div *ngFor="let line of summary">
+                {{line}}
+            </div>
+        </div>
+        <hr *ngIf="question.length > 0">
+        <div *ngIf="question.length > 0">
+            <h3 mat-subheader>Questions</h3>
+            <div *ngFor="let q of question">
+                {{q}}
+            </div>
+        </div>
     </div>
 </div>
 <app-footer>

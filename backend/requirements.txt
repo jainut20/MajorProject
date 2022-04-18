@@ -9,5 +9,6 @@ SpeechRecognition
 pytesseract
 moviepy
 yake
+rake_nltk
 bert
 google

@@ -18,6 +18,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatListModule, 
     MatButtonModule, 
     MatGridListModule, 
+    MatProgressBarModule,
     MatSnackBarModule, 
     BrowserAnimationsModule, 
     MatDialogModule

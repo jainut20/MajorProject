@@ -41,10 +41,20 @@ return
 
 the best practice is to initialise them with the address of unknown variable in this case you can clearly see that point there has been initialised with the address of this variable where it is clear that this will no more be a wild point it contains the address of a variable is no problem with this second is that we should explicitly allocate the memory and put the value
 
+17.466666666666665, 75.86666666666666
+ How TO AVOID WILD POINTERS?
+E) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+{
+int var = 16;
+int *p;
+P = &varï¿½; 4 ------ ~ No MORE A WILD POINTER
+reviurn 0;
 
 99.87, 134.77
  How TO AVOID WILD POINTERS?
-2.) €xplicitly allocate the memory and put the values in the allocated
+2.) ï¿½xplicitly allocate the memory and put the values in the allocated
 memory.
 EXAMPLE:
 int main()
@@ -54,5 +64,18 @@ free(p);
 return 
 
 
+75.86666666666666, 102.8
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 194ï¿½
+free(p);
+return 0;
+
+the best practice is to initialise them with the address of unknown variable in this case you can clearly see that point there has been initialised with the address of this variable where it is clear that this will no more be a wild point it contains the address of a variable is no problem with this second is that we should explicitly allocate the memory and put the values in the allocated memory in this example
 
 
