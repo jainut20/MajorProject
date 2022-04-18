@@ -28,6 +28,7 @@ utkarsh/converted-moviepy.wav
 # subtitle/*
 
 backend/videos/*
+backend/final/*
 backend/temp/*
 backend/output/*
 backend/AudioChunks/*

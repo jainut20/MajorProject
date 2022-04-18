@@ -52,7 +52,6 @@ def scrape_url(url):
     question = re.sub('adver.+|\n\s+[a-z].+|\n\t\n', '', text)
     question = re.sub('(\.)\n(\d)','\g<1>\n\n\g<2>', question)
     with open('Mcqs.txt','a',errors="ignore") as file:
-<<<<<<< HEAD
         file.write("\n############## "+url+"\n")
         file.write(question)
 
@@ -63,18 +62,6 @@ def search_google(keywords):
             print(j)
             if("sanfoundry" in j):
                 scrape_url(j)
-=======
-        file.write("\n  ############## "+url+"\n")
-        file.write(question)
-
-def search_google(keywords):
-    # for kw in keywords:
-    query = "MCQS on " + keywords[0][0]    
-    for j in search(query, tld="co.in", num=10, stop=10, pause=2):
-        print(j)
-        if("sanfoundry" in j):
-            scrape_url(j)
->>>>>>> 93d77683af0f3f1842bb981c798693f943e2e76a
 
 keywords = yake_extractor(text)
 search_google(keywords)
