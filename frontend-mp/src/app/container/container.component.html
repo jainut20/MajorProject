@@ -23,12 +23,8 @@
                 <span>{{f.name}}</span>
             </div>
         </div>
-    {{
-        summary
-    }}
-    {{
-        transcript
-    }}
+        <div *ngIf="summary">{{summary}}</div>
+        <div *ngIf="transcript != {}"> {{ transcript }}</div>
     </div>
 </div>
 <app-footer>

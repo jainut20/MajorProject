@@ -1,0 +1,31 @@
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+U
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+3? = 18;
+eturne;
+
+ How TO AVOID WILD pomreas?
+2_ \) Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+3
+int main ( )
+{
+int *p = (int *)mal1oc(s:i.zeof(int));
+*1! = 16;
+free(p);
+return 0;
+
+ THANK You!
+~h 7
+
