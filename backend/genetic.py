@@ -207,5 +207,7 @@ def genDE(timings):
                 break
         if flag==0:
             update_timings.append(b[start-1])
+    update_timings = [ '%.2f' % elem for elem in update_timings ]
+    update_timings = [float(elem) for elem in update_timings ]
     print("Update Video index timings : ",update_timings)
     return update_timings

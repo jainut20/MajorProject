@@ -48,7 +48,9 @@ def scrape_url(url):
     text=page_source[1].text
     question = re.sub('adver.+|\n\s+[a-z].+|\n\t\n', '', text)
     question = re.sub('(\.)\n(\d)','\g<1>\n\n\g<2>', question)
-    return question
+    pattern = r"([ \t]*\d+\.[^\n]+\n(?:[ \t]*[a-zA-Z]\)[^\n]+\n)+[\s]*|(View AnswerAnswer:[^\n]*[\s]*Explanation:[^\n]*[\s]*))"
+    return re.findall(pattern, question) 
+    #return question
 
 def search_google(keywords):
     question=[]

@@ -195,3 +195,41 @@ use push and pop operations without knowing its implementation.
 Also, if in future, the implementation of stack is changed from array to linked
 list, then the client program will work in the same way without being affedted.
 
+ PROGRAMMING AND
+DATA] STRUCTURES
+Understanding Wild Pointers
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+v
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+int *p;
+il ee
+return
+
+ How TO AVOID WILD POINTERS?
+(1.) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+int var = 10;
+int *p;
+p = &var;
+return
+
+ How TO AVOID WILD POINTERS?
+2.) €xplicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+int *p = (int *)malloc(sizeof(int));
+*p = 10;
+free(p);
+return 
+
