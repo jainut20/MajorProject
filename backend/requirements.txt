@@ -8,3 +8,6 @@ torch==1.4.0
 SpeechRecognition
 pytesseract
 moviepy
+yake
+bert
+google

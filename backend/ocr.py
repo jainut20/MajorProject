@@ -38,7 +38,7 @@ def ocr_extraction(update_time,video_path):
         return b,count
     
     def ocr(b,count):
-        pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
+        pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
         config = ('-l eng --oem 1 --psm 3')
         out_text=[]
         for i in range(1,count+1):
