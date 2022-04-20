@@ -83,13 +83,18 @@ export class ContainerComponent implements OnInit {
       this.transcript = data.transcript
       console.log(data.question)
       this.question = data.question
+
+      console.log(this.getSortedKeys(this.transcript))
     }, error => {
       console.log(error);
     });
   }
 
   getSortedKeys(obj:Object){
-    return Object.keys(obj);
+    
+    return Object.keys(obj).sort((a,b)=>{
+      return Number(a.split(",")[0]) - Number(b.split(",")[0])
+    });
   }
 
 }

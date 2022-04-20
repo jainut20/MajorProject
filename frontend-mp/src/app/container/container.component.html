@@ -32,8 +32,9 @@
         <div *ngIf="(transcript | keyvalue)?.length">
             <h3 mat-subheader>Transcript</h3>
             <div style="white-space:pre-wrap" *ngFor="let key of getSortedKeys(transcript)">
-                <span>{{key}}:</span>
+                <b><span>{{key}}:</span></b>
                 <span>{{transcript[key]}}</span>
+                <br>
             </div>
         </div>
         <hr *ngIf="summary.length > 0">
@@ -47,8 +48,11 @@
         <div *ngIf="question.length > 0">
             <h3 mat-subheader>Questions</h3>
             <div *ngFor="let mcqs of question">
+                <!---MCQS for 1 keyword = mcqs-->
                 <div style="white-space:pre-wrap" *ngFor="let q of mcqs">
-                    {{q}}
+                    <!---odd position question and har even position answer-->
+                    <span *ngIf="q.length > 0">  {{q[0]}} </span>
+
                 </div>
             </div>
         </div>

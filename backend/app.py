@@ -45,8 +45,7 @@ def fileUpload():
     print("Audio Extracted")
 
     transcript=final_merge(ocr_extract,audio_ext)
-    print("Transcript Extracted")
-
+    print("Transcript Extracted", transcript)
     summary=t5(transcript)
     print("Summary Generated",summary)
     
@@ -55,6 +54,7 @@ def fileUpload():
     
     question=gen_mcq(summary)
     print("Question Generated")
+    print(question)
     return jsonify({"data":"File Upload Success","transcript":transcript,"summary":summary,"question":question})
     
 
@@ -73,4 +73,4 @@ if __name__ == "__main__":
     #     ydl.download([link])
 
     app.secret_key = os.urandom(24)
-    app.run(debug=True,host="0.0.0.0",use_reloader=False)
+    app.run(debug=True,host="0.0.0.0",use_reloader=True)
