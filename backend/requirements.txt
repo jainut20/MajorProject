@@ -1,10 +1,10 @@
 # logging
-opencv-python
-scikit-image
-youtube-dl
-flask-cors
-transformers==2.8.0
-torch==1.4.0
+# opencv-python
+# scikit-image
+# youtube-dl
+# flask-cors
+# transformers==2.8.0
+# torch==1.4.0
 SpeechRecognition
 pytesseract
 moviepy
@@ -12,3 +12,4 @@ yake
 rake_nltk
 bert
 google
+pydub

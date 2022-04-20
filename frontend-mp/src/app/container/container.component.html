@@ -31,22 +31,25 @@
         <hr *ngIf="(transcript | keyvalue)?.length">
         <div *ngIf="(transcript | keyvalue)?.length">
             <h3 mat-subheader>Transcript</h3>
-            <div *ngFor="let item of transcript | keyvalue">
-                {{item.key}}: {{item.value}}
+            <div style="white-space:pre-wrap" *ngFor="let key of getSortedKeys(transcript)">
+                <span>{{key}}:</span>
+                <span>{{transcript[key]}}</span>
             </div>
         </div>
         <hr *ngIf="summary.length > 0">
         <div *ngIf="summary.length > 0">
             <h3 mat-subheader>Summary</h3>
-            <div *ngFor="let line of summary">
+            <div style="white-space:pre-wrap" *ngFor="let line of summary">
                 {{line}}
             </div>
         </div>
         <hr *ngIf="question.length > 0">
         <div *ngIf="question.length > 0">
             <h3 mat-subheader>Questions</h3>
-            <div *ngFor="let q of question">
-                {{q}}
+            <div *ngFor="let mcqs of question">
+                <div style="white-space:pre-wrap" *ngFor="let q of mcqs">
+                    {{q}}
+                </div>
             </div>
         </div>
     </div>

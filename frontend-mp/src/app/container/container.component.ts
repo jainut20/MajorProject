@@ -81,10 +81,15 @@ export class ContainerComponent implements OnInit {
       console.log(data)
       this.summary = data.summary
       this.transcript = data.transcript
+      console.log(data.question)
       this.question = data.question
     }, error => {
       console.log(error);
     });
+  }
+
+  getSortedKeys(obj:Object){
+    return Object.keys(obj);
   }
 
 }
