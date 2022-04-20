@@ -54,7 +54,7 @@ def fileUpload():
     
     question=gen_mcq(summary)
     print("Question Generated")
-    print(question)
+
     return jsonify({"data":"File Upload Success","transcript":transcript,"summary":summary,"question":question})
     
 

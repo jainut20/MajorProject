@@ -51,6 +51,7 @@ def scrape_url(url):
     question = re.sub('(\.)\n(\d)', '\g<1>\n\n\g<2>', question)
     if("View AnswerAnswer" in question):
         question = question.replace("View AnswerAnswer","Answer")
+        question = re.sub(r'\n+', '\n', question).strip()
     pattern = r"([ \t]*\d+\.[^\n]+\n(?:[ \t]*[a-zA-Z]\)[^\n]+\n)+[\s]*|(Answer:[^\n]*[\s]*Explanation:[^\n]*[\s]*))"
     return re.findall(pattern, question)
     # return question
