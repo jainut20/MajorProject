@@ -30,7 +30,7 @@ export class ContainerComponent implements OnInit {
     if (pFileList.length > 0) {
 
       this.files = Object.keys(pFileList).map((key: any) => pFileList[key]);
-      this._snackBar.open("Successfully upload!", 'Close', {
+      this._snackBar.open("File put in queue for processing!", 'Close', {
         duration: 2000,
       });
       this.video_file = pFileList[0]
