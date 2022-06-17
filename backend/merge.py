@@ -1,7 +1,7 @@
 
 def final_merge(ocr,aud):
     final={}
-    file = open("final_recognized.txt", "w+")
+    file = open("final_recognized.txt", "w+", encoding="utf-8")
     file.write("")
     for i in ocr:
             file.write(i)

@@ -457,3 +457,497 @@ int *p = (int *)mal1oc(sizeof(:i.nt));
 free(p);
 return 0;
 
+ PROGRAMMING AND
+DATA STRUCTURES
+Data Types Vs Abstrocf Dom Types
+�
+
+ WHAT IS A DATA TYPE?
+Two important Things about data types:
+1. Defines o certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+3 int type
+3 - Takgs only integer values
+- Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+ USER DEF|NED DATA TYPES
+JU
+In contrast to primitive data types, there is a concept of user defined data
+types.
+The operations and values of user defined data types are not specified in the
+language itself but is specified by the user.
+EXAMPLE: Structure. union and enumeration.
+By using structures, we are defining our own type by combining other data
+types.
+struct point {
+int x;
+int y;
+};
+
+ ABSTRACT DATA TYPES (ADT)
+ADTs are like user defined data types which defines operations on values
+using functions without specifying what is there inside the function and how
+the operations are performed.
+EXAMPLE: Stack ADT
+A stock consists of elements of same type arranged in a sequential order.
+Operations:
+initia1ize() - initializing it to be empty
+Push() � Insert an element into the stack . . . . . . . . . . . . . . . . . ..
+Pow) - Delete an element from the stack  only BLuEpR|NT
+isEmpty() - checks if stack is empty ' - - - - - - - - - - - - - - - - - 
+isFu11() � checks if stack is full
+
+ ABSTRACT DATA TYPES (ADT)
+Think of ADT as a black box which hides The inner structure and design of The
+dafo Type from The user.
+JU
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+it
+
+ CONCLUSION
+ADT paovmes ABSTRACTION.
+JI
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+U
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+=� _ .
+P - 19,
+retur-rife;
+
+ How TO AVOID WILD POINTERS?
+E) Initialize them with the address of a known variable.
+EXAMPLE:
+int main()
+{
+int var = 16;
+int *p;
+p = &var�;
+return 0;
+vb
+
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 194�
+free(p);
+return 0;
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Data Types Vs Abstrocf Dom Types
+4::
+
+ WHAT IS A DATA TYPE?
+Two important things about data types:
+1. Defines o certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+3 int type
+3 - Takgs only integer‘ values
+- Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+ USER DEF|NED DATA TYPES
+In contrast to primitive data types, there is a concept of user defined data
+types.
+The operations and values of user defined data types are not specified in the
+language itself but is SH-zcified by the user.
+
+ ABSTRACT DATA TYPES (ADT)
+ADTs are like user defined data types which defines operations on values
+using functions without specifying what is there inside the function and how
+the operations are performed.
+EXAMPLE: Stack ADT
+A stack consists of elements of some type arranged in a sequential order.
+Jia
+
+ (N77 ’
+ABSTRACT DATA TYPES . f the
+e and d€5'9” O
+. 1Uf
+Think of ADT as 0 black box which hides the mar Sm“:
+dafa type from fhe user.
+{lhere are multiple ways to implement an ADT.
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+useﬁush and pop operations without knowing its implementation.
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+Also, if in future, the implementation of stack is changed from array to linked
+list, then the client program will work in the same way without being affeiﬂed.
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Data Types Vs Abstrocf Dom Types
+«
+
+ WHAT IS A DATA TYPE?
+Two important things about data types:
+1. Defines o certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+3 int type
+3 - Take? only integer‘ values
+- Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+ USER DEF|NED DATA TYPES
+In contrast to primitive data types, there is a concept of user defined data
+types.
+The operations and values of user defined data types are not specified in the
+language itself but is specified by the u er.
+EXAMPLE: Structure. union and enumeration.
+By using structures, we are defining our own type by combining other data
+types.
+struct point {
+int x;
+int y;
+};
+
+ ABSTRACT DATA TYPES (ADT)
+Think of ADT as a black box which hides The inner structure and design of the
+dafo Type from the user. 3
+
+ WHY ADT?
+The program which uses data structure is called ca client program
+It has access to The ADT i.e. interface.
+The program which implements Thc
+.'
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+Also, if in future, the implementation of stack is changed from array to linked
+list, then the client program will work in the same way without being affected.
+JU
+
+ CONCLUSION
+ADT paovmes ABSTRACTION.
+JIJ
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+U
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+*p = 19:
+retur-n6;
+
+ How TO AVOID WILD POINTERS?
+2_ X Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 1a; a
+free(p);
+return 0;
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+U
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized poinfers.
+These pointers usually point to some arbitrary memory location and
+may cause a program To crash or misbehave.
+J-
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program To crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+*p = 8;
+return 0;
+
+ How TO AVOID WILD POINTERS?
+2_ } Explicitly allocate the memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 106
+free(p);
+return 0;
+
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocate The memogy and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*9 = 16;
+free(p);
+return 0;
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Data Types Vs Abstrocf Dom Types
+«
+
+ WHAT IS A DATA TYPE?
+Two important Things about data types:
+1. Defines o certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+3 int type
+3 - Takgs only integer values
+- Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+ USER DEF|NED DATA TYPES
+In contrast to primitive data types, there is a concept of user defined data
+types.
+The operations and values of user defined data types are not specified in the
+language itself but is spétified by the user.
+
+ ABSTRACT DATA TYPES (ADT)
+ADTs are like user defined data types which defines operations on values
+using functions without specifying what is there inside the function and how
+the opeiwxtions are performed.
+
+ ABSTRACT DATA TYPES (ADT)
+Think of ADT as a black box which hides The inner structure and design of the
+dafo Type from the user. 3
+
+ WHY ADT?
+The program which uses data structure is called ca client program
+It has access to The ADT i.e. interface.
+The program which imple
+W
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+Also, if in future, the implementation of stack is changed from array to linked
+list, then the client program will work in the same way without being affected.
+JD
+
+ CONCLUSION
+ADT paovmes ABSTRACTION.
+in
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Poinfgrs
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+in
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program To crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;,
+*p = 18;
+return 0;
+
+ How TO AVOID WILD POINTERS?
+2_ ‘j Explicifly allocate The memory and put the values in the allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)mal1oc(s:i.zeof(int));
+*p = 16; 6
+free(p);
+return 0;
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Data Types Vs Abstrocf Dom Types
+«
+
+ WHAT IS A DATA TYPE?
+Two important things about data types:
+1. Defines o certain domain of values.
+2. Defines Operations allowed on those values.
+EXAMPLE:
+3 int type
+3 - Take? only integer‘ values
+- Operations: addition, subtraction,
+multiplication, bitwise operations etc.
+
+ ABSTRACT DATA TYPES (ADT)
+ADTs are like user defined data types which defines operations on values
+using functions without specifying what is there inside the function and how
+the operations are performed.
+EXAMPLE: Stack ADT
+A stack consists of elements of some type arranged in a sequential order.
+in
+
+ \X/HY ADT?
+The program which uses data structure is called ca client program
+It has access to The ADT i.e. interface.
+The progrur @
+Jr
+
+ \X/HY ADT?
+The program which uses data structure is called a client program
+It has access to the ADT i.e. interface.
+The program which implements the data structure is known as the
+implementation.
+ADVANTAGE
+Let say, if someone wants to use the stack in the program, then he can simply
+use push and pop operations without knowing its implementation.
+Also, if in future, the implementation of stack is changed from array to linked
+list, then the client program will work in the same way without being affected.
+JD
+
+ CONCLUSION
+ADT paovmes ABSTRACTION.
+JI
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Poinfgrs
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+in
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program To crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+*p 410;
+return 0;
+
+ How TO AVOID WILD ponm-ens?
+2_ ‘j Explicifly allocate The memory and put the values in the allocated
+memory.
+J
+EXAMPLE:
+int main()
+{
+int *p = (int *)mal1oc(sizeof(:i.nt));
+*P = 19;
+free(p);
+return 0;
+
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocofe The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 194‘
+free(p);
+return 0;
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+U
+
+ PROGRAMMING AND
+DATA STRUCTURES
+Understanding Wild Pointers
+
+ WHAT IS A WILD POINTER?
+Wild pointers are also known as uninitialized pointers.
+These pointers usually point to some arbitrary memory location and
+may cause a program to crash or misbehave.
+EXAMPLE:
+int main()
+{
+int *p;
+*p = 19;
+return 6;
+
+ I-low TO AVOID WILD POINTERS?
+2_ \) Explicifly allocate The memory and put the values in The allocated
+memory.
+EXAMPLE:
+int main()
+{
+int *p = (int *)ma11oc(sizeof(int));
+*p = 194‘
+free(p);
+return 0;
+

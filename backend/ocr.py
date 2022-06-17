@@ -102,7 +102,7 @@ def ocr_extraction(update_time,video_path):
                 temp_text+=" "+text
             out_text.append(temp_text)
             # Apply OCR on the cropped image
-        file = open("ocr_recognized.txt", "a")
+        file = open("ocr_recognized.txt", "a",encoding="utf-8")
         for i in range(len(out_text)):
             file.write(out_text[i])
 
